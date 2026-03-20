@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/article-style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -39,711 +40,392 @@
     "url": "https://cloudpipe-landing.vercel.app"
   }
 }</script>
+  <style>
+    .search-bar { display:flex; gap:0.75rem; margin:1.5rem 0; flex-wrap:wrap; }
+    .search-bar input { flex:1; min-width:200px; padding:0.75rem 1rem; border:1px solid var(--border,rgba(212,165,116,0.15)); border-radius:8px; background:var(--bg-card,#141721); color:var(--cream,#f0ece2); font-size:1rem; outline:none; }
+    .search-bar input:focus { border-color:var(--gold,#d4a574); box-shadow:0 0 0 2px rgba(212,165,116,0.2); }
+    .search-bar select { padding:0.75rem; border:1px solid var(--border); border-radius:8px; background:var(--bg-card); color:var(--cream); font-size:0.9rem; }
+    .filter-bar { display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1.5rem; }
+    .filter-btn { padding:0.5rem 1rem; border:1px solid var(--border); border-radius:20px; background:transparent; color:var(--text-secondary,#9a9590); cursor:pointer; font-size:0.85rem; transition:all 0.2s; }
+    .filter-btn:hover,.filter-btn.active { background:var(--gold,#d4a574); color:var(--bg-deep,#0c0e14); border-color:var(--gold); }
+    .card-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:1.25rem; }
+    .card { background:var(--bg-card,#141721); border:1px solid var(--border); border-radius:12px; padding:1.25rem; transition:transform 0.2s, box-shadow 0.2s; cursor:pointer; text-decoration:none; display:block; }
+    .card:hover { transform:translateY(-3px); box-shadow:0 8px 25px rgba(0,0,0,0.3); border-color:var(--gold); }
+    .card-industry { display:inline-block; font-size:0.75rem; padding:0.2rem 0.6rem; border-radius:12px; background:rgba(212,165,116,0.15); color:var(--gold); margin-bottom:0.5rem; }
+    .card h3 { color:var(--cream,#f0ece2); font-size:1.05rem; line-height:1.5; margin:0 0 0.5rem; font-weight:500; }
+    .card-meta { color:var(--text-secondary); font-size:0.8rem; display:flex; gap:1rem; }
+    .card-tags { display:flex; gap:0.4rem; flex-wrap:wrap; margin-top:0.6rem; }
+    .card-tags span { font-size:0.7rem; padding:0.15rem 0.5rem; border-radius:8px; background:rgba(255,255,255,0.05); color:var(--text-secondary); }
+    .pagination { display:flex; justify-content:center; gap:0.5rem; margin:2rem 0; flex-wrap:wrap; }
+    .pagination button { padding:0.5rem 1rem; border:1px solid var(--border); border-radius:8px; background:transparent; color:var(--cream); cursor:pointer; }
+    .pagination button.active { background:var(--gold); color:var(--bg-deep); }
+    .pagination button:disabled { opacity:0.3; cursor:default; }
+    .results-info { color:var(--text-secondary); font-size:0.85rem; margin-bottom:1rem; }
+    @media(max-width:600px) { .card-grid { grid-template-columns:1fr; } .search-bar { flex-direction:column; } }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <h1>香港百科</h1>
     <p class="subtitle">Hong Kong Encyclopedia — 探索香港十大地區：美食、旅遊、購物、娛樂深度指南</p>
-    <p class="stats">208 篇文章 | 308,301 字 | 4 個分類</p>
+    <p class="stats">227 篇文章 | 338,321 字 | 4 個分類</p>
   </header>
   <main class="index-main">
-    
-    <section class="industry-section">
-      <h2>美食 (65 篇)</h2>
-      <ul class="article-list"><li><a href="articles/hongkong-dining-cha-chaan-teng-central-中環茶餐廳巡禮-品味香港經典飲食文化-208488.html">中環茶餐廳巡禮：品味香港經典飲食文化</a> <span class="count">1368字</span></li>
-<li><a href="articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳全攻略-島嶼風味的港式魅力-4531fc.html">大嶼山茶餐廳全攻略：島嶼風味的港式魅力</a> <span class="count">1800字</span></li>
-<li><a href="articles/hongkong-dining-cha-chaan-teng-mong-kok-旺角茶餐廳-港式庶民美食的熱鬧據點-b9c4cd.html">旺角茶餐廳：港式庶民美食的熱鬧據點</a> <span class="count">2091字</span></li>
-<li><a href="articles/hongkong-dining-cha-chaan-teng-stanley-赤柱茶餐廳-海風中的港式風味-803443.html">赤柱茶餐廳：海風中的港式風味</a> <span class="count">1455字</span></li>
-<li><a href="articles/hongkong-dining-cha-chaan-teng-tsim-sha-tsui-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-bf9fcd.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-cha-chaan-teng-aberdeen-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-76b7a5.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-cha-chaan-teng-wan-chai-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-9ce454.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-dai-pai-dong-causeway-bay-causeway-bay-dai-pai-dong-893507.html">causeway-bay dai-pai-dong</a> <span class="count">2276字</span></li>
-<li><a href="articles/hongkong-dining-dai-pai-dong-lantau-大嶼山大排檔-山海之間的港式烟火味-365399.html">大嶼山大排檔：山海之間的港式烟火味</a> <span class="count">1623字</span></li>
-<li><a href="articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔-維港旁的港式露天美食體驗-9c15b6.html">尖沙咀大牌檔：維港旁的港式露天美食體驗</a> <span class="count">1371字</span></li>
-<li><a href="articles/hongkong-dining-dai-pai-dong-aberdeen-香港仔大牌檔-南區街頭美食的傳統風味之旅-19b3f0.html">香港仔大牌檔：南區街頭美食的傳統風味之旅</a> <span class="count">1578字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-central-central-dim-sum-102338.html">central dim-sum</a> <span class="count">1891字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-cheung-chau-cheung-chau-dim-sum-f7c1ed.html">cheung-chau dim-sum</a> <span class="count">2214字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-stanley-stanley-dim-sum-3ac8d6.html">stanley dim-sum</a> <span class="count">1754字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-wan-chai-wan-chai-dim-sum-eb3806.html">wan-chai dim-sum</a> <span class="count">2219字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-tsim-sha-tsui-尖沙咀點心指南-九龍半島上的茶樓美食天堂-9a7b41.html">尖沙咀點心指南：九龍半島上的茶樓美食天堂</a> <span class="count">1425字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-mong-kok-旺角點心攻略-九龍繁華區的平價米芝蓮與傳統茶樓-2e2c2f.html">旺角點心攻略：九龍繁華區的平價米芝蓮與傳統茶樓</a> <span class="count">1956字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-sai-kung-西貢點心巡禮-海濱小鎮的茶樓精髓-352e5d.html">西貢點心巡禮：海濱小鎮的茶樓精髓</a> <span class="count">1166字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-lantau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-46762d.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-causeway-bay-銅鑼灣點心-港島區的人氣點心尋味指南-9597ed.html">銅鑼灣點心：港島區的人氣點心尋味指南</a> <span class="count">1704字</span></li>
-<li><a href="articles/hongkong-dining-dim-sum-aberdeen-香港仔點心指南-傳統與人情味並存的美味時光-a6d93a.html">香港仔點心指南：傳統與人情味並存的美味時光</a> <span class="count">1776字</span></li>
-<li><a href="articles/hongkong-dining-egg-waffles-wan-chai-wan-chai-egg-waffles-03604e.html">wan-chai egg-waffles</a> <span class="count">2423字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-central-中環fine-dining全攻略-品味香港金融中心的頂級美味-9e3657.html">中環Fine Dining全攻略：品味香港金融中心的頂級美味</a> <span class="count">2325字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-tsim-sha-tsui-尖沙咀fine-dining-維港畔的米芝蓮星級饗宴-529654.html">尖沙咀Fine Dining：維港畔的米芝蓮星級饗宴</a> <span class="count">1788字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-causeway-bay-銅鑼灣-fine-dining-港島高檔餐飲的極致享受-d55cae.html">銅鑼灣 Fine Dining：港島高檔餐飲的極致享受</a> <span class="count">1681字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-aberdeen-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-81a1b9.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-sai-kung-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-3692f5.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-stanley-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-748782.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-lantau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-05a690.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-mong-kok-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-1a1c8a.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-fine-dining-cheung-chau-長洲fine-dining美食指南-海島風情中的精緻饗宴-04ff1a.html">長洲Fine Dining美食指南：海島風情中的精緻饗宴</a> <span class="count">1945字</span></li>
-<li><a href="articles/hongkong-dining-hot-pot-central-中環火鍋美食指南-繁華都市的暖心鍋物-631b76.html">中環火鍋美食指南：繁華都市的暖心鍋物</a> <span class="count">1365字</span></li>
-<li><a href="articles/hongkong-dining-hot-pot-mong-kok-旺角火鍋美食指南-品味香港火鍋文化的最佳去處-0df89d.html">旺角火鍋美食指南：品味香港火鍋文化的最佳去處</a> <span class="count">1862字</span></li>
-<li><a href="articles/hongkong-dining-hot-pot-sai-kung-西貢火鍋-海港小鎮的暖心美食體驗-3519df.html">西貢火鍋：海港小鎮的暖心美食體驗</a> <span class="count">2176字</span></li>
-<li><a href="articles/hongkong-dining-hot-pot-stanley-赤柱火鍋攻略-港島南端的暖心鍋物指南-9cc165.html">赤柱火鍋攻略：港島南端的暖心鍋物指南</a> <span class="count">1580字</span></li>
-<li><a href="articles/hongkong-dining-hot-pot-cheung-chau-長洲火鍋美食攻略-海島風情中的暖意鍋物-2e01c2.html">長洲火鍋美食攻略：海島風情中的暖意鍋物</a> <span class="count">2229字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-stanley-stanley-michelin-street-food-13c446.html">stanley michelin-street-food</a> <span class="count">1866字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-central-中環米其林街頭美食-金融中心的平民饗宴-fb2b9e.html">中環米其林街頭美食：金融中心的平民饗宴</a> <span class="count">1760字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-mong-kok-旺角米芝蓮街頭美食-繁華鬧市中的平民滋味-41ab42.html">旺角米芝蓮街頭美食：繁華鬧市中的平民滋味</a> <span class="count">1499字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-wan-chai-灣仔米芝蓮街頭美食-隱藏巷弄的味蕾驚喜-b8e853.html">灣仔米芝蓮街頭美食：隱藏巷弄的味蕾驚喜</a> <span class="count">1460字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-lantau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-94f02b.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-sai-kung-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-8a318a.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-tsim-sha-tsui-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-8d66a5.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a> <span class="count">1445字</span></li>
-<li><a href="articles/hongkong-dining-michelin-street-food-aberdeen-香港仔米芝蓮街頭美食-隱藏於南區的美味密碼-399766.html">香港仔米芝蓮街頭美食：隱藏於南區的美味密碼</a> <span class="count">1305字</span></li>
-<li><a href="articles/hongkong-dining-milk-tea-causeway-bay-causeway-bay-milk-tea-d46fb3.html">causeway-bay milk-tea</a> <span class="count">1891字</span></li>
-<li><a href="articles/hongkong-dining-milk-tea-central-central-milk-tea-57b528.html">central milk-tea</a> <span class="count">1891字</span></li>
-<li><a href="articles/hongkong-dining-milk-tea-mong-kok-mong-kok-milk-tea-fe1848.html">mong-kok milk-tea</a> <span class="count">1891字</span></li>
-<li><a href="articles/hongkong-dining-milk-tea-lantau-大嶼山港式奶茶-隱藏於離島的茶香秘境-ed08bd.html">大嶼山港式奶茶：隱藏於離島的茶香秘境</a> <span class="count">1232字</span></li>
-<li><a href="articles/hongkong-dining-milk-tea-wan-chai-灣仔港式奶茶-穿越時光的經典茶香-0b6bee.html">灣仔港式奶茶：穿越時光的經典茶香</a> <span class="count">1331字</span></li>
-<li><a href="articles/hongkong-dining-milk-tea-cheung-chau-長洲奶茶巡禮-海島茶香中的港式經典-c2898a.html">長洲奶茶巡禮：海島茶香中的港式經典</a> <span class="count">1765字</span></li>
-<li><a href="articles/hongkong-dining-milk-tea-aberdeen-香港仔奶茶指南-探訪港島南區的醇香滋味-9d0f14.html">香港仔奶茶指南：探訪港島南區的醇香滋味</a> <span class="count">1209字</span></li>
-<li><a href="articles/hongkong-dining-roast-goose-tsim-sha-tsui-tsim-sha-tsui-roast-goose-662cb6.html">tsim-sha-tsui roast-goose</a> <span class="count">2491字</span></li>
-<li><a href="articles/hongkong-dining-roast-goose-mong-kok-旺角燒鵝-香港傳統粵菜的經典味道-d84d8e.html">旺角燒鵝：香港傳統粵菜的經典味道</a> <span class="count">1662字</span></li>
-<li><a href="articles/hongkong-dining-roast-goose-wan-chai-灣仔燒鵝-港島區的粵式燒臘美味-d71477.html">灣仔燒鵝：港島區的粵式燒臘美味</a> <span class="count">1619字</span></li>
-<li><a href="articles/hongkong-dining-roast-goose-sai-kung-西貢燒鵝攻略-海港小鎮的另類美味-8f0fed.html">西貢燒鵝攻略：海港小鎮的另類美味</a> <span class="count">1455字</span></li>
-<li><a href="articles/hongkong-dining-roast-goose-causeway-bay-銅鑼灣燒鵝-港島心臟地帶的經典粵菜珍饈-d4c208.html">銅鑼灣燒鵝：港島心臟地帶的經典粵菜珍饈</a> <span class="count">1486字</span></li>
-<li><a href="articles/hongkong-dining-roast-goose-cheung-chau-長洲燒鵝-離島風情的粵式燒臘美味-18d234.html">長洲燒鵝：離島風情的粵式燒臘美味</a> <span class="count">1470字</span></li>
-<li><a href="articles/hongkong-dining-roast-goose-aberdeen-香港仔燒鵝指南-傳統港式美食的南區瑰寶-5238ff.html">香港仔燒鵝指南：傳統港式美食的南區瑰寶</a> <span class="count">1712字</span></li>
-<li><a href="articles/hongkong-dining-seafood-causeway-bay-causeway-bay-seafood-2d79a3.html">causeway-bay seafood</a> <span class="count">2096字</span></li>
-<li><a href="articles/hongkong-dining-seafood-sai-kung-sai-kung-seafood-2eaff1.html">sai-kung seafood</a> <span class="count">1973字</span></li>
-<li><a href="articles/hongkong-dining-seafood-central-中環海鮮美食指南-金融中心的頂級海鮮饗宴-1364c1.html">中環海鮮美食指南：金融中心的頂級海鮮饗宴</a> <span class="count">1785字</span></li>
-<li><a href="articles/hongkong-dining-seafood-tsim-sha-tsui-尖沙咀海鮮美食-九龍海濱的鮮味探索-3657bb.html">尖沙咀海鮮美食：九龍海濱的鮮味探索</a> <span class="count">1963字</span></li>
-<li><a href="articles/hongkong-dining-seafood-mong-kok-旺角海鮮美食-九龍市區的海鮮食堂-564587.html">旺角海鮮美食：九龍市區的海鮮食堂</a> <span class="count">1556字</span></li>
-<li><a href="articles/hongkong-dining-seafood-stanley-赤柱海鮮美食-港島南端的濱海饗宴-dd51f8.html">赤柱海鮮美食：港島南端的濱海饗宴</a> <span class="count">1984字</span></li>
-<li><a href="articles/hongkong-dining-seafood-aberdeen-香港仔海鮮美食指南-避風塘畔的鮮美饗宴-bb4da3.html">香港仔海鮮美食指南：避風塘畔的鮮美饗宴</a> <span class="count">1273字</span></li></ul>
-    </section>
-    <section class="industry-section">
-      <h2>娛樂 (41 篇)</h2>
-      <ul class="article-list"><li><a href="articles/hongkong-entertainment-cinema-tsim-sha-tsui-tsim-sha-tsui-cinema-c9b6fb.html">tsim-sha-tsui cinema</a> <span class="count">2537字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-wan-chai-wan-chai-cinema-d32912.html">wan-chai cinema</a> <span class="count">330字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-central-中環電影院指南-香港核心地帶的觀影選擇-3aabbd.html">中環電影院指南：香港核心地帶的觀影選擇</a> <span class="count">1074字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-lantau-大嶼山電影院指南-探索離島的影視娛樂體驗-28fb0c.html">大嶼山電影院指南：探索離島的影視娛樂體驗</a> <span class="count">1250字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-mong-kok-旺角電影院完全指南-九龍區的影視娛樂寶藏-168904.html">旺角電影院完全指南：九龍區的影視娛樂寶藏</a> <span class="count">1940字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-sai-kung-西貢電影院指南-誠實告知與替代玩樂建議-79f4fe.html">西貢電影院指南：誠實告知與替代玩樂建議</a> <span class="count">1225字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-stanley-赤柱旅遊全攻略-香港南區異國風情小鎮-d57cc3.html">赤柱旅遊全攻略：香港南區異國風情小鎮</a> <span class="count">896字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-causeway-bay-銅鑼灣電影院-港島區的影視娛樂熱點-cd1d28.html">銅鑼灣電影院：港島區的影視娛樂熱點</a> <span class="count">1770字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-cheung-chau-長洲電影院指南-探索香港傳統小島的影視休閒設施-655587.html">長洲電影院指南：探索香港傳統小島的影視休閒設施</a> <span class="count">1346字</span></li>
-<li><a href="articles/hongkong-entertainment-cinema-aberdeen-香港仔電影院指南-南區居民的電影時光-49e6fa.html">香港仔電影院指南：南區居民的電影時光</a> <span class="count">1187字</span></li>
-<li><a href="articles/hongkong-entertainment-festivals-central-central-festivals-1eca33.html">central festivals</a> <span class="count">1551字</span></li>
-<li><a href="articles/hongkong-entertainment-festivals-mong-kok-mong-kok-festivals-c03a1c.html">mong-kok festivals</a> <span class="count">1977字</span></li>
-<li><a href="articles/hongkong-entertainment-festivals-wan-chai-wan-chai-festivals-35687f.html">wan-chai festivals</a> <span class="count">476字</span></li>
-<li><a href="articles/hongkong-entertainment-festivals-lantau-大嶼山節慶活動指南-探索香港最大島嶼的傳統盛事與文化慶典-e497c1.html">大嶼山節慶活動指南：探索香港最大島嶼的傳統盛事與文化慶典</a> <span class="count">1778字</span></li>
-<li><a href="articles/hongkong-entertainment-festivals-tsim-sha-tsui-尖沙咀節慶活動指南-九龍半島的璀璨盛典-350d52.html">尖沙咀節慶活動指南：九龍半島的璀璨盛典</a> <span class="count">1263字</span></li>
-<li><a href="articles/hongkong-entertainment-festivals-causeway-bay-銅鑼灣節慶盛會-港島核心的全年慶典體驗-f07935.html">銅鑼灣節慶盛會：港島核心的全年慶典體驗</a> <span class="count">1641字</span></li>
-<li><a href="articles/hongkong-entertainment-festivals-aberdeen-香港仔節慶活動-在地傳統與文化慶典完全指南-5d4cbb.html">香港仔節慶活動：在地傳統與文化慶典完全指南</a> <span class="count">1140字</span></li>
-<li><a href="articles/hongkong-entertainment-horse-racing-cheung-chau-cheung-chau-horse-racing-264726.html">cheung-chau horse-racing</a> <span class="count">342字</span></li>
-<li><a href="articles/hongkong-entertainment-horse-racing-stanley-stanley-horse-racing-0265ae.html">stanley horse-racing</a> <span class="count">351字</span></li>
-<li><a href="articles/hongkong-entertainment-horse-racing-tsim-sha-tsui-tsim-sha-tsui-horse-racing-696677.html">tsim-sha-tsui horse-racing</a> <span class="count">318字</span></li>
-<li><a href="articles/hongkong-entertainment-horse-racing-lantau-大嶼山與香港賽馬旅遊指南-e1da46.html">大嶼山與香港賽馬旅遊指南</a> <span class="count">1047字</span></li>
-<li><a href="articles/hongkong-entertainment-horse-racing-causeway-bay-銅鑼灣周邊賽馬體驗-跑馬地馬場完全指南-ce7dbc.html">銅鑼灣周邊賽馬體驗：跑馬地馬場完全指南</a> <span class="count">1771字</span></li>
-<li><a href="articles/hongkong-entertainment-live-music-causeway-bay-causeway-bay-live-music-8f0fcc.html">causeway-bay live-music</a> <span class="count">2076字</span></li>
-<li><a href="articles/hongkong-entertainment-live-music-mong-kok-mong-kok-live-music-d13257.html">mong-kok live-music</a> <span class="count">2415字</span></li>
-<li><a href="articles/hongkong-entertainment-live-music-wan-chai-wan-chai-live-music-5f5006.html">wan-chai live-music</a> <span class="count">471字</span></li>
-<li><a href="articles/hongkong-entertainment-live-music-tsim-sha-tsui-尖沙咀live-music-維港夜色下的音樂饗宴-c2402d.html">尖沙咀Live Music：維港夜色下的音樂饗宴</a> <span class="count">1969字</span></li>
-<li><a href="articles/hongkong-entertainment-live-music-stanley-赤柱-live-music-港島南端的音樂夜生活指南-27738e.html">赤柱 Live Music：港島南端的音樂夜生活指南</a> <span class="count">1547字</span></li>
-<li><a href="articles/hongkong-entertainment-nightlife-aberdeen-aberdeen-nightlife-b54aa3.html">aberdeen nightlife</a> <span class="count">1689字</span></li>
-<li><a href="articles/hongkong-entertainment-nightlife-central-中環夜生活-香港核心地帶的璀璨夜色指南-1ce433.html">中環夜生活：香港核心地帶的璀璨夜色指南</a> <span class="count">1453字</span></li>
-<li><a href="articles/hongkong-entertainment-nightlife-mong-kok-旺角夜生活完全指南-越夜越精彩的九龍不夜城-edaf2e.html">旺角夜生活完全指南：越夜越精彩的九龍不夜城</a> <span class="count">1621字</span></li>
-<li><a href="articles/hongkong-entertainment-nightlife-sai-kung-西貢夜生活-海濱小鎮的悠閒夜色指南-c6640e.html">西貢夜生活：海濱小鎮的悠閒夜色指南</a> <span class="count">1981字</span></li>
-<li><a href="articles/hongkong-entertainment-nightlife-stanley-赤柱夜生活-港島南端的悠閒海濱夜色-bad747.html">赤柱夜生活：港島南端的悠閒海濱夜色</a> <span class="count">1765字</span></li>
-<li><a href="articles/hongkong-entertainment-nightlife-causeway-bay-銅鑼灣夜生活-港島東區的夜色魅力-5a5ea4.html">銅鑼灣夜生活：港島東區的夜色魅力</a> <span class="count">1582字</span></li>
-<li><a href="articles/hongkong-entertainment-nightlife-cheung-chau-長洲夜生活-慢活島嶼的夜色魅力-27813b.html">長洲夜生活：慢活島嶼的夜色魅力</a> <span class="count">1913字</span></li>
-<li><a href="articles/hongkong-entertainment-theme-parks-causeway-bay-causeway-bay-theme-parks-418bfe.html">causeway-bay theme-parks</a> <span class="count">2099字</span></li>
-<li><a href="articles/hongkong-entertainment-theme-parks-mong-kok-mong-kok-theme-parks-7c6605.html">mong-kok theme-parks</a> <span class="count">355字</span></li>
-<li><a href="articles/hongkong-entertainment-theme-parks-sai-kung-sai-kung-theme-parks-655388.html">sai-kung theme-parks</a> <span class="count">376字</span></li>
-<li><a href="articles/hongkong-entertainment-theme-parks-tsim-sha-tsui-尖沙咀休閒娛樂指南-主題樂園-這裡有更精采的選擇-430416.html">尖沙咀休閒娛樂指南：主題樂園？這裡有更精采的選擇！</a> <span class="count">1824字</span></li>
-<li><a href="articles/hongkong-entertainment-theme-parks-wan-chai-灣仔主題樂園-港島核心地帶的休閒娛樂指南-7a2a0f.html">灣仔主題樂園：港島核心地帶的休閒娛樂指南</a> <span class="count">1174字</span></li>
-<li><a href="articles/hongkong-entertainment-theme-parks-stanley-赤柱娛樂天地-港島南端的海濱休閒勝地-62cf6c.html">赤柱娛樂天地：港島南端的海濱休閒勝地</a> <span class="count">1216字</span></li>
-<li><a href="articles/hongkong-entertainment-theme-parks-aberdeen-香港仔主題公園全攻略-南區親子遊熱門目的地-16b406.html">香港仔主題公園全攻略：南區親子遊熱門目的地</a> <span class="count">1762字</span></li></ul>
-    </section>
-    <section class="industry-section">
-      <h2>購物 (56 篇)</h2>
-      <ul class="article-list"><li><a href="articles/hongkong-shopping-antiques-aberdeen-aberdeen-antiques-f1404e.html">aberdeen antiques</a> <span class="count">412字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-cheung-chau-cheung-chau-antiques-1b581a.html">cheung-chau antiques</a> <span class="count">1554字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-wan-chai-wan-chai-antiques-01a40c.html">wan-chai antiques</a> <span class="count">432字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-central-中環古董尋寶指南-荷李活道的歲月珍藏在繁華金融中心裡-古董-工藝品與設計師店錯落其間-展現-d46c6a.html">中環古董尋寶指南：荷李活道的歲月珍藏在繁華金融中心裡，古董、工藝品與設計師店錯落其間，展現香港多元文化面貌。本文將帶你探索中環最受本地人和旅客青睞的古董購物熱點，從經典中式家具到中西合璧的藝術品，感受這裡獨特的購物氛圍。</a> <span class="count">1515字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-lantau-大嶼山古董尋寶-島嶼時光中的珍藏記憶-df7960.html">大嶼山古董尋寶：島嶼時光中的珍藏記憶</a> <span class="count">1473字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-mong-kok-旺角古董尋寶指南-在繁華市集中發現歷史珍藏-4eec67.html">旺角古董尋寶指南：在繁華市集中發現歷史珍藏</a> <span class="count">1818字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-sai-kung-西貢古董與懷舊好物-遠離繁囂的尋寶之旅-5af008.html">西貢古董與懷舊好物：遠離繁囂的尋寶之旅</a> <span class="count">1275字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-stanley-赤柱古董尋寶-港島南端的復古購物天堂-e9db0d.html">赤柱古董尋寶：港島南端的復古購物天堂</a> <span class="count">1751字</span></li>
-<li><a href="articles/hongkong-shopping-antiques-causeway-bay-銅鑼灣古董尋寶-港島購物區的收藏家天堂-e3cedc.html">銅鑼灣古董尋寶：港島購物區的收藏家天堂</a> <span class="count">1578字</span></li>
-<li><a href="articles/hongkong-shopping-electronics-aberdeen-aberdeen-electronics-6ba637.html">aberdeen electronics</a> <span class="count">1670字</span></li>
-<li><a href="articles/hongkong-shopping-electronics-causeway-bay-causeway-bay-electronics-a2a836.html">causeway-bay electronics</a> <span class="count">2257字</span></li>
-<li><a href="articles/hongkong-shopping-electronics-central-central-electronics-4738ca.html">central electronics</a> <span class="count">2088字</span></li>
-<li><a href="articles/hongkong-shopping-electronics-mong-kok-旺角電子產品購物指南-九龍電子天堂-d50e53.html">旺角電子產品購物指南：九龍電子天堂</a> <span class="count">1439字</span></li>
-<li><a href="articles/hongkong-shopping-electronics-wan-chai-灣仔電子產品購物指南-商務人士的科技採購天堂-c0652f.html">灣仔電子產品購物指南：商務人士的科技採購天堂</a> <span class="count">1562字</span></li>
-<li><a href="articles/hongkong-shopping-electronics-stanley-赤柱電子產品購物指南-南區海濱的電子尋寶之旅-aa8b36.html">赤柱電子產品購物指南：南區海濱的電子尋寶之旅</a> <span class="count">1580字</span></li>
-<li><a href="articles/hongkong-shopping-fashion-causeway-bay-causeway-bay-fashion-e1624d.html">causeway-bay fashion</a> <span class="count">559字</span></li>
-<li><a href="articles/hongkong-shopping-fashion-central-central-fashion-9ac71b.html">central fashion</a> <span class="count">559字</span></li>
-<li><a href="articles/hongkong-shopping-fashion-cheung-chau-cheung-chau-fashion-6ee946.html">cheung-chau fashion</a> <span class="count">559字</span></li>
-<li><a href="articles/hongkong-shopping-fashion-sai-kung-sai-kung-fashion-37bfda.html">sai-kung fashion</a> <span class="count">621字</span></li>
-<li><a href="articles/hongkong-shopping-fashion-mong-kok-旺角潮流時尚購物指南-特色街區與人氣店家全攻略-991d15.html">旺角潮流時尚購物指南：特色街區與人氣店家全攻略</a> <span class="count">1145字</span></li>
-<li><a href="articles/hongkong-shopping-fashion-stanley-赤柱-港島南端的時尚購物與異國風情之旅-5f5543.html">赤柱：港島南端的時尚購物與異國風情之旅</a> <span class="count">1412字</span></li>
-<li><a href="articles/hongkong-shopping-fashion-aberdeen-香港仔時尚購物指南-南區傳統與日常的時尚探索-80180c.html">香港仔時尚購物指南：南區傳統與日常的時尚探索</a> <span class="count">1620字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-sai-kung-sai-kung-luxury-malls-05ac4c.html">sai-kung luxury-malls</a> <span class="count">453字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-central-中環奢華商場購物指南-香港核心地帶的高端購物體驗-40da61.html">中環奢華商場購物指南：香港核心地帶的高端購物體驗</a> <span class="count">2003字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-tsim-sha-tsui-尖沙咀奢華商場購物指南-香港購物天堂的核心地帶-12a242.html">尖沙咀奢華商場購物指南：香港購物天堂的核心地帶</a> <span class="count">2223字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-mong-kok-旺角豪華商場購物指南-f44e8a.html">旺角豪華商場購物指南</a> <span class="count">1649字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-wan-chai-灣仔購物指南-探索香港島中心的購物好去處-c01c91.html">灣仔購物指南：探索香港島中心的購物好去處</a> <span class="count">1259字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-stanley-赤柱購物指南-港島南端的濱海悠閒購物體驗-2d628f.html">赤柱購物指南：港島南端的濱海悠閒購物體驗</a> <span class="count">1059字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-causeway-bay-銅鑼灣豪華商場-港島購物天堂的奢華體驗-c7be25.html">銅鑼灣豪華商場：港島購物天堂的奢華體驗</a> <span class="count">1655字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-cheung-chau-長洲購物指南-傳統小店與地道市場探索-8cda07.html">長洲購物指南：傳統小店與地道市場探索</a> <span class="count">1211字</span></li>
-<li><a href="articles/hongkong-shopping-luxury-malls-aberdeen-香港仔購物指南-探索南區的購物好去處-a6e568.html">香港仔購物指南：探索南區的購物好去處</a> <span class="count">1253字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-cheung-chau-cheung-chau-outlet-stores-0a363a.html">cheung-chau outlet-stores</a> <span class="count">1788字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-sai-kung-sai-kung-outlet-stores-c70556.html">sai-kung outlet-stores</a> <span class="count">451字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-wan-chai-wan-chai-outlet-stores-6846ff.html">wan-chai outlet-stores</a> <span class="count">423字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-central-中環購物指南-港島核心區的時尚血拼攻略-799d49.html">中環購物指南：港島核心區的時尚血拼攻略</a> <span class="count">1707字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-tsim-sha-tsui-尖沙咀購物指南-精選折扣商店與特色商場-bb3694.html">尖沙咀購物指南：精選折扣商店與特色商場</a> <span class="count">1696字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-mong-kok-旺角平價購物指南-折扣與特色商鋪尋寶地圖-11f8e2.html">旺角平價購物指南：折扣與特色商鋪尋寶地圖</a> <span class="count">1770字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-stanley-赤柱outlet-stores購物指南-港島南端的品牌折扣天堂-cc1af7.html">赤柱Outlet Stores購物指南：港島南端的品牌折扣天堂</a> <span class="count">1514字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-causeway-bay-銅鑼灣購物指南-平價好物與折扣攻略-81be98.html">銅鑼灣購物指南：平價好物與折扣攻略</a> <span class="count">1047字</span></li>
-<li><a href="articles/hongkong-shopping-outlet-stores-aberdeen-香港仔購物指南-探索南區的在地零售魅力-f42a97.html">香港仔購物指南：探索南區的在地零售魅力</a> <span class="count">1215字</span></li>
-<li><a href="articles/hongkong-shopping-street-markets-cheung-chau-cheung-chau-street-markets-af028b.html">cheung-chau street-markets</a> <span class="count">2059字</span></li>
-<li><a href="articles/hongkong-shopping-street-markets-sai-kung-sai-kung-street-markets-d85681.html">sai-kung street-markets</a> <span class="count">2082字</span></li>
-<li><a href="articles/hongkong-shopping-street-markets-stanley-stanley-street-markets-3d0f99.html">stanley street-markets</a> <span class="count">2073字</span></li>
-<li><a href="articles/hongkong-shopping-street-markets-lantau-大嶼山街市-遠離繁囂的本地風情購物體驗-b02bd5.html">大嶼山街市：遠離繁囂的本地風情購物體驗</a> <span class="count">1640字</span></li>
-<li><a href="articles/hongkong-shopping-street-markets-mong-kok-旺角街市漫遊-香港最熱鬧的購物天堂-50050a.html">旺角街市漫遊：香港最熱鬧的購物天堂</a> <span class="count">1892字</span></li>
-<li><a href="articles/hongkong-shopping-street-markets-wan-chai-灣仔街市-港島市中心的在地購物體驗-318a6f.html">灣仔街市：港島市中心的在地購物體驗</a> <span class="count">1669字</span></li>
-<li><a href="articles/hongkong-shopping-street-markets-causeway-bay-銅鑼灣街市-港島購物天堂的潮流與傳統-b1eade.html">銅鑼灣街市：港島購物天堂的潮流與傳統</a> <span class="count">1667字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-cheung-chau-cheung-chau-wet-markets-1e11c5.html">cheung-chau wet-markets</a> <span class="count">559字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-sai-kung-sai-kung-wet-markets-6759c9.html">sai-kung wet-markets</a> <span class="count">559字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-tsim-sha-tsui-tsim-sha-tsui-wet-markets-3eccff.html">tsim-sha-tsui wet-markets</a> <span class="count">559字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-wan-chai-wan-chai-wet-markets-c74f96.html">wan-chai wet-markets</a> <span class="count">385字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-central-中環濕貨市場-探索香港島核心的傳統市集魅力-cfecab.html">中環濕貨市場：探索香港島核心的傳統市集魅力</a> <span class="count">2099字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-lantau-大嶼山濕貨市場-島嶼生活的新鮮體驗-bff2cc.html">大嶼山濕貨市場：島嶼生活的新鮮體驗</a> <span class="count">1756字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-stanley-赤柱市集-港島南端的異國風情購物天堂-00f79a.html">赤柱市集：港島南端的異國風情購物天堂</a> <span class="count">1340字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-causeway-bay-銅鑼灣濕貨市場-繁華都市中的傳統街市風情-c9b1cf.html">銅鑼灣濕貨市場：繁華都市中的傳統街市風情</a> <span class="count">1759字</span></li>
-<li><a href="articles/hongkong-shopping-wet-markets-aberdeen-香港仔街市-傳統漁港的新鮮食材寶庫-8b9fa6.html">香港仔街市：傳統漁港的新鮮食材寶庫</a> <span class="count">1747字</span></li></ul>
-    </section>
-    <section class="industry-section">
-      <h2>旅遊 (46 篇)</h2>
-      <ul class="article-list"><li><a href="articles/hongkong-tourism-cultural-heritage-central-central-cultural-heritage-4c77e8.html">central cultural-heritage</a> <span class="count">1969字</span></li>
-<li><a href="articles/hongkong-tourism-cultural-heritage-sai-kung-西貢文化遺產-海港古鎮的歷史印記-241f7e.html">西貢文化遺產：海港古鎮的歷史印記</a> <span class="count">1539字</span></li>
-<li><a href="articles/hongkong-tourism-cultural-heritage-stanley-赤柱文化遺產-南區歷史文化薈萃之地-a4c79f.html">赤柱文化遺產：南區歷史文化薈萃之地</a> <span class="count">1618字</span></li>
-<li><a href="articles/hongkong-tourism-cultural-heritage-causeway-bay-銅鑼灣文化遺產-繁華商圈中的歷史足跡-00b974.html">銅鑼灣文化遺產：繁華商圈中的歷史足跡</a> <span class="count">1938字</span></li>
-<li><a href="articles/hongkong-tourism-cultural-heritage-cheung-chau-長洲文化遺產-探索香港傳統漁村的歷史與風情-f4a238.html">長洲文化遺產：探索香港傳統漁村的歷史與風情</a> <span class="count">1621字</span></li>
-<li><a href="articles/hongkong-tourism-harbour-cruise-causeway-bay-causeway-bay-harbour-cruise-99e712.html">causeway-bay harbour-cruise</a> <span class="count">2036字</span></li>
-<li><a href="articles/hongkong-tourism-harbour-cruise-central-中環維港遊-香港核心地帶的海上觀光指南-005caa.html">中環維港遊：香港核心地帶的海上觀光指南</a> <span class="count">1851字</span></li>
-<li><a href="articles/hongkong-tourism-harbour-cruise-mong-kok-旺角出發維多利亞港海港遊船-繁華都市到璀璨海港的完美體驗-aae3a3.html">旺角出發維多利亞港海港遊船：繁華都市到璀璨海港的完美體驗</a> <span class="count">1954字</span></li>
-<li><a href="articles/hongkong-tourism-harbour-cruise-wan-chai-灣仔維港遊-從灣仔碼頭出發的維多利亞港海上體驗-8b6ea3.html">灣仔維港遊：從灣仔碼頭出發的維多利亞港海上體驗</a> <span class="count">1705字</span></li>
-<li><a href="articles/hongkong-tourism-harbour-cruise-stanley-赤柱渡輪遊-港島南端的海上風情-330aec.html">赤柱渡輪遊：港島南端的海上風情</a> <span class="count">1271字</span></li>
-<li><a href="articles/hongkong-tourism-harbour-cruise-cheung-chau-長洲渡輪之旅-維港到海島的悠閒航程-bbfdb3.html">長洲渡輪之旅：維港到海島的悠閒航程</a> <span class="count">2047字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-causeway-bay-causeway-bay-hiking-trails-85f685.html">causeway-bay hiking-trails</a> <span class="count">1571字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-central-central-hiking-trails-7c4741.html">central hiking-trails</a> <span class="count">1840字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-mong-kok-mong-kok-hiking-trails-ad55f6.html">mong-kok hiking-trails</a> <span class="count">404字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-sai-kung-sai-kung-hiking-trails-a252f0.html">sai-kung hiking-trails</a> <span class="count">3177字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-tsim-sha-tsui-尖沙咀遠足徑-九龍繁華區的綠色出遊指南-a2996f.html">尖沙咀遠足徑：九龍繁華區的綠色出遊指南</a> <span class="count">1488字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-wan-chai-灣仔遠足指南-探索香港島的自然之美-08146d.html">灣仔遠足指南：探索香港島的自然之美</a> <span class="count">1640字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-stanley-赤柱遠足徑-香港島南區的自然瑰寶-d376e6.html">赤柱遠足徑：香港島南區的自然瑰寶</a> <span class="count">1613字</span></li>
-<li><a href="articles/hongkong-tourism-hiking-trails-aberdeen-香港仔遠足徑-探索港島南岸的自然之美-635ec7.html">香港仔遠足徑：探索港島南岸的自然之美</a> <span class="count">1382字</span></li>
-<li><a href="articles/hongkong-tourism-night-markets-lantau-大嶼山夜間市集文化-遠離都市喧囂的島嶼夜生活-2fdbc6.html">大嶼山夜間市集文化：遠離都市喧囂的島嶼夜生活</a> <span class="count">1502字</span></li>
-<li><a href="articles/hongkong-tourism-night-markets-wan-chai-灣仔夜遊攻略-探索港島中心的夜間購物與生活文化-f3a4ed.html">灣仔夜遊攻略：探索港島中心的夜間購物與生活文化</a> <span class="count">2037字</span></li>
-<li><a href="articles/hongkong-tourism-night-markets-sai-kung-西貢夜遊-體驗香港後花園的夜間魅力-4f4fa2.html">西貢夜遊：體驗香港後花園的夜間魅力</a> <span class="count">1851字</span></li>
-<li><a href="articles/hongkong-tourism-night-markets-stanley-赤柱市集-港島南端的異國風情購物體驗-5db9bc.html">赤柱市集：港島南端的異國風情購物體驗</a> <span class="count">1216字</span></li>
-<li><a href="articles/hongkong-tourism-night-markets-causeway-bay-銅鑼灣夜晚購物體驗-港島繁華商圈的夜市風情-9264e9.html">銅鑼灣夜晚購物體驗：港島繁華商圈的夜市風情</a> <span class="count">1844字</span></li>
-<li><a href="articles/hongkong-tourism-night-markets-cheung-chau-長洲夜市-遠離都市塵囂的港島外島美食與文化體驗-62df63.html">長洲夜市：遠離都市塵囂的港島外島美食與文化體驗</a> <span class="count">2000字</span></li>
-<li><a href="articles/hongkong-tourism-night-markets-aberdeen-香港仔夜市指南-探索南區的夜間美食與文化-7ce250.html">香港仔夜市指南：探索南區的夜間美食與文化</a> <span class="count">974字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-lantau-lantau-outlying-islands-65884e.html">lantau outlying-islands</a> <span class="count">2269字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-mong-kok-mong-kok-outlying-islands-1d01c8.html">mong-kok outlying-islands</a> <span class="count">353字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-tsim-sha-tsui-tsim-sha-tsui-outlying-islands-b74454.html">tsim-sha-tsui outlying-islands</a> <span class="count">478字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-wan-chai-wan-chai-outlying-islands-88d57e.html">wan-chai outlying-islands</a> <span class="count">411字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-central-從中環出發的香港離島遊-探索都市邊緣的世外桃源-5d6ac4.html">從中環出發的香港離島遊：探索都市邊緣的世外桃源</a> <span class="count">1761字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-sai-kung-西貢離島-遠離塵囂的港島後花園-6e53ac.html">西貢離島：遠離塵囂的港島後花園</a> <span class="count">1729字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-cheung-chau-長洲島-香港離島的文化寶庫與美食天堂-b44c8c.html">長洲島：香港離島的文化寶庫與美食天堂</a> <span class="count">1378字</span></li>
-<li><a href="articles/hongkong-tourism-outlying-islands-causeway-bay-香港島出發的離島遊-從中環碼頭啟程的島嶼探索-8f8129.html">香港島出發的離島遊：從中環碼頭啟程的島嶼探索</a> <span class="count">1196字</span></li>
-<li><a href="articles/hongkong-tourism-temples-cheung-chau-cheung-chau-temples-a41874.html">cheung-chau temples</a> <span class="count">371字</span></li>
-<li><a href="articles/hongkong-tourism-temples-stanley-stanley-temples-d069aa.html">stanley temples</a> <span class="count">377字</span></li>
-<li><a href="articles/hongkong-tourism-temples-tsim-sha-tsui-tsim-sha-tsui-temples-5fc898.html">tsim-sha-tsui temples</a> <span class="count">323字</span></li>
-<li><a href="articles/hongkong-tourism-temples-lantau-大嶼山寺廟之旅-探訪繁華鬧市外的靜謐古剎-15dea4.html">大嶼山寺廟之旅：探訪繁華鬧市外的靜謐古剎</a> <span class="count">1802字</span></li>
-<li><a href="articles/hongkong-tourism-temples-mong-kok-旺角廟宇探索-九龍城區的祈福文化之旅-c5a2ca.html">旺角廟宇探索：九龍城區的祈福文化之旅</a> <span class="count">1504字</span></li>
-<li><a href="articles/hongkong-tourism-temples-central-香港中西區廟宇漫遊-鬧市中的傳統文化寶藏-3a6f6f.html">香港中西區廟宇漫遊：鬧市中的傳統文化寶藏</a> <span class="count">1715字</span></li>
-<li><a href="articles/hongkong-tourism-victoria-peak-cheung-chau-cheung-chau-victoria-peak-6faf4f.html">cheung-chau victoria-peak</a> <span class="count">356字</span></li>
-<li><a href="articles/hongkong-tourism-victoria-peak-lantau-lantau-victoria-peak-dc2c17.html">lantau victoria-peak</a> <span class="count">411字</span></li>
-<li><a href="articles/hongkong-tourism-victoria-peak-mong-kok-mong-kok-victoria-peak-623c20.html">mong-kok victoria-peak</a> <span class="count">313字</span></li>
-<li><a href="articles/hongkong-tourism-victoria-peak-tsim-sha-tsui-太平山頂-香港島巔峰的絕美風光-731b81.html">太平山頂：香港島巔峰的絕美風光</a> <span class="count">1123字</span></li>
-<li><a href="articles/hongkong-tourism-victoria-peak-sai-kung-香港島太平山頂-俯瞰維多利亞港的最佳觀景點-75d45a.html">香港島太平山頂：俯瞰維多利亞港的最佳觀景點</a> <span class="count">1559字</span></li>
-<li><a href="articles/hongkong-tourism-victoria-peak-aberdeen-香港島最高峰-太平山頂-victoria-peak-全面指南-2306e5.html">香港島最高峰——太平山頂 Victoria Peak 全面指南</a> <span class="count">1180字</span></li></ul>
-    </section>
-  <!-- DYNAMIC-DB-CONTENT-START -->
-  <style>
-    .knowledge-section {
-      max-width: 1100px; margin: 3rem auto; padding: 2rem 2rem 2.5rem;
-      border-top: 1px solid rgba(212,165,116,0.18);
-    }
-    .knowledge-section h2 {
-      font-family: 'Noto Serif JP', serif;
-      font-size: 1.6rem; font-weight: 500; color: #d4a574;
-      margin-bottom: 0.3rem; letter-spacing: 0.03em;
-    }
-    .section-subtitle {
-      font-size: 0.85rem; color: #9a9590; margin-bottom: 1.5rem;
-    }
-    .trends-grid, .facts-grid { display: grid; gap: 1rem; }
-    .trend-item, .fact-item {
-      background: #16213e; border-radius: 8px; padding: 1rem 1.2rem;
-      border: 1px solid rgba(212,165,116,0.12);
-      transition: border-color 0.2s;
-    }
-    .trend-item:hover, .fact-item:hover {
-      border-color: rgba(212,165,116,0.35);
-    }
-    .trend-header {
-      display: flex; align-items: center; gap: 0.8rem;
-      margin-bottom: 0.5rem; font-size: 0.8rem;
-    }
-    .trend-category { color: #b8b0a4; }
-    .trend-date { color: #786e64; margin-left: auto; }
-    .trend-title {
-      font-size: 1rem; font-weight: 500; color: #f5f0e8;
-      margin: 0 0 0.4rem; line-height: 1.5;
-    }
-    .trend-impact { font-size: 0.88rem; color: #b8b0a4; line-height: 1.6; margin: 0; }
-    .fact-badge {
-      display: inline-block; font-size: 0.7rem; font-weight: 600;
-      background: rgba(212,165,116,0.15); color: #d4a574;
-      padding: 2px 8px; border-radius: 4px; margin-bottom: 0.4rem;
-    }
-    .fact-entity {
-      display: inline-block; font-size: 0.78rem; color: #9a9590;
-      margin-left: 0.5rem;
-    }
-    .fact-text { font-size: 0.92rem; color: #e8e4dc; line-height: 1.7; margin: 0.3rem 0 0; }
-    .faq-list { max-width: 900px; }
-    .faq-item {
-      border-bottom: 1px solid rgba(212,165,116,0.12);
-      padding: 0.8rem 0;
-    }
-    .faq-item summary {
-      cursor: pointer; font-size: 1rem; font-weight: 500;
-      color: #f5f0e8; line-height: 1.6; list-style: none;
-      padding-left: 1.5rem; position: relative;
-    }
-    .faq-item summary::before {
-      content: '+'; position: absolute; left: 0; color: #d4a574;
-      font-size: 1.2rem; font-weight: 700; transition: transform 0.2s;
-    }
-    .faq-item[open] summary::before { content: '−'; }
-    .faq-item p {
-      font-size: 0.92rem; color: #b8b0a4; line-height: 1.8;
-      padding: 0.6rem 0 0.2rem 1.5rem; margin: 0;
-    }
-  </style>
-  <section id="trends-intelligence" class="knowledge-section">
-    <h2>最新市場趨勢</h2>
-    <p class="section-subtitle">來自 CloudPipe 趨勢資料庫的即時市場情報 | 更新於 2026-03-20</p>
-    <div class="trends-grid">
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
-          <span class="trend-category">航運</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">美伊危機導致全球船用燃油價格翻倍</h3>
-        <p class="trend-impact">全球供應鏈面臨嚴重成本衝擊 | 冷鏈運輸成本急劇上升 | 船運公司營運成本暴增，利潤大幅縮減 | 進口商品成本大幅增加</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
-          <span class="trend-category">地緣政治</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">霍爾木茲海峽關閉威脅全球能源供應</h3>
-        <p class="trend-impact">全球供應鏈重大中斷 | 中東地區海鮮進口完全中斷 | 主要航運路線中斷，運費暴漲 | 進口商品成本大幅上升</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
-          <span class="trend-category">市場</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">Disney-Reliance 85億美元合資企業重塑亞洲娛樂版圖</h3>
-        <p class="trend-impact">產業整合將重新定義亞洲串流市場競爭格局，影響內容分發和定價策略</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
-          <span class="trend-category">能源</span>
-          <span class="trend-date">2026-03-19</span>
-        </div>
-        <h3 class="trend-title">Iran戰爭關閉荷姆茲海峽推高油價破百</h3>
-        <p class="trend-impact">燃料成本暴增57%，物流成本結構性上升 | 冷鏈運輸成本急劇上升，保鮮期縮短風險增加 | 150艘油輪和LNG船滯留荷姆茲海峽，全球20%石油運輸中斷 | 能源密集型商品成本大幅上升</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
-          <span class="trend-category">能源</span>
-          <span class="trend-date">2026-03-19</span>
-        </div>
-        <h3 class="trend-title">荷姆茲海峽航運大規模中斷</h3>
-        <p class="trend-impact">亞歐貿易路線受阻，供應鏈面臨斷裂風險 | 中東海鮮進口受阻，需調整採購區域 | 主要航線完全中斷，船期嚴重延誤 | 石油化工產品供應緊張，庫存壓力增大</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
-          <span class="trend-category">地緣政治</span>
-          <span class="trend-date">2026-03-18</span>
-        </div>
-        <h3 class="trend-title">荷姆茲海峽實質封鎖癱瘓全球能源運輸</h3>
-        <p class="trend-impact">供應鏈全面重組需求 | 中東海鮮進口完全中斷 | 全球航運主幹道完全中斷 | 批發商面臨嚴重缺貨</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
-          <span class="trend-category">地緣政治</span>
-          <span class="trend-date">2026-03-18</span>
-        </div>
-        <h3 class="trend-title">美中貿易戰關稅升至145%</h3>
-        <p class="trend-impact">消費品價格大幅上升影響銷售 | 電子產品成本暴漲，稀土供應面臨風險 | 中國商品批發成本激增影響利潤率</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">地緣政治</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">Iran-Israel戰爭升級封鎖霍爾木茲海峽</h3>
-        <p class="trend-impact">運輸成本激增，交貨時間延長 | 冷鏈運輸成本上升30-50% | 霍爾木茲海峽封鎖導致全球能源運輸中斷</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">航運</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">主要船運公司實施緊急燃油附加費</h3>
-        <p class="trend-impact">整體物流成本結構面臨重大調整 | 生鮮海產品運輸成本大幅上升 | 船運公司面臨燃油成本激增，被迫轉嫁給客戶 | 批發商面臨更高進貨成本壓力</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">市場</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">美國進口海鮮關稅政策持續推高價格</h3>
-        <p class="trend-impact">採購成本上升 | 採購成本上升 | 供應鏈成本劇增，尋找替代市場 | 批發成本上升，利潤受壓</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">匯率</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">日圓續創53年新低，逼近156關卡</h3>
-        <p class="trend-impact">跨境支付需求增加 | 日系商品價格競爭力下降 | 日本海鮮進口成本激增 | 日本進口商品成本大幅上升</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">監管</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">美國最高法院裁決IEEPA關稅違憲</h3>
-        <p class="trend-impact">零售業需重新調整定價策略 | 物流業務流程需配合新關稅制度 | 批發商面臨關稅退款處理複雜性</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">食品供應</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">全球食品價格受極端天氣衝擊上漲5.8%</h3>
-        <p class="trend-impact">餐飲成本上升影響旅遊體驗 | 原料成本劇增，利潤空間壓縮 | 原料成本劇增，利潤空間壓縮 | 餐飲成本上升影響旅遊體驗 | 批發利潤微薄，價格傳導困難</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">航運</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">海運巨頭實施緊急燃油附加費</h3>
-        <p class="trend-impact">物流服務商面臨成本壓力 | 海鮮海運成本顯著增加 | 批發商進口成本上升</p>
-      </div>
-      <div class="trend-item">
-        <div class="trend-header">
-          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
-          <span class="trend-category">航運</span>
-          <span class="trend-date">2026-03-20</span>
-        </div>
-        <h3 class="trend-title">全球船用燃油價格激增30-35%</h3>
-        <p class="trend-impact">海鮮運輸成本傳導至終端價格 | 航運業燃料成本急劇上升</p>
-      </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <select id="sortSelect">
+        <option value="newest">最新</option>
+        <option value="quality">品質最高</option>
+        <option value="longest">最多字數</option>
+        <option value="title">標題 A-Z</option>
+      </select>
     </div>
-  </section>
-  <section id="industry-knowledge" class="knowledge-section">
-    <h2>行業知識庫精選</h2>
-    <p class="section-subtitle">精選自 1 個行業資料庫 | 共 25 條知識</p>
-    <div class="facts-grid">
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">西亞衝突進入第三週：BRICS團結受考驗</span>
-        <p class="fact-text">[趨勢] 西亞衝突進入第三週：BRICS團結受考驗: 食品運輸成本上升 | 建議: 本地化採購，減少長途運輸</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">2026 FIFA 世界盃擴軍至 48 隊創紀錄</span>
-        <p class="fact-text">[趨勢] 2026 FIFA 世界盃擴軍至 48 隊創紀錄: 賽事期間餐飲消費大幅提升 | 建議: 推出世界盃主題套餐和促銷活動</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">美國牛隻存欄量創75年新低</span>
-        <p class="fact-text">[趨勢] 美國牛隻存欄量創75年新低: 餐廳被迫調整菜單結構或提高價格 | 建議: 開發植物性蛋白菜品，多元化蛋白質來源</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">US Cattle Herd Reaches 75-Year Low</span>
-        <p class="fact-text">[趨勢] US Cattle Herd Reaches 75-Year Low: Severe beef shortage driving menu changes and price increases | 建議: Shift to alternative proteins and renegotiate supplier contracts</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">全球零日乾旱威脅十年內降臨</span>
-        <p class="fact-text">[趨勢] 全球零日乾旱威脅十年內降臨: 食品生產用水嚴重短缺 | 建議: 投資節水技術和水處理設施</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">蟹肉价格急剧上涨，多重因素叠加</span>
-        <p class="fact-text">[趨勢] 蟹肉价格急剧上涨，多重因素叠加: 蟹肉类菜品面临严重成本压力 | 建議: 暂时下架蟹肉菜品或使用混合蛋白质替代</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">Z世代推動中國咖啡市場年增20%達2500億</span>
-        <p class="fact-text">[趨勢] Z世代推動中國咖啡市場年增20%達2500億: 社交化消費場景需求增加 | 建議: 打造適合年輕人聚會的空間和產品</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">澳門衛星賭場全面關閉衝擊商業地產，拖欠率升至5.4%</span>
-        <p class="fact-text">[趨勢] 澳門衛星賭場全面關閉衝擊商業地產，拖欠率升至5.4%: 賭場關聯餐飲業務受重創 | 建議: 轉型為本地消費及旅遊導向業務</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">可可價格較2024年初飆升300%</span>
-        <p class="fact-text">[趨勢] 可可價格較2024年初飆升300%: 巧克力製品成本爆炸性增長 | 建議: 開發替代配方，減少可可含量產品</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">USDA Predicts Above-Average Seafood Price Increases 2026</span>
-        <p class="fact-text">[趨勢] USDA Predicts Above-Average Seafood Price Increases 2026: Menu pricing adjustments required for seafood items | 建議: Consider seafood alternatives or portion adjustments</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">美国最高法院限制特朗普关税权力</span>
-        <p class="fact-text">[趨勢] 美国最高法院限制特朗普关税权力: 食品进口商需应对法律框架变化 | 建議: 密切关注后续Section 301调查结果</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">大灣區餐飲業數字化轉型加速</span>
-        <p class="fact-text">[趨勢] 大灣區餐飲業數字化轉型加速: 傳統餐廳面臨數字化轉型壓力 | 建議: 投資智能化設備，提升營運效率</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">香港餐飲業面臨市場挑戰加劇</span>
-        <p class="fact-text">[趨勢] 香港餐飲業面臨市場挑戰加劇: 市場競爭激烈，利潤空間縮減 | 建議: 加快差異化策略，提升品牌價值</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">Section 301大規模調查啟動覆蓋76個經濟體</span>
-        <p class="fact-text">[趨勢] Section 301大規模調查啟動覆蓋76個經濟體: 食品供應鏈面臨強制勞動審查壓力 | 建議: 建立完整供應鏈透明度追蹤系統</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">供應鏈脫碳數據透明化加速</span>
-        <p class="fact-text">[趨勢] 供應鏈脫碳數據透明化加速: 食品供應鏈碳標籤需求增加 | 建議: 與上游農場合作建立碳追蹤系統</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">台灣外送平台專法實施大幅提升營運成本</span>
-        <p class="fact-text">[趨勢] 台灣外送平台專法實施大幅提升營運成本: 外送費用上漲，餐廳需調整定價策略 | 建議: 建立多元通路減少平台依賴</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">功能性食品需求在亞洲市場爆發</span>
-        <p class="fact-text">[趨勢] 功能性食品需求在亞洲市場爆發: 功能性食品開發成為新增長點 | 建議: 投資研發益生菌和適應原產品</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">亞太旅遊全面復甦達2019年104%水準</span>
-        <p class="fact-text">[趨勢] 亞太旅遊全面復甦達2019年104%水準: 餐飲需求隨遊客增長 | 建議: 擴展多元化餐飲選擇</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">亞歐航線機票價格因地緣衝突暴漲200%</span>
-        <p class="fact-text">[趨勢] 亞歐航線機票價格因地緣衝突暴漲200%: 機場餐飲收入下降 | 建議: 開發本地遊客市場</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">EU PFAS Food Packaging Restrictions</span>
-        <p class="fact-text">[趨勢] EU PFAS Food Packaging Restrictions: 需要全面更換不符合標準的包裝材料 | 建議: 立即評估現有包裝供應鏈並尋找PFAS-free替代方案</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">European Supply Chain Tariff Impact</span>
-        <p class="fact-text">[趨勢] European Supply Chain Tariff Impact: 歐洲食品出口美國成本大幅上升 | 建議: 評估亞洲市場機會作為美國市場替代</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">台灣餐飲業缺工率達70%，月薪僅34,830元</span>
-        <p class="fact-text">[趨勢] 台灣餐飲業缺工率達70%，月薪僅34,830元: 70%餐飲業缺工，服務品質下降，營運成本上升 | 建議: 提高薪資福利，導入自動化設備，改善工作環境</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">全球食品價格飆漲2.1%</span>
-        <p class="fact-text">[趨勢] 全球食品價格飆漲2.1%: 原料成本上升，毛利率下降 | 建議: 調整菜單結構，與供應商簽署長期合約鎖定價格</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">中國對日本海產品進口禁令持續影響帆立貝出口</span>
-        <p class="fact-text">[趨勢] 中國對日本海產品進口禁令持續影響帆立貝出口: 餐飲業成本增加 | 建議: 調整菜單價格或替代食材</p>
-      </div>
-      <div class="fact-item">
-        <span class="fact-badge">趨勢</span>
-        <span class="fact-entity">US-Europe River Drought Disrupts Commodity Transport</span>
-        <p class="fact-text">[趨勢] US-Europe River Drought Disrupts Commodity Transport: Grain and commodity supply chains disrupted | 建議: Secure alternative supply routes and increase inventory buffers</p>
-      </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-industry="all">全部 (227)</button>
+      <button class="filter-btn" data-industry="dining">美食 (77)</button>
+<button class="filter-btn" data-industry="entertainment">娛樂 (45)</button>
+<button class="filter-btn" data-industry="shopping">購物 (55)</button>
+<button class="filter-btn" data-industry="tourism">旅遊 (50)</button>
+
     </div>
-  </section>
-  <section id="dynamic-faq" class="knowledge-section">
-    <h2>常見問題</h2>
-    <p class="section-subtitle">精選 10 個常見問題，來自行業知識庫</p>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary>2024澳門米其林必比登推介有多少間餐廳？</summary>
-        <p>2024年澳門共有10間餐廳獲得必比登推介，涵蓋粥麵、燒臘、糖水、甜品等類型。</p>
-      </details>
-      <details class="faq-item">
-        <summary>必比登推介的價位標準是什麼？</summary>
-        <p>米其林必比登推介標準為三道料理价格在港幣400元以下（約澳門幣420元），以平價美食著稱。</p>
-      </details>
-      <details class="faq-item">
-        <summary>這些必比登餐廳需要提前訂位嗎？</summary>
-        <p>大部分必比登推介餐廳如六記粥麵、祥記等不接受訂位，需現場排隊，建議避開用餐高峰期前往。</p>
-      </details>
-      <details class="faq-item">
-        <summary>澳門杏仁餅哪裡買最正宗？</summary>
-        <p>推薦議事亭前地至大三巴一帶的老字號餅家，如澳門钜記、晃記等均有品質保證。</p>
-      </details>
-      <details class="faq-item">
-        <summary>澳門肉乾保存期限多久？</summary>
-        <p>真空包裝肉乾常溫可保存約一個月，冷藏可達三個月，須注意包裝標示的有效期限。</p>
-      </details>
-      <details class="faq-item">
-        <summary>澳門手信平均預算多少？</summary>
-        <p>基本伴手禮套裝約 MOP 100-200，較精緻禮盒約 MOP 200-400，可根據需求選擇。</p>
-      </details>
-      <details class="faq-item">
-        <summary>澳門有哪些素食餐廳推薦？</summary>
-        <p>推薦澳門素食天堂、Green Kitchen、觀音寺素齋、VegeTable 等餐廳，各有中西式素食料理特色。</p>
-      </details>
-      <details class="faq-item">
-        <summary>澳門機場有素食選擇嗎？</summary>
-        <p>澳門機場候機樓內有輕食店提供沙拉、三明治等素食選項，建議自備食物以防萬一。</p>
-      </details>
-      <details class="faq-item">
-        <summary>澳門素食餐廳價格大約多少？</summary>
-        <p>一般素食餐廳人均消費約 MOP 60-150元，視餐廳等級和選擇而定，套餐會較為優惠。</p>
-      </details>
-      <details class="faq-item">
-        <summary>澳門舊城區散步路線需要門票嗎？</summary>
-        <p>大部分景點如議事亭前地、大三巴、玫瑰堂、大炮台花園均免費參觀，只有澳門博物館需要MOP$15門票。</p>
-      </details>
-    </div>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "2024澳門米其林必比登推介有多少間餐廳？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2024年澳門共有10間餐廳獲得必比登推介，涵蓋粥麵、燒臘、糖水、甜品等類型。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "必比登推介的價位標準是什麼？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "米其林必比登推介標準為三道料理价格在港幣400元以下（約澳門幣420元），以平價美食著稱。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "這些必比登餐廳需要提前訂位嗎？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "大部分必比登推介餐廳如六記粥麵、祥記等不接受訂位，需現場排隊，建議避開用餐高峰期前往。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "澳門杏仁餅哪裡買最正宗？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "推薦議事亭前地至大三巴一帶的老字號餅家，如澳門钜記、晃記等均有品質保證。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "澳門肉乾保存期限多久？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "真空包裝肉乾常溫可保存約一個月，冷藏可達三個月，須注意包裝標示的有效期限。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "澳門手信平均預算多少？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "基本伴手禮套裝約 MOP 100-200，較精緻禮盒約 MOP 200-400，可根據需求選擇。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "澳門有哪些素食餐廳推薦？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "推薦澳門素食天堂、Green Kitchen、觀音寺素齋、VegeTable 等餐廳，各有中西式素食料理特色。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "澳門機場有素食選擇嗎？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "澳門機場候機樓內有輕食店提供沙拉、三明治等素食選項，建議自備食物以防萬一。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "澳門素食餐廳價格大約多少？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "一般素食餐廳人均消費約 MOP 60-150元，視餐廳等級和選擇而定，套餐會較為優惠。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "澳門舊城區散步路線需要門票嗎？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "大部分景點如議事亭前地、大三巴、玫瑰堂、大炮台花園均免費參觀，只有澳門博物館需要MOP$15門票。"
-      }
-    }
-  ],
-  "dateModified": "2026-03-20"
-}
-    </script>
-  </section>
-<!-- DYNAMIC-DB-CONTENT-END -->
-</main>
+    <p class="results-info" id="resultsInfo"></p>
+    <div class="card-grid" id="cardGrid"></div>
+    <div class="pagination" id="pagination"></div>
+    <noscript><section><h2>美食 (77)</h2><ul><li><a href="articles/hongkong-dining-cha-chaan-teng-central-中環茶餐廳巡禮-品味香港經典飲食文化-208488.html">中環茶餐廳巡禮：品味香港經典飲食文化</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳全攻略-島嶼風味的港式魅力-4531fc.html">大嶼山茶餐廳全攻略：島嶼風味的港式魅力</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-mong-kok-旺角茶餐廳-港式庶民美食的熱鬧據點-b9c4cd.html">旺角茶餐廳：港式庶民美食的熱鬧據點</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-stanley-赤柱茶餐廳-海風中的港式風味-803443.html">赤柱茶餐廳：海風中的港式風味</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-tsim-sha-tsui-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-bf9fcd.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-aberdeen-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-76b7a5.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-wan-chai-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-9ce454.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-cheung-chau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-23f403.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-cha-chaan-teng-causeway-bay-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-bdcfa5.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-dai-pai-dong-causeway-bay-causeway-bay-dai-pai-dong-893507.html">causeway-bay dai-pai-dong</a></li>
+<li><a href="articles/hongkong-dining-dai-pai-dong-lantau-大嶼山大排檔-山海之間的港式烟火味-365399.html">大嶼山大排檔：山海之間的港式烟火味</a></li>
+<li><a href="articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔-維港旁的港式露天美食體驗-9c15b6.html">尖沙咀大牌檔：維港旁的港式露天美食體驗</a></li>
+<li><a href="articles/hongkong-dining-dai-pai-dong-aberdeen-香港仔大牌檔-南區街頭美食的傳統風味之旅-19b3f0.html">香港仔大牌檔：南區街頭美食的傳統風味之旅</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-central-central-dim-sum-102338.html">central dim-sum</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-cheung-chau-cheung-chau-dim-sum-f7c1ed.html">cheung-chau dim-sum</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-stanley-stanley-dim-sum-3ac8d6.html">stanley dim-sum</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-wan-chai-wan-chai-dim-sum-eb3806.html">wan-chai dim-sum</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-tsim-sha-tsui-尖沙咀點心指南-九龍半島上的茶樓美食天堂-9a7b41.html">尖沙咀點心指南：九龍半島上的茶樓美食天堂</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-mong-kok-旺角點心攻略-九龍繁華區的平價米芝蓮與傳統茶樓-2e2c2f.html">旺角點心攻略：九龍繁華區的平價米芝蓮與傳統茶樓</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-sai-kung-西貢點心巡禮-海濱小鎮的茶樓精髓-352e5d.html">西貢點心巡禮：海濱小鎮的茶樓精髓</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-lantau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-46762d.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-causeway-bay-銅鑼灣點心-港島區的人氣點心尋味指南-9597ed.html">銅鑼灣點心：港島區的人氣點心尋味指南</a></li>
+<li><a href="articles/hongkong-dining-dim-sum-aberdeen-香港仔點心指南-傳統與人情味並存的美味時光-a6d93a.html">香港仔點心指南：傳統與人情味並存的美味時光</a></li>
+<li><a href="articles/hongkong-dining-egg-waffles-wan-chai-wan-chai-egg-waffles-03604e.html">wan-chai egg-waffles</a></li>
+<li><a href="articles/hongkong-dining-egg-waffles-lantau-大嶼山雞蛋仔-炭火香氣中的港式古早味-b5826e.html">大嶼山雞蛋仔：炭火香氣中的港式古早味</a></li>
+<li><a href="articles/hongkong-dining-egg-waffles-tsim-sha-tsui-尖沙咀雞蛋仔-九龍心臟地帶的港式甜蜜經典-4d0104.html">尖沙咀雞蛋仔：九龍心臟地帶的港式甜蜜經典</a></li>
+<li><a href="articles/hongkong-dining-egg-waffles-mong-kok-旺角雞蛋仔-潮流與傳統交匯的街頭甜蜜-2b0d61.html">旺角雞蛋仔：潮流與傳統交匯的街頭甜蜜</a></li>
+<li><a href="articles/hongkong-dining-egg-waffles-causeway-bay-銅鑼灣雞蛋仔-港島繁華區的街頭甜蜜滋味-fd925c.html">銅鑼灣雞蛋仔：港島繁華區的街頭甜蜜滋味</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-central-中環fine-dining全攻略-品味香港金融中心的頂級美味-9e3657.html">中環Fine Dining全攻略：品味香港金融中心的頂級美味</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-tsim-sha-tsui-尖沙咀fine-dining-維港畔的米芝蓮星級饗宴-529654.html">尖沙咀Fine Dining：維港畔的米芝蓮星級饗宴</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-causeway-bay-銅鑼灣-fine-dining-港島高檔餐飲的極致享受-d55cae.html">銅鑼灣 Fine Dining：港島高檔餐飲的極致享受</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-aberdeen-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-81a1b9.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-sai-kung-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-3692f5.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-stanley-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-748782.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-lantau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-05a690.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-mong-kok-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-1a1c8a.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-fine-dining-cheung-chau-長洲fine-dining美食指南-海島風情中的精緻饗宴-04ff1a.html">長洲Fine Dining美食指南：海島風情中的精緻饗宴</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-central-中環火鍋美食指南-繁華都市的暖心鍋物-631b76.html">中環火鍋美食指南：繁華都市的暖心鍋物</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-tsim-sha-tsui-尖沙咀火鍋-維港畔的暖心饗宴-a442f2.html">尖沙咀火鍋：維港畔的暖心饗宴</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-mong-kok-旺角火鍋美食指南-品味香港火鍋文化的最佳去處-0df89d.html">旺角火鍋美食指南：品味香港火鍋文化的最佳去處</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-sai-kung-西貢火鍋-海港小鎮的暖心美食體驗-3519df.html">西貢火鍋：海港小鎮的暖心美食體驗</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-stanley-赤柱火鍋攻略-港島南端的暖心鍋物指南-9cc165.html">赤柱火鍋攻略：港島南端的暖心鍋物指南</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-causeway-bay-銅鑼灣火鍋全攻略-港島購物天堂中的暖胃鍋物盛宴-d5d84a.html">銅鑼灣火鍋全攻略：港島購物天堂中的暖胃鍋物盛宴</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-cheung-chau-長洲火鍋美食攻略-海島風情中的暖意鍋物-2e01c2.html">長洲火鍋美食攻略：海島風情中的暖意鍋物</a></li>
+<li><a href="articles/hongkong-dining-hot-pot-aberdeen-香港仔火鍋攻略-在地社群的日式火鍋美味-4c4a85.html">香港仔火鍋攻略：在地社群的日式火鍋美味</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-stanley-stanley-michelin-street-food-13c446.html">stanley michelin-street-food</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-central-中環米其林街頭美食-金融中心的平民饗宴-fb2b9e.html">中環米其林街頭美食：金融中心的平民饗宴</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-mong-kok-旺角米芝蓮街頭美食-繁華鬧市中的平民滋味-41ab42.html">旺角米芝蓮街頭美食：繁華鬧市中的平民滋味</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-wan-chai-灣仔米芝蓮街頭美食-隱藏巷弄的味蕾驚喜-b8e853.html">灣仔米芝蓮街頭美食：隱藏巷弄的味蕾驚喜</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-lantau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-94f02b.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-sai-kung-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-8a318a.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-tsim-sha-tsui-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-8d66a5.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-michelin-street-food-aberdeen-香港仔米芝蓮街頭美食-隱藏於南區的美味密碼-399766.html">香港仔米芝蓮街頭美食：隱藏於南區的美味密碼</a></li>
+<li><a href="articles/hongkong-dining-milk-tea-causeway-bay-causeway-bay-milk-tea-d46fb3.html">causeway-bay milk-tea</a></li>
+<li><a href="articles/hongkong-dining-milk-tea-central-central-milk-tea-57b528.html">central milk-tea</a></li>
+<li><a href="articles/hongkong-dining-milk-tea-mong-kok-mong-kok-milk-tea-fe1848.html">mong-kok milk-tea</a></li>
+<li><a href="articles/hongkong-dining-milk-tea-lantau-大嶼山港式奶茶-隱藏於離島的茶香秘境-ed08bd.html">大嶼山港式奶茶：隱藏於離島的茶香秘境</a></li>
+<li><a href="articles/hongkong-dining-milk-tea-wan-chai-灣仔港式奶茶-穿越時光的經典茶香-0b6bee.html">灣仔港式奶茶：穿越時光的經典茶香</a></li>
+<li><a href="articles/hongkong-dining-milk-tea-cheung-chau-長洲奶茶巡禮-海島茶香中的港式經典-c2898a.html">長洲奶茶巡禮：海島茶香中的港式經典</a></li>
+<li><a href="articles/hongkong-dining-milk-tea-aberdeen-香港仔奶茶指南-探訪港島南區的醇香滋味-9d0f14.html">香港仔奶茶指南：探訪港島南區的醇香滋味</a></li>
+<li><a href="articles/hongkong-dining-roast-goose-tsim-sha-tsui-tsim-sha-tsui-roast-goose-662cb6.html">tsim-sha-tsui roast-goose</a></li>
+<li><a href="articles/hongkong-dining-roast-goose-mong-kok-旺角燒鵝-香港傳統粵菜的經典味道-d84d8e.html">旺角燒鵝：香港傳統粵菜的經典味道</a></li>
+<li><a href="articles/hongkong-dining-roast-goose-wan-chai-灣仔燒鵝-港島區的粵式燒臘美味-d71477.html">灣仔燒鵝：港島區的粵式燒臘美味</a></li>
+<li><a href="articles/hongkong-dining-roast-goose-sai-kung-西貢燒鵝攻略-海港小鎮的另類美味-8f0fed.html">西貢燒鵝攻略：海港小鎮的另類美味</a></li>
+<li><a href="articles/hongkong-dining-roast-goose-causeway-bay-銅鑼灣燒鵝-港島心臟地帶的經典粵菜珍饈-d4c208.html">銅鑼灣燒鵝：港島心臟地帶的經典粵菜珍饈</a></li>
+<li><a href="articles/hongkong-dining-roast-goose-cheung-chau-長洲燒鵝-離島風情的粵式燒臘美味-18d234.html">長洲燒鵝：離島風情的粵式燒臘美味</a></li>
+<li><a href="articles/hongkong-dining-roast-goose-aberdeen-香港仔燒鵝指南-傳統港式美食的南區瑰寶-5238ff.html">香港仔燒鵝指南：傳統港式美食的南區瑰寶</a></li>
+<li><a href="articles/hongkong-dining-seafood-causeway-bay-causeway-bay-seafood-2d79a3.html">causeway-bay seafood</a></li>
+<li><a href="articles/hongkong-dining-seafood-sai-kung-sai-kung-seafood-2eaff1.html">sai-kung seafood</a></li>
+<li><a href="articles/hongkong-dining-seafood-central-中環海鮮美食指南-金融中心的頂級海鮮饗宴-1364c1.html">中環海鮮美食指南：金融中心的頂級海鮮饗宴</a></li>
+<li><a href="articles/hongkong-dining-seafood-tsim-sha-tsui-尖沙咀海鮮美食-九龍海濱的鮮味探索-3657bb.html">尖沙咀海鮮美食：九龍海濱的鮮味探索</a></li>
+<li><a href="articles/hongkong-dining-seafood-mong-kok-旺角海鮮美食-九龍市區的海鮮食堂-564587.html">旺角海鮮美食：九龍市區的海鮮食堂</a></li>
+<li><a href="articles/hongkong-dining-seafood-stanley-赤柱海鮮美食-港島南端的濱海饗宴-dd51f8.html">赤柱海鮮美食：港島南端的濱海饗宴</a></li>
+<li><a href="articles/hongkong-dining-seafood-wan-chai-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-dc3c6b.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-seafood-lantau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-e32f60.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-seafood-cheung-chau-銅鑼灣奶茶地圖-港島核心區的醇香品味指南-5305dd.html">銅鑼灣奶茶地圖：港島核心區的醇香品味指南</a></li>
+<li><a href="articles/hongkong-dining-seafood-aberdeen-香港仔海鮮美食指南-避風塘畔的鮮美饗宴-bb4da3.html">香港仔海鮮美食指南：避風塘畔的鮮美饗宴</a></li></ul></section>
+<section><h2>娛樂 (45)</h2><ul><li><a href="articles/hongkong-entertainment-cinema-tsim-sha-tsui-tsim-sha-tsui-cinema-c9b6fb.html">tsim-sha-tsui cinema</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-wan-chai-wan-chai-cinema-d32912.html">wan-chai cinema</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-central-中環電影院指南-香港核心地帶的觀影選擇-3aabbd.html">中環電影院指南：香港核心地帶的觀影選擇</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-lantau-大嶼山電影院指南-探索離島的影視娛樂體驗-28fb0c.html">大嶼山電影院指南：探索離島的影視娛樂體驗</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-mong-kok-旺角電影院完全指南-九龍區的影視娛樂寶藏-168904.html">旺角電影院完全指南：九龍區的影視娛樂寶藏</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-sai-kung-西貢電影院指南-誠實告知與替代玩樂建議-79f4fe.html">西貢電影院指南：誠實告知與替代玩樂建議</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-stanley-赤柱旅遊全攻略-香港南區異國風情小鎮-d57cc3.html">赤柱旅遊全攻略：香港南區異國風情小鎮</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-causeway-bay-銅鑼灣電影院-港島區的影視娛樂熱點-cd1d28.html">銅鑼灣電影院：港島區的影視娛樂熱點</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-cheung-chau-長洲電影院指南-探索香港傳統小島的影視休閒設施-655587.html">長洲電影院指南：探索香港傳統小島的影視休閒設施</a></li>
+<li><a href="articles/hongkong-entertainment-cinema-aberdeen-香港仔電影院指南-南區居民的電影時光-49e6fa.html">香港仔電影院指南：南區居民的電影時光</a></li>
+<li><a href="articles/hongkong-entertainment-festivals-central-central-festivals-1eca33.html">central festivals</a></li>
+<li><a href="articles/hongkong-entertainment-festivals-mong-kok-mong-kok-festivals-c03a1c.html">mong-kok festivals</a></li>
+<li><a href="articles/hongkong-entertainment-festivals-wan-chai-wan-chai-festivals-35687f.html">wan-chai festivals</a></li>
+<li><a href="articles/hongkong-entertainment-festivals-lantau-大嶼山節慶活動指南-探索香港最大島嶼的傳統盛事與文化慶典-e497c1.html">大嶼山節慶活動指南：探索香港最大島嶼的傳統盛事與文化慶典</a></li>
+<li><a href="articles/hongkong-entertainment-festivals-tsim-sha-tsui-尖沙咀節慶活動指南-九龍半島的璀璨盛典-350d52.html">尖沙咀節慶活動指南：九龍半島的璀璨盛典</a></li>
+<li><a href="articles/hongkong-entertainment-festivals-causeway-bay-銅鑼灣節慶盛會-港島核心的全年慶典體驗-f07935.html">銅鑼灣節慶盛會：港島核心的全年慶典體驗</a></li>
+<li><a href="articles/hongkong-entertainment-festivals-aberdeen-香港仔節慶活動-在地傳統與文化慶典完全指南-5d4cbb.html">香港仔節慶活動：在地傳統與文化慶典完全指南</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-central-central-horse-racing-02edfb.html">central horse-racing</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-cheung-chau-cheung-chau-horse-racing-264726.html">cheung-chau horse-racing</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-mong-kok-mong-kok-horse-racing-e11c1a.html">mong-kok horse-racing</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-stanley-stanley-horse-racing-0265ae.html">stanley horse-racing</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-tsim-sha-tsui-tsim-sha-tsui-horse-racing-696677.html">tsim-sha-tsui horse-racing</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-sai-kung-地理事實澄清-西貢地區賽馬資訊-f1160c.html">地理事實澄清：西貢地區賽馬資訊</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-aberdeen-地理資訊澄清-807591.html">地理資訊澄清</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-lantau-大嶼山與香港賽馬旅遊指南-e1da46.html">大嶼山與香港賽馬旅遊指南</a></li>
+<li><a href="articles/hongkong-entertainment-horse-racing-causeway-bay-銅鑼灣周邊賽馬體驗-跑馬地馬場完全指南-ce7dbc.html">銅鑼灣周邊賽馬體驗：跑馬地馬場完全指南</a></li>
+<li><a href="articles/hongkong-entertainment-live-music-causeway-bay-causeway-bay-live-music-8f0fcc.html">causeway-bay live-music</a></li>
+<li><a href="articles/hongkong-entertainment-live-music-mong-kok-mong-kok-live-music-d13257.html">mong-kok live-music</a></li>
+<li><a href="articles/hongkong-entertainment-live-music-wan-chai-wan-chai-live-music-5f5006.html">wan-chai live-music</a></li>
+<li><a href="articles/hongkong-entertainment-live-music-tsim-sha-tsui-尖沙咀live-music-維港夜色下的音樂饗宴-c2402d.html">尖沙咀Live Music：維港夜色下的音樂饗宴</a></li>
+<li><a href="articles/hongkong-entertainment-live-music-stanley-赤柱-live-music-港島南端的音樂夜生活指南-27738e.html">赤柱 Live Music：港島南端的音樂夜生活指南</a></li>
+<li><a href="articles/hongkong-entertainment-nightlife-aberdeen-aberdeen-nightlife-b54aa3.html">aberdeen nightlife</a></li>
+<li><a href="articles/hongkong-entertainment-nightlife-central-中環夜生活-香港核心地帶的璀璨夜色指南-1ce433.html">中環夜生活：香港核心地帶的璀璨夜色指南</a></li>
+<li><a href="articles/hongkong-entertainment-nightlife-mong-kok-旺角夜生活完全指南-越夜越精彩的九龍不夜城-edaf2e.html">旺角夜生活完全指南：越夜越精彩的九龍不夜城</a></li>
+<li><a href="articles/hongkong-entertainment-nightlife-sai-kung-西貢夜生活-海濱小鎮的悠閒夜色指南-c6640e.html">西貢夜生活：海濱小鎮的悠閒夜色指南</a></li>
+<li><a href="articles/hongkong-entertainment-nightlife-stanley-赤柱夜生活-港島南端的悠閒海濱夜色-bad747.html">赤柱夜生活：港島南端的悠閒海濱夜色</a></li>
+<li><a href="articles/hongkong-entertainment-nightlife-causeway-bay-銅鑼灣夜生活-港島東區的夜色魅力-5a5ea4.html">銅鑼灣夜生活：港島東區的夜色魅力</a></li>
+<li><a href="articles/hongkong-entertainment-nightlife-cheung-chau-長洲夜生活-慢活島嶼的夜色魅力-27813b.html">長洲夜生活：慢活島嶼的夜色魅力</a></li>
+<li><a href="articles/hongkong-entertainment-theme-parks-causeway-bay-causeway-bay-theme-parks-418bfe.html">causeway-bay theme-parks</a></li>
+<li><a href="articles/hongkong-entertainment-theme-parks-mong-kok-mong-kok-theme-parks-7c6605.html">mong-kok theme-parks</a></li>
+<li><a href="articles/hongkong-entertainment-theme-parks-sai-kung-sai-kung-theme-parks-655388.html">sai-kung theme-parks</a></li>
+<li><a href="articles/hongkong-entertainment-theme-parks-tsim-sha-tsui-尖沙咀休閒娛樂指南-主題樂園-這裡有更精采的選擇-430416.html">尖沙咀休閒娛樂指南：主題樂園？這裡有更精采的選擇！</a></li>
+<li><a href="articles/hongkong-entertainment-theme-parks-wan-chai-灣仔主題樂園-港島核心地帶的休閒娛樂指南-7a2a0f.html">灣仔主題樂園：港島核心地帶的休閒娛樂指南</a></li>
+<li><a href="articles/hongkong-entertainment-theme-parks-stanley-赤柱娛樂天地-港島南端的海濱休閒勝地-62cf6c.html">赤柱娛樂天地：港島南端的海濱休閒勝地</a></li>
+<li><a href="articles/hongkong-entertainment-theme-parks-aberdeen-香港仔主題公園全攻略-南區親子遊熱門目的地-16b406.html">香港仔主題公園全攻略：南區親子遊熱門目的地</a></li></ul></section>
+<section><h2>購物 (55)</h2><ul><li><a href="articles/hongkong-shopping-antiques-aberdeen-aberdeen-antiques-f1404e.html">aberdeen antiques</a></li>
+<li><a href="articles/hongkong-shopping-antiques-cheung-chau-cheung-chau-antiques-1b581a.html">cheung-chau antiques</a></li>
+<li><a href="articles/hongkong-shopping-antiques-wan-chai-wan-chai-antiques-01a40c.html">wan-chai antiques</a></li>
+<li><a href="articles/hongkong-shopping-antiques-central-中環古董尋寶指南-荷李活道的歲月珍藏在繁華金融中心裡-古董-工藝品與設計師店錯落其間-展現-d46c6a.html">中環古董尋寶指南：荷李活道的歲月珍藏在繁華金融中心裡，古董、工藝品與設計師店錯落其間，展現香港多元文化面貌。本文將帶你探索中環最受本地人和旅客青睞的古董購物熱點，從經典中式家具到中西合璧的藝術品，感受這裡獨特的購物氛圍。</a></li>
+<li><a href="articles/hongkong-shopping-antiques-lantau-大嶼山古董尋寶-島嶼時光中的珍藏記憶-df7960.html">大嶼山古董尋寶：島嶼時光中的珍藏記憶</a></li>
+<li><a href="articles/hongkong-shopping-antiques-mong-kok-旺角古董尋寶指南-在繁華市集中發現歷史珍藏-4eec67.html">旺角古董尋寶指南：在繁華市集中發現歷史珍藏</a></li>
+<li><a href="articles/hongkong-shopping-antiques-sai-kung-西貢古董與懷舊好物-遠離繁囂的尋寶之旅-5af008.html">西貢古董與懷舊好物：遠離繁囂的尋寶之旅</a></li>
+<li><a href="articles/hongkong-shopping-antiques-stanley-赤柱古董尋寶-港島南端的復古購物天堂-e9db0d.html">赤柱古董尋寶：港島南端的復古購物天堂</a></li>
+<li><a href="articles/hongkong-shopping-antiques-causeway-bay-銅鑼灣古董尋寶-港島購物區的收藏家天堂-e3cedc.html">銅鑼灣古董尋寶：港島購物區的收藏家天堂</a></li>
+<li><a href="articles/hongkong-shopping-electronics-aberdeen-aberdeen-electronics-6ba637.html">aberdeen electronics</a></li>
+<li><a href="articles/hongkong-shopping-electronics-causeway-bay-causeway-bay-electronics-a2a836.html">causeway-bay electronics</a></li>
+<li><a href="articles/hongkong-shopping-electronics-central-central-electronics-4738ca.html">central electronics</a></li>
+<li><a href="articles/hongkong-shopping-electronics-mong-kok-旺角電子產品購物指南-九龍電子天堂-d50e53.html">旺角電子產品購物指南：九龍電子天堂</a></li>
+<li><a href="articles/hongkong-shopping-electronics-wan-chai-灣仔電子產品購物指南-商務人士的科技採購天堂-c0652f.html">灣仔電子產品購物指南：商務人士的科技採購天堂</a></li>
+<li><a href="articles/hongkong-shopping-electronics-stanley-赤柱電子產品購物指南-南區海濱的電子尋寶之旅-aa8b36.html">赤柱電子產品購物指南：南區海濱的電子尋寶之旅</a></li>
+<li><a href="articles/hongkong-shopping-fashion-causeway-bay-causeway-bay-fashion-e1624d.html">causeway-bay fashion</a></li>
+<li><a href="articles/hongkong-shopping-fashion-central-central-fashion-9ac71b.html">central fashion</a></li>
+<li><a href="articles/hongkong-shopping-fashion-cheung-chau-cheung-chau-fashion-6ee946.html">cheung-chau fashion</a></li>
+<li><a href="articles/hongkong-shopping-fashion-sai-kung-sai-kung-fashion-37bfda.html">sai-kung fashion</a></li>
+<li><a href="articles/hongkong-shopping-fashion-mong-kok-旺角潮流時尚購物指南-特色街區與人氣店家全攻略-991d15.html">旺角潮流時尚購物指南：特色街區與人氣店家全攻略</a></li>
+<li><a href="articles/hongkong-shopping-fashion-stanley-赤柱-港島南端的時尚購物與異國風情之旅-5f5543.html">赤柱：港島南端的時尚購物與異國風情之旅</a></li>
+<li><a href="articles/hongkong-shopping-fashion-aberdeen-香港仔時尚購物指南-南區傳統與日常的時尚探索-80180c.html">香港仔時尚購物指南：南區傳統與日常的時尚探索</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-central-中環奢華商場購物指南-香港核心地帶的高端購物體驗-40da61.html">中環奢華商場購物指南：香港核心地帶的高端購物體驗</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-tsim-sha-tsui-尖沙咀奢華商場購物指南-香港購物天堂的核心地帶-12a242.html">尖沙咀奢華商場購物指南：香港購物天堂的核心地帶</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-mong-kok-旺角豪華商場購物指南-f44e8a.html">旺角豪華商場購物指南</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-wan-chai-灣仔購物指南-探索香港島中心的購物好去處-c01c91.html">灣仔購物指南：探索香港島中心的購物好去處</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-stanley-赤柱購物指南-港島南端的濱海悠閒購物體驗-2d628f.html">赤柱購物指南：港島南端的濱海悠閒購物體驗</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-causeway-bay-銅鑼灣豪華商場-港島購物天堂的奢華體驗-c7be25.html">銅鑼灣豪華商場：港島購物天堂的奢華體驗</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-cheung-chau-長洲購物指南-傳統小店與地道市場探索-8cda07.html">長洲購物指南：傳統小店與地道市場探索</a></li>
+<li><a href="articles/hongkong-shopping-luxury-malls-aberdeen-香港仔購物指南-探索南區的購物好去處-a6e568.html">香港仔購物指南：探索南區的購物好去處</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-cheung-chau-cheung-chau-outlet-stores-0a363a.html">cheung-chau outlet-stores</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-wan-chai-wan-chai-outlet-stores-6846ff.html">wan-chai outlet-stores</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-central-中環購物指南-港島核心區的時尚血拼攻略-799d49.html">中環購物指南：港島核心區的時尚血拼攻略</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-lantau-大嶼山outlet購物指南-東薈城名店倉折扣天堂-6e40dd.html">大嶼山Outlet購物指南：東薈城名店倉折扣天堂</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-tsim-sha-tsui-尖沙咀購物指南-精選折扣商店與特色商場-bb3694.html">尖沙咀購物指南：精選折扣商店與特色商場</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-mong-kok-旺角平價購物指南-折扣與特色商鋪尋寶地圖-11f8e2.html">旺角平價購物指南：折扣與特色商鋪尋寶地圖</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-stanley-赤柱outlet-stores購物指南-港島南端的品牌折扣天堂-cc1af7.html">赤柱Outlet Stores購物指南：港島南端的品牌折扣天堂</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-causeway-bay-銅鑼灣購物指南-平價好物與折扣攻略-81be98.html">銅鑼灣購物指南：平價好物與折扣攻略</a></li>
+<li><a href="articles/hongkong-shopping-outlet-stores-aberdeen-香港仔購物指南-探索南區的在地零售魅力-f42a97.html">香港仔購物指南：探索南區的在地零售魅力</a></li>
+<li><a href="articles/hongkong-shopping-street-markets-cheung-chau-cheung-chau-street-markets-af028b.html">cheung-chau street-markets</a></li>
+<li><a href="articles/hongkong-shopping-street-markets-sai-kung-sai-kung-street-markets-d85681.html">sai-kung street-markets</a></li>
+<li><a href="articles/hongkong-shopping-street-markets-stanley-stanley-street-markets-3d0f99.html">stanley street-markets</a></li>
+<li><a href="articles/hongkong-shopping-street-markets-lantau-大嶼山街市-遠離繁囂的本地風情購物體驗-b02bd5.html">大嶼山街市：遠離繁囂的本地風情購物體驗</a></li>
+<li><a href="articles/hongkong-shopping-street-markets-mong-kok-旺角街市漫遊-香港最熱鬧的購物天堂-50050a.html">旺角街市漫遊：香港最熱鬧的購物天堂</a></li>
+<li><a href="articles/hongkong-shopping-street-markets-wan-chai-灣仔街市-港島市中心的在地購物體驗-318a6f.html">灣仔街市：港島市中心的在地購物體驗</a></li>
+<li><a href="articles/hongkong-shopping-street-markets-causeway-bay-銅鑼灣街市-港島購物天堂的潮流與傳統-b1eade.html">銅鑼灣街市：港島購物天堂的潮流與傳統</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-cheung-chau-cheung-chau-wet-markets-1e11c5.html">cheung-chau wet-markets</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-sai-kung-sai-kung-wet-markets-6759c9.html">sai-kung wet-markets</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-tsim-sha-tsui-tsim-sha-tsui-wet-markets-3eccff.html">tsim-sha-tsui wet-markets</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-wan-chai-wan-chai-wet-markets-c74f96.html">wan-chai wet-markets</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-central-中環濕貨市場-探索香港島核心的傳統市集魅力-cfecab.html">中環濕貨市場：探索香港島核心的傳統市集魅力</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-lantau-大嶼山濕貨市場-島嶼生活的新鮮體驗-bff2cc.html">大嶼山濕貨市場：島嶼生活的新鮮體驗</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-stanley-赤柱市集-港島南端的異國風情購物天堂-00f79a.html">赤柱市集：港島南端的異國風情購物天堂</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-causeway-bay-銅鑼灣濕貨市場-繁華都市中的傳統街市風情-c9b1cf.html">銅鑼灣濕貨市場：繁華都市中的傳統街市風情</a></li>
+<li><a href="articles/hongkong-shopping-wet-markets-aberdeen-香港仔街市-傳統漁港的新鮮食材寶庫-8b9fa6.html">香港仔街市：傳統漁港的新鮮食材寶庫</a></li></ul></section>
+<section><h2>旅遊 (50)</h2><ul><li><a href="articles/hongkong-tourism-cultural-heritage-central-central-cultural-heritage-4c77e8.html">central cultural-heritage</a></li>
+<li><a href="articles/hongkong-tourism-cultural-heritage-sai-kung-西貢文化遺產-海港古鎮的歷史印記-241f7e.html">西貢文化遺產：海港古鎮的歷史印記</a></li>
+<li><a href="articles/hongkong-tourism-cultural-heritage-stanley-赤柱文化遺產-南區歷史文化薈萃之地-a4c79f.html">赤柱文化遺產：南區歷史文化薈萃之地</a></li>
+<li><a href="articles/hongkong-tourism-cultural-heritage-causeway-bay-銅鑼灣文化遺產-繁華商圈中的歷史足跡-00b974.html">銅鑼灣文化遺產：繁華商圈中的歷史足跡</a></li>
+<li><a href="articles/hongkong-tourism-cultural-heritage-cheung-chau-長洲文化遺產-探索香港傳統漁村的歷史與風情-f4a238.html">長洲文化遺產：探索香港傳統漁村的歷史與風情</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-causeway-bay-causeway-bay-harbour-cruise-99e712.html">causeway-bay harbour-cruise</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-central-中環維港遊-香港核心地帶的海上觀光指南-005caa.html">中環維港遊：香港核心地帶的海上觀光指南</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-lantau-大嶼山維港遊-大澳漁村船河深度體驗-4cd019.html">大嶼山維港遊：大澳漁村船河深度體驗</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-mong-kok-旺角出發維多利亞港海港遊船-繁華都市到璀璨海港的完美體驗-aae3a3.html">旺角出發維多利亞港海港遊船：繁華都市到璀璨海港的完美體驗</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-wan-chai-灣仔維港遊-從灣仔碼頭出發的維多利亞港海上體驗-8b6ea3.html">灣仔維港遊：從灣仔碼頭出發的維多利亞港海上體驗</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-stanley-赤柱渡輪遊-港島南端的海上風情-330aec.html">赤柱渡輪遊：港島南端的海上風情</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-cheung-chau-長洲渡輪之旅-維港到海島的悠閒航程-bbfdb3.html">長洲渡輪之旅：維港到海島的悠閒航程</a></li>
+<li><a href="articles/hongkong-tourism-harbour-cruise-aberdeen-香港仔避風塘海港遊-傳統漁村的水上風情指南-5e6f75.html">香港仔避風塘海港遊：傳統漁村的水上風情指南</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-causeway-bay-causeway-bay-hiking-trails-85f685.html">causeway-bay hiking-trails</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-central-central-hiking-trails-7c4741.html">central hiking-trails</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-mong-kok-mong-kok-hiking-trails-ad55f6.html">mong-kok hiking-trails</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-sai-kung-sai-kung-hiking-trails-a252f0.html">sai-kung hiking-trails</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-tsim-sha-tsui-尖沙咀遠足徑-九龍繁華區的綠色出遊指南-a2996f.html">尖沙咀遠足徑：九龍繁華區的綠色出遊指南</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-wan-chai-灣仔遠足指南-探索香港島的自然之美-08146d.html">灣仔遠足指南：探索香港島的自然之美</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-stanley-赤柱遠足徑-香港島南區的自然瑰寶-d376e6.html">赤柱遠足徑：香港島南區的自然瑰寶</a></li>
+<li><a href="articles/hongkong-tourism-hiking-trails-aberdeen-香港仔遠足徑-探索港島南岸的自然之美-635ec7.html">香港仔遠足徑：探索港島南岸的自然之美</a></li>
+<li><a href="articles/hongkong-tourism-night-markets-lantau-大嶼山夜間市集文化-遠離都市喧囂的島嶼夜生活-2fdbc6.html">大嶼山夜間市集文化：遠離都市喧囂的島嶼夜生活</a></li>
+<li><a href="articles/hongkong-tourism-night-markets-wan-chai-灣仔夜遊攻略-探索港島中心的夜間購物與生活文化-f3a4ed.html">灣仔夜遊攻略：探索港島中心的夜間購物與生活文化</a></li>
+<li><a href="articles/hongkong-tourism-night-markets-sai-kung-西貢夜遊-體驗香港後花園的夜間魅力-4f4fa2.html">西貢夜遊：體驗香港後花園的夜間魅力</a></li>
+<li><a href="articles/hongkong-tourism-night-markets-stanley-赤柱市集-港島南端的異國風情購物體驗-5db9bc.html">赤柱市集：港島南端的異國風情購物體驗</a></li>
+<li><a href="articles/hongkong-tourism-night-markets-causeway-bay-銅鑼灣夜晚購物體驗-港島繁華商圈的夜市風情-9264e9.html">銅鑼灣夜晚購物體驗：港島繁華商圈的夜市風情</a></li>
+<li><a href="articles/hongkong-tourism-night-markets-cheung-chau-長洲夜市-遠離都市塵囂的港島外島美食與文化體驗-62df63.html">長洲夜市：遠離都市塵囂的港島外島美食與文化體驗</a></li>
+<li><a href="articles/hongkong-tourism-night-markets-aberdeen-香港仔夜市指南-探索南區的夜間美食與文化-7ce250.html">香港仔夜市指南：探索南區的夜間美食與文化</a></li>
+<li><a href="articles/hongkong-tourism-outlying-islands-lantau-lantau-outlying-islands-65884e.html">lantau outlying-islands</a></li>
+<li><a href="articles/hongkong-tourism-outlying-islands-mong-kok-mong-kok-outlying-islands-1d01c8.html">mong-kok outlying-islands</a></li>
+<li><a href="articles/hongkong-tourism-outlying-islands-wan-chai-wan-chai-outlying-islands-88d57e.html">wan-chai outlying-islands</a></li>
+<li><a href="articles/hongkong-tourism-outlying-islands-central-從中環出發的香港離島遊-探索都市邊緣的世外桃源-5d6ac4.html">從中環出發的香港離島遊：探索都市邊緣的世外桃源</a></li>
+<li><a href="articles/hongkong-tourism-outlying-islands-sai-kung-西貢離島-遠離塵囂的港島後花園-6e53ac.html">西貢離島：遠離塵囂的港島後花園</a></li>
+<li><a href="articles/hongkong-tourism-outlying-islands-cheung-chau-長洲島-香港離島的文化寶庫與美食天堂-b44c8c.html">長洲島：香港離島的文化寶庫與美食天堂</a></li>
+<li><a href="articles/hongkong-tourism-outlying-islands-causeway-bay-香港島出發的離島遊-從中環碼頭啟程的島嶼探索-8f8129.html">香港島出發的離島遊：從中環碼頭啟程的島嶼探索</a></li>
+<li><a href="articles/hongkong-tourism-temples-cheung-chau-cheung-chau-temples-a41874.html">cheung-chau temples</a></li>
+<li><a href="articles/hongkong-tourism-temples-stanley-stanley-temples-d069aa.html">stanley temples</a></li>
+<li><a href="articles/hongkong-tourism-temples-tsim-sha-tsui-tsim-sha-tsui-temples-5fc898.html">tsim-sha-tsui temples</a></li>
+<li><a href="articles/hongkong-tourism-temples-lantau-大嶼山寺廟之旅-探訪繁華鬧市外的靜謐古剎-15dea4.html">大嶼山寺廟之旅：探訪繁華鬧市外的靜謐古剎</a></li>
+<li><a href="articles/hongkong-tourism-temples-mong-kok-旺角廟宇探索-九龍城區的祈福文化之旅-c5a2ca.html">旺角廟宇探索：九龍城區的祈福文化之旅</a></li>
+<li><a href="articles/hongkong-tourism-temples-central-香港中西區廟宇漫遊-鬧市中的傳統文化寶藏-3a6f6f.html">香港中西區廟宇漫遊：鬧市中的傳統文化寶藏</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-lantau-lantau-victoria-peak-dc2c17.html">lantau victoria-peak</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-mong-kok-mong-kok-victoria-peak-623c20.html">mong-kok victoria-peak</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-wan-chai-wan-chai-victoria-peak-4e7a5d.html">wan-chai victoria-peak</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-tsim-sha-tsui-太平山頂-香港島巔峰的絕美風光-731b81.html">太平山頂：香港島巔峰的絕美風光</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-central-太平山頂-香港必訪的百萬夜景聖地-39aef0.html">太平山頂：香港必訪的百萬夜景聖地</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-causeway-bay-銅鑼灣與太平山頂-港島雙核心一日漫遊-e373f9.html">銅鑼灣與太平山頂：港島雙核心一日漫遊</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-sai-kung-香港島太平山頂-俯瞰維多利亞港的最佳觀景點-75d45a.html">香港島太平山頂：俯瞰維多利亞港的最佳觀景點</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-aberdeen-香港島最高峰-太平山頂-victoria-peak-全面指南-2306e5.html">香港島最高峰——太平山頂 Victoria Peak 全面指南</a></li>
+<li><a href="articles/hongkong-tourism-victoria-peak-stanley-香港島雙璧-赤柱海濱風情與太平山頂絕景-5b5789.html">香港島雙璧：赤柱海濱風情與太平山頂絕景</a></li></ul></section>
+</noscript>
+  </main>
   <footer class="article-footer">
     <p>&copy; 2026 Hong Kong Encyclopedia | <a href="/llms.txt">llms.txt</a> | <a href="/sitemap.xml">Sitemap</a></p>
     <p>Part of <a href="https://cloudpipe-landing.vercel.app">CloudPipe AI</a> Knowledge Graph</p>
   </footer>
+  <script>
+  (function() {
+    const PER_PAGE = 24;
+    const INDUSTRY_NAMES = {"gourmet": "美食", "dining": "美食", "tourism": "旅遊", "entertainment": "娛樂", "accommodation": "住宿", "shopping": "購物", "transport": "交通"};
+    let articles = [];
+    let fuse = null;
+    let filtered = [];
+    let currentFilter = 'all';
+    let currentPage = 1;
+    let currentSort = 'newest';
+
+    fetch('/articles.json').then(r => r.json()).then(data => {
+      articles = data;
+      filtered = [...articles];
+      fuse = new Fuse(articles, { keys: ['t', 'g', 'a', 'c'], threshold: 0.3 });
+      sortAndRender();
+    });
+
+    document.getElementById('searchInput').addEventListener('input', function(e) {
+      const q = e.target.value.trim();
+      if (q.length === 0) {
+        filtered = currentFilter === 'all' ? [...articles] : articles.filter(a => a.i === currentFilter);
+      } else {
+        const base = currentFilter === 'all' ? articles : articles.filter(a => a.i === currentFilter);
+        fuse = new Fuse(base, { keys: ['t', 'g', 'a', 'c'], threshold: 0.3 });
+        filtered = fuse.search(q).map(r => r.item);
+      }
+      currentPage = 1;
+      sortAndRender();
+    });
+
+    document.getElementById('sortSelect').addEventListener('change', function(e) {
+      currentSort = e.target.value;
+      currentPage = 1;
+      sortAndRender();
+    });
+
+    document.querySelector('.filter-bar').addEventListener('click', function(e) {
+      if (!e.target.classList.contains('filter-btn')) return;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      currentFilter = e.target.dataset.industry;
+      const q = document.getElementById('searchInput').value.trim();
+      if (q.length === 0) {
+        filtered = currentFilter === 'all' ? [...articles] : articles.filter(a => a.i === currentFilter);
+      } else {
+        const base = currentFilter === 'all' ? articles : articles.filter(a => a.i === currentFilter);
+        fuse = new Fuse(base, { keys: ['t', 'g', 'a', 'c'], threshold: 0.3 });
+        filtered = fuse.search(q).map(r => r.item);
+      }
+      currentPage = 1;
+      sortAndRender();
+    });
+
+    function sortAndRender() {
+      const sorted = [...filtered];
+      if (currentSort === 'newest') sorted.sort((a,b) => b.d.localeCompare(a.d));
+      else if (currentSort === 'quality') sorted.sort((a,b) => b.q - a.q);
+      else if (currentSort === 'longest') sorted.sort((a,b) => b.w - a.w);
+      else if (currentSort === 'title') sorted.sort((a,b) => a.t.localeCompare(b.t, 'zh'));
+      filtered = sorted;
+      render();
+    }
+
+    function render() {
+      const total = filtered.length;
+      const pages = Math.ceil(total / PER_PAGE);
+      if (currentPage > pages) currentPage = pages || 1;
+      const start = (currentPage - 1) * PER_PAGE;
+      const slice = filtered.slice(start, start + PER_PAGE);
+
+      document.getElementById('resultsInfo').textContent = total + ' 篇文章' + (currentFilter !== 'all' ? ' (' + (INDUSTRY_NAMES[currentFilter] || currentFilter) + ')' : '');
+
+      const grid = document.getElementById('cardGrid');
+      grid.innerHTML = slice.map(a => {
+        const ind = INDUSTRY_NAMES[a.i] || a.i;
+        const tags = (a.g || []).slice(0, 3).map(t => '<span>' + t + '</span>').join('');
+        return '<a class="card" href="articles/' + a.s + '.html">'
+          + '<span class="card-industry">' + ind + '</span>'
+          + '<h3>' + a.t + '</h3>'
+          + '<div class="card-meta"><span>' + a.w + ' 字</span><span>' + a.a.replace(/-/g, ' ') + '</span><span>' + a.d + '</span></div>'
+          + (tags ? '<div class="card-tags">' + tags + '</div>' : '')
+          + '</a>';
+      }).join('');
+
+      const pag = document.getElementById('pagination');
+      if (pages <= 1) { pag.innerHTML = ''; return; }
+      let btns = '<button ' + (currentPage<=1?'disabled':'') + ' onclick="window._ep(' + (currentPage-1) + ')">&#8249;</button>';
+      const range = 3;
+      for (let i = 1; i <= pages; i++) {
+        if (i === 1 || i === pages || (i >= currentPage-range && i <= currentPage+range)) {
+          btns += '<button class="' + (i===currentPage?'active':'') + '" onclick="window._ep(' + i + ')">' + i + '</button>';
+        } else if (i === currentPage-range-1 || i === currentPage+range+1) {
+          btns += '<button disabled>...</button>';
+        }
+      }
+      btns += '<button ' + (currentPage>=pages?'disabled':'') + ' onclick="window._ep(' + (currentPage+1) + ')">&#8250;</button>';
+      pag.innerHTML = btns;
+    }
+
+    window._ep = function(p) { currentPage = p; render(); window.scrollTo(0, document.querySelector('.card-grid').offsetTop - 100); };
+  })();
+  </script>
 </body>
 </html>
