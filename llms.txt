@@ -76,3 +76,96 @@
 ### 平台
 - [CloudPipe AI](https://cloudpipe-landing.vercel.app) — AI 能見度平台
 - [AI 學習寶庫](https://inari-kira-isla.github.io/Openclaw/) — 每日 AI 教學與提示詞
+
+
+## 行業入口 (直達深層內容)
+> 更新日期: 2026-04-15 | 共 1377 篇文章
+
+### 美食
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-budget-food-香港平民美食指南2026-茶餐廳-大排檔-街市小食-hkd100以內吃好吃飽-hk-budget-foo-33a3f2.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-stanley-stanley-cha-chaan-teng-133883.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-central-中環工廈茶餐廳-上班族的隠藏午餐寶藏-606ed9.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-central-中環茶餐廳巡禮-品味香港經典飲食文化-208488.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-central-中環茶餐廳巡禮-金融中心的港式飲食生態-36f723.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-central-中環茶餐廳-金融核心的平價滋味-597220.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳全攻略-島嶼風味的港式魅力-4531fc.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳深度指南-當地人帶路的隱藏美食地圖-14394a.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳-島嶼風味的港式魅力-598ea0.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-tsim-sha-tsui-尖沙咀茶餐廳-九龍半島的港式味覺驛站-f53f17.html
+
+### 購物
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-retail-shopping-district-香港銅鑼灣完整指南2026-時代廣場-sogo-利園購物-銅鑼灣消費費用-hkd-攻略-hk-e7b3b9.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-aberdeen-aberdeen-antiques-f1404e-1774358144.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-central-central-antiques-187972.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-cheung-chau-cheung-chau-antiques-1b581a-1774351939.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-lantau-lantau-antiques-ec3596-1774324089.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-sai-kung-sai-kung-antiques-52bc11.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-tsim-sha-tsui-tsim-sha-tsui-antiques-e6ba6c.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-central-中環古董尋寶指南-荷李活道的歲月珍藏在繁華金融中心裡-古董-工藝品與設計師店錯落其間-展現-d46c6a.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-central-中環古董市場新脈動-art-basel時代的收藏新勢力-28312a.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-lantau-大嶼山古董尋寶-島嶼時光中的珍藏記憶-df7960-1774385207.html
+
+### 景點
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-arts-culture-香港巴塞爾藝術博覽會完整指南2026-art-basel-hk-m-博物館-大館-香港當代藝-b53149.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-arts-culture-香港藝術和文化活動指南2026-art-basel-hk-m-博物館-香港藝術節-藝術大都會-77a48e.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-beaches-south-香港南區完整旅遊指南2026-赤柱-淺水灣石澳-香港最美海灘費用與交通攻略-hk-sout-b10c61.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-city-landmarks-香港會展中心和金紫荊廣場完整指南2026-維港地標-回歸紀念-mice費用攻略-hk-c-4e4221.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-cruise-tourism-香港郵輪碼頭完整指南2026-啟德郵輪碼頭-海運大廈-asia-cruise-香港郵輪費-849a1d.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-cultural-heritage-大澳漁村完整指南2026-香港最完整的傳統棚屋漁村-大嶼山費用-hkd-攻略-hk-0c8206.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-culture-language-香港廣東話文化指南2026-粵語入門-茶餐廳用語-本地文化密碼-外國人讀懂香港人-h-25bff8.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-family-kids-香港親子旅遊完整指南2026-海洋公園-迪士尼-科學館-親子活動費用-hkd-攻略-hk-fa-921fa5.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-festivals-香港龍舟節和傳統節慶完整指南2026-龍舟比賽-盂蘭節-中秋燈籠-香港傳統節慶費用-hkd-攻略--27db57.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-festivals-culture-香港中秋節完整指南2026-維多利亞公園燈籠晚會-月餅文化-大坑舞火龍-香港中秋節-ed9757.html
+
+### 旅遊
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-events-lgbtq-tourism-香港lgbtq-旅遊完整指南2026-彩虹節-友善場所-亞洲最友好同志城市之一費用-hkd-攻略-h-47da11.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-accessibility-香港無障礙旅遊指南2026-輪椅友善景點-無障礙交通-長者適合行程-m-香港故宮-迪士尼主要景點完-8cd559.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-airport-transit-香港國際機場-hkia-完整旅客指南2026-轉機-機場購物-交通-香港機場免稅費用-hkd--84a3f7.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-aberdeen-aberdeen-cultural-heritage-3bd1bb.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-mong-kok-mong-kok-cultural-heritage-3144f8.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-central-中環制度遺產-從殖民建制到現代金融核心的權力軌跡-925215.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-central-中環多元文化遺產-香港國際社群的百年印記-647885.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-central-central-cultural-heritage-4c77e8.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-central-中環文化遺產-亞洲金融心臟的百年文化積澱-7fa611.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-central-中環的建築故事-金融中心的歷史時光-e8747c.html
+
+### 娛樂
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-aberdeen-aberdeen-cinema-688f1c.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-causeway-bay-causeway-bay-cinema-7c7f73.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-central-central-cinema-9a932a.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-mong-kok-mong-kok-cinema-d1d451-1774294548.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-sai-kung-sai-kung-cinema-423e25.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-stanley-stanley-cinema-0d2dd8-1774362666.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-central-中環電影文化探索-從藝術放映到電影社群的深度體驗-bc88cd.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-central-中環電影文化體驗-超越傳統影院的影視娛樂生態-f7caae.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-central-中環電影院指南-香港核心地帶的觀影選擇-3aabbd.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-lantau-大嶼山的電影娛樂體驗-離島上的影視休閒指南-61e4a8.html
+
+### 住宿
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-accommodation-budget-travel-香港揹包客住宿完整指南2026-油麻地-旺角青年旅社-香港平價住宿費用-hkd-150-c24686.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-accommodation-budget-travel-香港揹包客和平價旅遊完整指南2026-重慶大廈-西九龍青年旅舍-香港平價旅遊費用-hk-847eb9.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-accommodation-luxury-hotel-香港五星酒店完整指南2026-半島-文華東方-四季-香港頂級住宿費用-hkd-攻略-hk-4cbdfc.html
+
+### 交通
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-bus-tram-香港巴士電車完整指南2026-九巴-城巴-叮叮電車-香港巴士票價-hkd-全攻略-hk-bus-tram-a415dc.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-cross-border-香港跨境交通完整指南2026-深圳-廣州-澳門-高鐵-跨境巴士-跨境計程車全攻略-hk-cros-598322.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-cross-border-香港跨境大灣區指南2026-深圳-廣州-珠海-從香港出發的大灣區一日遊攻略-hk-cross-b-4736de.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-ferry-harbour-香港天星小輪完整指南2026-中環-灣仔-尖沙咀-天星小輪票價-hkd-全攻略-hk-star-03392d.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-insight-香港八達通卡完全使用指南2026-購買-增值-退款與隱藏功能-hk-octopus-card-comple-503acb.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-insight-香港地鐵-mtr-全線攻略2026-觀塘線到東鐵線-各線必停站與轉乘技巧-hk-mtr-line-by-l-4df0d5.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-insight-香港小巴與輕鐵實用指南2026-新界交通的在地智慧-hk-minibus-light-rail-new-t-3a626a.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-insight-香港機場交通全攻略2026-機場快線vs機場巴士vs計程車-哪個最適合你-hk-airport-expre-40b135.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-insight-香港渡輪航線完整指南2026-中環碼頭到長洲-南丫島-梅窩全航線-hk-ferry-routes-outl-fff6d6.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-transport-taxi-rideshare-香港計程車完整指南2026-紅的-綠的-藍的-大嶼山-香港計程車起錶價全攻略-hk-taxi-4e04d6.html
+
+### 健康
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-beauty-salon-香港美容院完整指南2026-銅鑼灣-旺角-中環-香港美容護膚費用-hkd-全攻略-hk-beaut-2aec67.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-hiking-香港行山路線完整指南2026-麥理浩徑-衛奕信徑-鳳凰徑各難度攻略-hk-hiking-trails-deta-64633c.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-insight-香港spa水療比較指南2026-五星酒店spa-vs-街頭按摩院-價位與體驗完整比較-hk-hotel-sp-4f87da.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-insight-香港中醫體驗完整指南2026-針灸-推拿-涼茶-從遊客到在地人的養生地圖-hk-traditional-ch-71f303.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-insight-香港健身與戶外運動指南2026-健身房月費-跑步路線-戶外健身公園完整攻略-hk-fitness-gym-o-c1ece6.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-insight-香港涼茶養生飲品完整指南2026-24味涼茶到龜苓膏-街頭養生文化地圖-hk-herbal-tea-heal-75755c.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-insight-香港養生排毒體驗2026-從禪修營到斷食retreat的深度指南-hk-wellness-retreat-d-d5ea02.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-luxury-spa-香港頂級spa水療完整指南2026-半島-文華-四季-香港五星酒店spa費用全攻略-hk-luxury-9fb562.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-martial-arts-香港太極拳和武術完整指南2026-維多利亞公園太極-詠春-功夫-體驗費用-hkd-攻略-hk-ta-eb0293.html
+- https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-spa-香港-spa-和健康體驗指南2026-五星酒店水療-vs-本地按摩院-完整比較攻略-hk-wellness-spa--f7a0e5.html
