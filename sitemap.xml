@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hongkong-encyclopedia.vercel.app/</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/llms.txt</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>  <url>
@@ -68,6 +68,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-culture-language-香港廣東話文化指南2026-粵語入門-茶餐廳用語-本地文化密碼-外國人讀懂香港人-h-25bff8.html</loc>
     <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-eco-tourism-香港濕地公園和郊野公園完整指南2026-米埔-西貢-大嶼山-香港生態旅遊費用-hkd-攻略-h-02d576.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -186,6 +191,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-local-market-culture-香港街市完整指南2026-灣仔街市-旺角雀鳥花園-水產市場-香港本地採購文化-2eaba0.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-local-markets-香港旺角花墟和金魚街完整指南2026-園圃街花墟-通菜街金魚街-香港特色市集費用-hkd--e8b86e.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -203,6 +213,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-museums-香港博物館完整指南2026-m-香港歷史博物館-科學館-香港文化機構費用-hkd-攻略-hk-hong-d270a1.html</loc>
     <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-attractions-nature-ecology-香港濕地公園和自然保育完整指南2026-米埔-濕地公園-郊野公園-香港自然生態費用-hk-3c6b98.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -3781,6 +3796,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-events-food-festivals-香港美酒佳餚巡禮完整指南2026-亞洲最大美食節維港海濱活動費用攻略-hk-wine-dine-f-93bc15.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-events-horse-racing-香港跑馬地馬場完整指南2026-週三夜賽-賽馬會happy-wednesday-香港賽馬費用-hkd--68a92c.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -6993,6 +7013,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-traditional-medicine-香港中醫和傳統中藥完整指南2026-上環藥材街-中醫診所-中醫治療費用-hkd-和-06ec35.html</loc>
     <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-wellness-yoga-fitness-香港瑜伽普拉提健身完整指南2026-中環-跑馬地-太古-香港wellness健身費用-hkd-全攻-52f642.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
