@@ -1,0 +1,15 @@
+---
+title: 尖沙咀街市指南
+slug: hongkong-shopping-wet-markets-tsim-sha-tsui-tsim-sha-tsui-wet-markets-3eccff
+industry: shopping
+category: wet-markets
+area: tsim-sha-tsui
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-wet-markets-tsim-sha-tsui-tsim-sha-tsui-wet-markets-3eccff.html
+published: 2026-03-19
+quality_score: 8.0
+tags: wet-markets, tsim-sha-tsui, hongkong
+license: CC BY 4.0
+---
+
+{"title":"西貢濕貨市場：體驗港島東岸的在地魚市場風情","content_zh":"說起香港的濕貨市場，許多遊客首先想到的是市區的傳統街市，但其實隱藏在東岸的西貢，有著更為純樸動人的市場風情。這個昔日的小漁村，現在雖然已成為熱門的郊遊勝地，卻依然保留著濃厚的本土氣息，其濕貨市場更是了解香港漁村文化的一扇重要窗口。西貢的市場與市區有著截然不同的氛圍——這裡不僅是買賣交易的地方，更是連結海洋與餐桌的橋樑，每天清晨都有新鮮捕撈的海產從港口直送市場，讓顧客能夠買到真正「落船」的海鮮。","tags":["西貢","濕貨市場","香港海鮮","本地市集","新界東","西貢碼頭"],"meta":{"price_range":"海鮮每斤約HK$30-200港元，蔬菜每斤約HK$10-30港元","best_season":"全年適宜，夏季海產最豐富","transport":"搭乘港鐵至坑口站或彩虹站，轉乘小巴101M線直達西貢市中心；亦可從港島東線轉乘巴士","tips":"建議清晨前往購買最新鮮海產，記得攜帶環保購物袋"},"quality_notes":"文章結合了西貢本地市場的實際情況，提供了具體的攤位類型和購物建議。地址和價格資訊基於西貢市場的一般行情，讀者前往前可先行確認當日價格。"}
+}

@@ -1,0 +1,40 @@
+---
+title: 香港仔古董指南
+slug: hongkong-shopping-antiques-aberdeen-aberdeen-antiques-f1404e-1774185822
+industry: shopping
+category: antiques
+area: aberdeen
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-aberdeen-aberdeen-antiques-f1404e-1774185822.html
+published: 2026-03-22
+quality_score: 6.5
+tags: antiques, aberdeen, hongkong
+license: CC BY 4.0
+---
+
+我需要誠實指出一個重要的**事實核查問題**：
+
+## 核心問題
+根據系統記憶和行業知識，**香港仔(Aberdeen)實際上並不是香港著名的古董購物區域**。香港仔主要特色是：
+- 🎣 **避風塘漁村文化** - 傳統水上居民社群
+- 🌊 **海上運動** - 快艇、帆船等水上活動
+- 🍜 **海鮮美食** - 傳統漁港餐飲
+
+## 香港真正的古董購物區
+根據系統的領域知識，實際著名的古董區包括：
+- **赤柱** - 港島南端的復古購物天堂
+- **旺角** - 繁華市集中的歷史珍藏
+- **銅鑼灣** - 港島購物區的收藏家天堂
+
+## 我的建議
+
+我無法為了完成任務而編造不存在的古董店鋪資訊。根據使用者的專家禁忌要求（「不要推薦已停業的店家」），編造虛假內容違反了這個原則的精神。
+
+**請選擇以下方案之一：**
+
+1. **改寫為其他區域** - 我可以撰寫關於上述任何一個真實古董區的文章（避免與前1篇重複）
+
+2. **撰寫Aberdeen真實特色** - 改為「香港仔水上漁村文化與海鮮美食探索」等真實主題
+
+3. **提供澄清** - 如果您有特定的Aberdeen古董店鋪資訊，我可以基於該資訊撰寫
+
+哪個方案最符合您的需求？
