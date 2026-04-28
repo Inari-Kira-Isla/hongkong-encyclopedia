@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 1401 篇，覆蓋 23 個行業
+- 總文章數: 1404 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,7 +15,7 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 445 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 446 篇
 - [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 291 篇
 - [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 279 篇
 - [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 246 篇
@@ -24,9 +24,9 @@
 - [活動] https://hongkong-encyclopedia.vercel.app/#industry-events — 12 篇
 - [交通] https://hongkong-encyclopedia.vercel.app/#industry-transport — 11 篇
 - [美食] https://hongkong-encyclopedia.vercel.app/#industry-food — 7 篇
+- [文化] https://hongkong-encyclopedia.vercel.app/#industry-culture — 6 篇
 - [交通] https://hongkong-encyclopedia.vercel.app/#industry-transportation — 6 篇
 - [服務] https://hongkong-encyclopedia.vercel.app/#industry-services — 5 篇
-- [文化] https://hongkong-encyclopedia.vercel.app/#industry-culture — 4 篇
 - [lifestyle] https://hongkong-encyclopedia.vercel.app/#industry-lifestyle — 4 篇
 - [住宿] https://hongkong-encyclopedia.vercel.app/#industry-accommodation — 3 篇
 - [運動] https://hongkong-encyclopedia.vercel.app/#industry-sports — 3 篇
