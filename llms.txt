@@ -15,27 +15,24 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 443 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 450 篇
 - [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 275 篇
 - [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 257 篇
 - [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 237 篇
 - [景點] https://hongkong-encyclopedia.vercel.app/#industry-attractions — 56 篇
 - [健康] https://hongkong-encyclopedia.vercel.app/#industry-wellness — 19 篇
+- [交通] https://hongkong-encyclopedia.vercel.app/#industry-transport — 17 篇
 - [活動] https://hongkong-encyclopedia.vercel.app/#industry-events — 12 篇
-- [交通] https://hongkong-encyclopedia.vercel.app/#industry-transport — 11 篇
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-food — 7 篇
 - [文化] https://hongkong-encyclopedia.vercel.app/#industry-culture — 6 篇
-- [交通] https://hongkong-encyclopedia.vercel.app/#industry-transportation — 6 篇
 - [服務] https://hongkong-encyclopedia.vercel.app/#industry-services — 5 篇
+- [住宿] https://hongkong-encyclopedia.vercel.app/#industry-accommodation — 4 篇
 - [lifestyle] https://hongkong-encyclopedia.vercel.app/#industry-lifestyle — 4 篇
-- [住宿] https://hongkong-encyclopedia.vercel.app/#industry-accommodation — 3 篇
 - [運動] https://hongkong-encyclopedia.vercel.app/#industry-sports — 3 篇
 - [夜生活] https://hongkong-encyclopedia.vercel.app/#industry-nightlife — 2 篇
 - [零售] https://hongkong-encyclopedia.vercel.app/#industry-retail — 2 篇
 - [education] https://hongkong-encyclopedia.vercel.app/#industry-education — 1 篇
 - [finance] https://hongkong-encyclopedia.vercel.app/#industry-finance — 1 篇
 - [食材供應] https://hongkong-encyclopedia.vercel.app/#industry-food-supply — 1 篇
-- [住宿] https://hongkong-encyclopedia.vercel.app/#industry-hotels — 1 篇
 - [tech] https://hongkong-encyclopedia.vercel.app/#industry-tech — 1 篇
 - [technology] https://hongkong-encyclopedia.vercel.app/#industry-technology — 1 篇
 
