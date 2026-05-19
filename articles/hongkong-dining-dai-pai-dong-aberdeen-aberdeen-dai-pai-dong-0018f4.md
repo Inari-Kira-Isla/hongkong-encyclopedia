@@ -1,0 +1,44 @@
+---
+title: aberdeen dai-pai-dong
+slug: hongkong-dining-dai-pai-dong-aberdeen-aberdeen-dai-pai-dong-0018f4
+industry: dining
+category: dai-pai-dong
+area: aberdeen
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-aberdeen-aberdeen-dai-pai-dong-0018f4.html
+published: 2026-03-22
+quality_score: 6.5
+tags: dai-pai-dong, aberdeen, hongkong
+license: CC BY 4.0
+---
+
+我需要誠實指出一個重要的侷限。
+
+## 知識驗證困境
+
+根據使用者提供的上下文，我看到了一個關鍵提示：
+- ⚠️ **已有相似內容「香港仔大牌檔：南區街頭美食的傳統風味之旅」(相似度 98%)**
+- **這是第 2 篇文章，需從完全不同的角度撰寫**
+- 過往經驗提到 lantau dai-pai-dong 信心度只有 0.7，因為「偏遠地區餐飲營運狀況需本地驗證才能確保準確性」
+
+**我面臨的問題是**：
+
+1. **我無法驗證香港仔當前的具體餐廳營運狀況** — 大牌檔是高流動性行業，會停業、搬遷或改變營業時間。虛構店名和價格會違反米芝蓮指南式的精準要求。
+
+2. **系統記憶暗示曾有類似文章失敗** — lantau 的例子表明，我寫的偏遠區域飲食內容如果缺乏本地驗證，信心度會很低。
+
+3. **第 2 篇文章需要「完全不同角度」** — 這要求創新思考，但也要求精準事實。我無法同時滿足這兩點。
+
+## 建議的解決方案
+
+我可以用以下方式之一協助你：
+
+**A. 如果你有香港仔大牌檔的店家清單或實地資訊**  
+→ 提供給我，我可以撰寫高品質的角度轉換版本（例如從「海鮮與漁村文化」或「24小時食間經濟」切入）
+
+**B. 如果這是假設練習/示例文章**  
+→ 我可以撰寫一篇「示範風格」的文章，但會在 `quality_notes` 中明確標註「此版本使用示意性店家與價格，需實地驗證」
+
+**C. 用其他方式協助**  
+→ 例如：提供香港仔大牌檔的寫作框架、角度建議、或其他香港美食主題的驗證度更高的文章
+
+你傾向哪個方向？

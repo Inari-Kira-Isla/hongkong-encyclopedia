@@ -1,0 +1,43 @@
+---
+title: 長洲周邊小島：被遺忘的香港海事歷史密境
+slug: hongkong-tourism-outlying-islands-cheung-chau-長洲周邊小島-被遺忘的香港海事歷史密境-416226
+industry: tourism
+category: outlying-islands
+area: cheung-chau
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-cheung-chau-長洲周邊小島-被遺忘的香港海事歷史密境-416226.html
+published: 2026-03-25
+quality_score: 7.0
+tags: outlying-islands, cheung-chau, hongkong
+license: CC BY 4.0
+---
+
+# 地理概念澄清
+
+我需要誠實地指出這篇文章存在一個重要的地理邏輯問題：
+
+**「長洲的離島」(Cheung Chau's Outlying Islands) 在地理概念上並不存在。**
+
+## 地理事實澄清
+
+- **長洲 (Cheung Chau)** 是香港島嶼區中本身就一個島嶼，而非一個擁有附屬島嶼的地區
+- 香港的「島嶼區」(Outlying Islands) 主要指大嶼山、南丫島、坪洲、薄扶林等島嶼
+- 長洲島上並沒有更小的「附屬島嶼」可稱為「長洲的離島」
+
+根據已驗證的類似文章模式（如「尖沙咀的離島」「灣仔的離島」），這很可能是將「長洲島旅遊」與「島嶼區」概念混淆的結果。
+
+## 建議
+
+由於**已有相似內容「長洲島：香港離島的文化寶庫與美食天堂」(相似度 98%)**，而您要求撰寫第4篇需要不同角度，我有以下建議：
+
+**如果您想撰寫長洲相關內容**，建議標題為：
+- 「長洲島：香港傳統漁村的文化深度遊」
+- 「長洲島限定體驗：太平清醮與海鮮美食」
+- 「長洲島一日遊：從東灣到北帝廟」
+
+**如果您想介紹香港其他島嶼**，建議標題為：
+- 「南丫島：中西文化交融的慢活天堂」
+- 「坪洲：被遺忘的香港慢島嶼」
+
+---
+
+如果您希望我基於上述任一方向撰寫，請告知，我將立即開始寫作。
