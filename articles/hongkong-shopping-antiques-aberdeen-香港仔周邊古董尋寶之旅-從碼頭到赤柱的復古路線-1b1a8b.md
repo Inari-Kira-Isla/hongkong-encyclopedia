@@ -1,0 +1,17 @@
+---
+title: 香港仔周邊古董尋寶之旅：從碼頭到赤柱的復古路線
+slug: hongkong-shopping-antiques-aberdeen-香港仔周邊古董尋寶之旅-從碼頭到赤柱的復古路線-1b1a8b
+industry: shopping
+category: antiques
+area: aberdeen
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-aberdeen-香港仔周邊古董尋寶之旅-從碼頭到赤柱的復古路線-1b1a8b.html
+published: 2026-05-25
+quality_score: 6.5
+tags: 香港仔, 赤柱古董, 古董购物, 港岛南线, 复古寻宝
+license: CC BY 4.0
+---
+
+很多旅客誤以為香港仔（Aberdeen）是古董購物區，事實上這裡並非傳統的古董集散地。香港仔本身以避風塘漁船文化、海傍工業區聞名，真正的古董愛好者會從這裡出發，前往車程約15分鐘的赤柱海岸——那裡才是港島南端真正的復古購物天堂。本文要分享的，正是這條「香港仔中轉、赤柱尋寶」的實用路線。
+
+【為什麼從香港仔出發？】
+香港仔在這條路線中有兩個不可取代的價值。首先，它是港島南線的重要交通樞紐，無論從中環還是銅鑼灣過來，都可以在香港仔轉乘巴士直達赤柱。其次，香港仔魚市場也是值得順道一訪的地方——如果喜歡海洋文化相關的工藝品，凌晨拍賣場附近的本地小店偶爾會有老船員收藏的航海文物、訊號旗、船上配飾等，這些在市面上不太常見。

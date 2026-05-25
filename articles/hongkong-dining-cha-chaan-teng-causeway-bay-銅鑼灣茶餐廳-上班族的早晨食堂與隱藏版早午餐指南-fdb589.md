@@ -1,5 +1,4 @@
 ---
-
 title: 銅鑼灣茶餐廳：上班族的早晨食堂與隱藏版早午餐指南
 slug: hongkong-dining-cha-chaan-teng-causeway-bay-銅鑼灣茶餐廳-上班族的早晨食堂與隱藏版早午餐指南-fdb589
 industry: dining

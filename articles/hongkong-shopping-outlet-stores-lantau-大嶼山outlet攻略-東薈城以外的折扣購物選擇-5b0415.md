@@ -1,0 +1,22 @@
+---
+title: 大嶼山Outlet攻略：東薈城以外的折扣購物選擇
+slug: hongkong-shopping-outlet-stores-lantau-大嶼山outlet攻略-東薈城以外的折扣購物選擇-5b0415
+industry: shopping
+category: outlet-stores
+area: lantau
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-outlet-stores-lantau-大嶼山outlet攻略-東薈城以外的折扣購物選擇-5b0415.html
+published: 2026-05-24
+quality_score: 6.5
+tags: 大嶼山Outlet, 東薈城, 赤柱折扣, 港島南購物, 香港Outlet攻略
+license: CC BY 4.0
+---
+
+許多旅客來到大嶼山，最大的期待就是在東薈城名店倉瘋狂採購一番。身為在大嶼山居住超過十年的本地小編，今天我要持平地說：大嶼山的Outlet確實不多，東薈城幾乎是唯一的正式Outlet mall。但如果你願意把搜尋範圍擴大一點，香港還有幾個比東薈城更容易找到超低折扣的法寶區。
+
+先說說大嶼山的情況。東薈城名店倉(Citygate Outlets)是香港島最大的Outlet mall，進駐品牌超過150個，全年都有折扣。旺季是聖誕節前後和農曆新年，常有誇張的三折甚至更低。不過缺點是：人太多、週末要找車位不容易、部分熱門品牌斷碼嚴重。
+
+真正懂行的本地人和澳門旅客，已經把焦點轉向港島南、赤柱一帶。從東湧搭MTR到香港站，再轉巴士去赤柱，全程不過一小時車程，但能找到的折扣深度往往比東薈城更好。那裡的商戶不是連鎖Outlet，而是本地小型精品店的過季存貨清理，勝在價格彈性大、講價空間高。
+
+如果你只有時間衝一個地方，我建議這樣規劃：上午先去東薈城朝聖熱門品牌（運動用品、名牌包這些連鎖店集中在東薈城），下午坐車去赤柱挖寶過季設計師作品。兩個地方合計一天剛剛好。
+
+記住，大嶼山的Outlet概念和澳門路氹金光大道那種綜合渡假城不太一樣，這裡是實實在在的工業區改造商場，坪效導向、租金親民，所以折扣才能壓得這麼深。下次別只盯著東薈城了，出來走走可能有意外收獲。

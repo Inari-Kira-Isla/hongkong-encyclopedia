@@ -1,5 +1,4 @@
 ---
-
 title: 中環與周邊廟宇：繁華金融區夾縫中的信仰空間
 slug: hongkong-tourism-temples-central-中環與周邊廟宇-繁華金融區夾縫中的信仰空間-c05175
 industry: tourism

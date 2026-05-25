@@ -1,5 +1,4 @@
 ---
-
 title: 尖沙咀賽馬文化地圖：本地人的觀賽私房去處
 slug: hongkong-entertainment-horse-racing-tsim-sha-tsui-尖沙咀賽馬文化地圖-本地人的觀賽私房去處-f96d01
 industry: entertainment

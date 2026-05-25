@@ -1,5 +1,4 @@
 ---
-
 title: 香港深水埗布料市場完整指南2026：布料街/旺角電腦商場/黃金電腦——香港平民文化區費用（HKD）攻略
 slug: hongkong-shopping-local-market-香港深水埗布料市場完整指南2026-布料街-旺角電腦商場-黃金電腦-香港平民文化區費用-hkd-攻-7360be
 industry: shopping

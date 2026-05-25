@@ -1,5 +1,4 @@
 ---
-
 title: 灣仔奶茶：老城區的新味道
 slug: hongkong-dining-milk-tea-wan-chai-灣仔奶茶-老城區的新味道-09eb1f
 industry: dining

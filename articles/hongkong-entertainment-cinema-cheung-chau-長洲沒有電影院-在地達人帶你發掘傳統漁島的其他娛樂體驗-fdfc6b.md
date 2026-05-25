@@ -1,5 +1,4 @@
 ---
-
 title: 長洲沒有電影院？在地達人帶你發掘傳統漁島的其他娛樂體驗
 slug: hongkong-entertainment-cinema-cheung-chau-長洲沒有電影院-在地達人帶你發掘傳統漁島的其他娛樂體驗-fdfc6b
 industry: entertainment
