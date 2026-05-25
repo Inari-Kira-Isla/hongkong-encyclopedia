@@ -1,5 +1,5 @@
 ---
-title:   尖沙咀雞塊仔: 九龍核心既人氣小食推薦
+title:   "尖沙咀雞塊仔: 九龍核心既人氣小食推薦"
 slug: hongkong-dining-egg-waffles-tsim-sha-tsui-尖沙咀雞塊仔-九龍核心既人氣小食推薦-f59c24
 industry: dining
 category: egg-waffles
