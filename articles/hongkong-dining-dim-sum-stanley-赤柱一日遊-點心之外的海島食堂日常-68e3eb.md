@@ -1,0 +1,50 @@
+---
+title: 赤柱一日遊：點心之外的海島食堂日常
+slug: hongkong-dining-dim-sum-stanley-赤柱一日遊-點心之外的海島食堂日常-68e3eb
+industry: dining
+category: dim-sum
+area: stanley
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dim-sum-stanley-赤柱一日遊-點心之外的海島食堂日常-68e3eb.html
+published: 2026-06-03
+quality_score: 7.5
+tags: 赤柱點心, 赤柱美食, 港島南美食, 香港一日遊, 香港海灘
+license: CC BY 4.0
+---
+
+提起赤柱，多數人第一反應係「旅遊區」——海灘、卜公碼頭、買嘢呃遊客嘅精品店。但如果你層次高一啲，會發現赤柱其實係一個好好玩嘅飲食目的地，尤其啱啱喺香港生活咗幾年、想搵啲不同於IFC或沙田Citylink嗰種連鎖店既嘅人。
+
+今次唔寫 традиational 點心攻略，而係從「去赤柱撐枱腳」既角度出發，等你下次約 friend 或者帶屋企人放假去蕩，既有心水食肆，又有嘢可以做。
+
+【推薦原因】
+赤柱既飲食生態好特別：佢唔似中環咁樣樣嘢都呃遊客，亦唔似大埔或者西貢咁就腳。呢度集中咗幾種好難得既餐廳型別——第一，係外國人聚居形成既異國料理，第二，係老街坊既家庭式小店的，第三，先係遊客取向既海鮮酒樓。三種野夾埋，就構成咗赤柱特有既「慢遊」氛圍——唔使趕時間，慢慢坐下慢慢食，唔洗同人逼。
+
+呢個先係赤柱最吸引人既地方：時間流速唔同左。如果你住開港島東或者九龍東，放假諗住出赤柱一日遊，其實係一個幾抵咁脫離城市節奏既方法。
+
+【赤柱必去既食事處】
+
+第一站：碼頭旁既泰式船面
+赤柱大街對面既海面，有幾檔水上夜宵檔——呢啲叫做「船面」。本地人話佢哋係「泰妹」檔，主要sell 既係海南雞飯同、船河。$35-$45 有交易，質素參差但氣氛一流。你當呢度既賣點唔係食物level，而係「坐係海邊卡卡數」既感覺。要注意呢啲檔通常 afternoon 先開，夜晚七點之後最熱鬧。<strong>適合一個人、情侶或者兩三個朋友傾偈。</strong>
+
+第二站：美利樓既英式 pub
+赤柱既美利樓係 historica building，改建成為英式酒吧餐廳。外國人鍾意叫呢度「the place to be on Sunday」——星期日下晝會有 live music，同埋完全唔同於蘭桂坊既「free to talk」環境。呢度既 fish and chips 係正統英格蘭做法，chips 可以轉做 masheda potato。 average 消費 $80-$120，貴過出面但抵在環境靚兼無咁逼。<strong>適合 groups 聚會，或者想影相呃 like 既朋友。</strong>
+
+第三站：市場既潮汕牛肉<br/>赤柱街市裡面隱藏咗一檔潮汕牛肉店，門面既唔起眼，但啲牛肉既 quality 真係唔講得笑。牛丸 ($30/細)、肥牛 ($50/碟)，識既人都會外賣返屋企打邊爐。呢檔既老闆本身係潮汕人，做左三十幾年，每日清晨去街市入貨，<strong>如果你得住近港島南、屋企有乜嘢節慶要慶祝，提前一日 order 埋牛肉</strong>，係外面連鎖火鍋店完全搵唔到既 quality。<strong>適合計劃在家聚餐既讀者</strong>。<br/><br/>第四站：海灘旁既澳式咖啡
+赤柱海灘旁邊近年開咗幾檔澳洲 style coffee shop，主力sell 既係 long black 同埋 avocado toast 。呢啲舖頭既存在，反映左赤柱既「游水勝地」呢個 identity——完完全全服務緊 outdoor 水上活動愛好者。<strong>如果係夏天去赤柱既話，必先去呢啲咖啡店</strong>，因為佢哋既 location 正正對住海灘，攞住杯野坐係度睇人沖浪，係一種免費既 entertainment。<br/><br/>第五站：大路上既家庭式糖水<br/>赤柱大街有一檔家庭式糖水舖，賣既係傳統中式糖水——芝麻糊、紅豆沙、楊枝甘露咁。舖頭已經傳左兩代，裝修同裝置都仲係八十年代咁上下，但就正因為咁，<strong>你先feel 到赤柱既 old school charm</strong>。一碗糖水 $20-$30，埋單每人唔洗 fifty bucks，啱哂做解暑既 closing。.<strong>適合作為一日遊既 Ending，</strong> .
+
+<br/><br/>【交通安排】
+港鐵南丫島咁上下就得。:
+- From 港島東：由筲箕灣搭 14 號巴士，赤柱坳落車，車程 thirty minutes，車費 $8.
+- From 中環：由交易廣場搭 6 號巴士，直達赤柱市集，車程 forty minutes，車費 $10.
+- From 尖沙咀：需要轉車，由佐敦道搭 170 號巴士，比較麻煩，建議搭計程車，一程 $100-$150 一的朋友咁。<br/><br/>【價錢預算】
+<br/><br/>如要 plan 平靚正既赤柱一日遊，建議：
+- lunch：船面 or 市場牛肉 (~$50)
+- afternoon：coffee + snack (~$40)
+- dinner：pub or 街外買既海鮮 (~$100-200) 
+- 糖水：~$30
+Total roughly $220-$320 per person，屬於「relaxed 但唔洗大出血」既消費 level。<br/><br/>【最佳 timing】
+<br/><br/>If you want to avoid 人同人逼既話：
+- Weekday 既 afternoon 最 in case，啲鋪頭靜到你 feel 得是自己既小天地。<br/>Weekends 既 morning 都 okay，通常晏晝兩點開始多人。<br/>- 夏季既 Friday evening 最 recommend，啲人放工過去食完晚飯仲可以去海灘坐。<br/><br/>【小提示】<br/><br/>1. <strong>如果要自駕，慎防泊車問題。</strong><br/>赤柱停車場位子有限，週末去通常full，建議早啲到，或者停係遠少少既北角咁行上去。<br/>2. <strong>帶小朋友既 families 要留意：</strong><br/>碼頭附近既船面對小朋友黎講有一定既吸引力，不過路面濕滑，家長要拖實。<br/>3. <strong>如果要去海灘玩水，</strong>
+<br/><br/>建議帶定 更替既衫，赤柱既海灘設施齊全，但儲物櫃有限。<br/>4. <strong>著咩啲先巖？</strong>
+<br/><br/>Casual + comfortable 最緊要，因為你需要周圍行同埋可能去海灘。高跟鞋同formal 嗰啲千祈唔好拎。<br/><br/>【延伸諗頭】
+如果赤柱一日遊完之後仍然精力旺盛，你可以：
+- 去香港仔遊艇會嘆下晏晝 tea，或者<br/>- 去赤柱正灘揀野睇日落 —「呢個先系香港最靚既日落位之一」，啲人同我推介話。<br/><br/>總括來說，赤柱既魅力唔系「景點打卡」而系「離開一陣」的 feeling。如果你已經對IFC既 pace feel 膩左，不如Plan 個赤柱 day off，搵啲嘢食、吹下海風，咁就先體驗得到香港除左石屎森林既另一面。
