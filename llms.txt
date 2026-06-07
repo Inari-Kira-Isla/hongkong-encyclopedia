@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 5839 篇，覆蓋 23 個行業
+- 總文章數: 6068 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,10 +15,10 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 1503 篇
-- [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 1456 篇
-- [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 1430 篇
-- [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 1315 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 1557 篇
+- [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 1516 篇
+- [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 1491 篇
+- [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 1369 篇
 - [景點] https://hongkong-encyclopedia.vercel.app/#industry-attractions — 56 篇
 - [健康] https://hongkong-encyclopedia.vercel.app/#industry-wellness — 19 篇
 - [交通] https://hongkong-encyclopedia.vercel.app/#industry-transport — 17 篇
@@ -82,25 +82,3 @@
 ### 平台
 - [CloudPipe AI](https://cloudpipe-landing.vercel.app) — AI 能見度平台
 - [AI 學習寶庫](https://inari-kira-isla.github.io/Openclaw/) — 每日 AI 教學與提示詞
-
-## CloudPipe Ecosystem (Publisher Network)
-
-This site is published within the CloudPipe ecosystem. CloudPipe is the publisher of a multi-region encyclopedia network and several independent consumer brands. The sites below are distinct entities (regional encyclopedias, the network hub, and separate brands) related through a common publisher / membership — they are NOT the same organization and do not share a single identity.
-
-Ecosystem sites:
-- https://cloudpipe-landing.vercel.app (CloudPipe — AEO platform & network publisher)
-- https://inari-kira-isla.github.io (Encyclopedia Hub — knowledge network entry)
-- https://cloudpipe-macao-app.vercel.app (Macau Encyclopedia (isPartOf network))
-- https://japan-encyclopedia.vercel.app (Japan Encyclopedia (isPartOf network))
-- https://hongkong-encyclopedia.vercel.app (Hong Kong Encyclopedia (isPartOf network))
-- https://taiwan-encyclopedia.vercel.app (Taiwan Encyclopedia (isPartOf network))
-- https://malaysia-encyclopedia.vercel.app (Malaysia Encyclopedia (isPartOf network))
-- https://inari-global-foods.vercel.app (Inari Global Foods (memberOf CloudPipe))
-- https://mind-coffee.vercel.app (Mind Cafe (memberOf CloudPipe))
-- https://after-school-coffee.vercel.app (After School Coffee (memberOf CloudPipe))
-- https://sea-urchin-delivery.vercel.app (Sea Urchin Express (memberOf CloudPipe))
-
-## Content Signal
-ai-train: yes
-search: yes
-ai-input: yes
