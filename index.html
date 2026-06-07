@@ -226,6 +226,44 @@
     .results-info { color:var(--text-secondary); font-size:0.85rem; margin-bottom:1rem; }
     @media(max-width:600px) { .card-grid { grid-template-columns:1fr; } .search-bar { flex-direction:column; } }
   </style>
+<!-- CAPN-NETWORK v2 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cloudpipe-landing.vercel.app/#org",
+      "name": "CloudPipe",
+      "url": "https://cloudpipe-landing.vercel.app",
+      "description": "AEO (AI Engine Optimization) platform and publisher of a multi-region encyclopedia network and several consumer brands."
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://inari-kira-isla.github.io/#encyclopedia-network",
+      "name": "CloudPipe Encyclopedia Network",
+      "url": "https://inari-kira-isla.github.io",
+      "publisher": {
+        "@id": "https://cloudpipe-landing.vercel.app/#org"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hongkong-encyclopedia.vercel.app/#site",
+      "name": "Hong Kong Encyclopedia",
+      "url": "https://hongkong-encyclopedia.vercel.app",
+      "sameAs": [],
+      "isPartOf": {
+        "@id": "https://inari-kira-isla.github.io/#encyclopedia-network"
+      },
+      "publisher": {
+        "@id": "https://cloudpipe-landing.vercel.app/#org"
+      }
+    }
+  ]
+}
+</script>
+<!-- /CAPN-NETWORK -->
 </head>
 <body>
   <header class="site-header">
@@ -6113,6 +6151,338 @@
 <li><a href="articles/hongkong-wellness-traditional-medicine-香港涼茶鋪-百年藥食同源文化與廿四味的現代命運-hk-herbal-tea-sho-4b8601-1777353155.html">香港涼茶鋪：百年藥食同源文化與廿四味的現代命運</a></li>
 <li><a href="articles/hongkong-wellness-yoga-fitness-香港瑜伽普拉提健身完整指南2026-中環-跑馬地-太古-香港wellness健身費用-hkd-全攻-52f642.html">香港瑜伽普拉提健身完整指南2026：中環/跑馬地/太古——香港wellness健身費用（HKD）全攻略</a></li></ul></section>
 </noscript>
+  
+<!-- DYNAMIC-DB-CONTENT-START -->
+  <style>
+    .knowledge-section {
+      max-width: 1100px; margin: 3rem auto; padding: 2rem 2rem 2.5rem;
+      border-top: 1px solid rgba(212,165,116,0.18);
+    }
+    .knowledge-section h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.6rem; font-weight: 500; color: #d4a574;
+      margin-bottom: 0.3rem; letter-spacing: 0.03em;
+    }
+    .section-subtitle {
+      font-size: 0.85rem; color: #9a9590; margin-bottom: 1.5rem;
+    }
+    .trends-grid, .facts-grid { display: grid; gap: 1rem; }
+    .trend-item, .fact-item {
+      background: #16213e; border-radius: 8px; padding: 1rem 1.2rem;
+      border: 1px solid rgba(212,165,116,0.12);
+      transition: border-color 0.2s;
+    }
+    .trend-item:hover, .fact-item:hover {
+      border-color: rgba(212,165,116,0.35);
+    }
+    .trend-header {
+      display: flex; align-items: center; gap: 0.8rem;
+      margin-bottom: 0.5rem; font-size: 0.8rem;
+    }
+    .trend-category { color: #b8b0a4; }
+    .trend-date { color: #786e64; margin-left: auto; }
+    .trend-title {
+      font-size: 1rem; font-weight: 500; color: #f5f0e8;
+      margin: 0 0 0.4rem; line-height: 1.5;
+    }
+    .trend-impact { font-size: 0.88rem; color: #b8b0a4; line-height: 1.6; margin: 0; }
+    .fact-badge {
+      display: inline-block; font-size: 0.7rem; font-weight: 600;
+      background: rgba(212,165,116,0.15); color: #d4a574;
+      padding: 2px 8px; border-radius: 4px; margin-bottom: 0.4rem;
+    }
+    .fact-entity {
+      display: inline-block; font-size: 0.78rem; color: #9a9590;
+      margin-left: 0.5rem;
+    }
+    .fact-text { font-size: 0.92rem; color: #e8e4dc; line-height: 1.7; margin: 0.3rem 0 0; }
+    .faq-list { max-width: 900px; }
+    .faq-item {
+      border-bottom: 1px solid rgba(212,165,116,0.12);
+      padding: 0.8rem 0;
+    }
+    .faq-item summary {
+      cursor: pointer; font-size: 1rem; font-weight: 500;
+      color: #f5f0e8; line-height: 1.6; list-style: none;
+      padding-left: 1.5rem; position: relative;
+    }
+    .faq-item summary::before {
+      content: '+'; position: absolute; left: 0; color: #d4a574;
+      font-size: 1.2rem; font-weight: 700; transition: transform 0.2s;
+    }
+    .faq-item[open] summary::before { content: '−'; }
+    .faq-item p {
+      font-size: 0.92rem; color: #b8b0a4; line-height: 1.8;
+      padding: 0.6rem 0 0.2rem 1.5rem; margin: 0;
+    }
+  </style>
+  <section id="industry-knowledge" class="knowledge-section">
+    <h2>行業知識庫精選</h2>
+    <p class="section-subtitle">精選自 1 個行業資料庫 | 共 25 條知識</p>
+    <div class="facts-grid">
+      <div class="fact-item">
+        <span class="fact-badge">business_hours</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">澳門輕軌一般服務時間為週一至週四06:30至23:15，週五至週日及公眾假期06:30至23:59。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">知識</span>
+        <span class="fact-entity">Feng Wei Ju 風味居 @ StarWorld</span>
+        <p class="fact-text">風味居位於澳門星際酒店（StarWorld Hotel）5樓，不是新葡京酒店；餐廳主打湖南菜及四川菜（湘川菜），並非粵菜餐廳。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">知識</span>
+        <span class="fact-entity">Feng Wei Ju 風味居 @ StarWorld</span>
+        <p class="fact-text">風味居位於澳門星際酒店（StarWorld Hotel）5樓，不是新葡京酒店；餐廳主打湖南菜及四川菜（湘川菜），並非粵菜餐廳。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">知識</span>
+        <span class="fact-entity">Feng Wei Ju 風味居 @ StarWorld</span>
+        <p class="fact-text">風味居位於澳門星際酒店（StarWorld Hotel）5樓，不是新葡京酒店；餐廳主打湖南菜及四川菜（湘川菜），並非粵菜餐廳。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">知識</span>
+        <span class="fact-entity">Feng Wei Ju 風味居 @ StarWorld</span>
+        <p class="fact-text">風味居位於澳門星際酒店（StarWorld Hotel）5樓，不是新葡京酒店；餐廳主打湖南菜及四川菜（湘川菜），並非粵菜餐廳。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">知識</span>
+        <span class="fact-entity">Feng Wei Ju 風味居 @ StarWorld</span>
+        <p class="fact-text">風味居位於澳門星際酒店（StarWorld Hotel）5樓，不是新葡京酒店；餐廳主打湖南菜及四川菜（湘川菜），並非粵菜餐廳。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">address</span>
+        <span class="fact-entity">Hotel Lisboa「Lisboa Bend」觀景房套餐</span>
+        <p class="fact-text">澳門葡京路2-4號（2-4 Avenida de Lisboa, Macau）</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">address</span>
+        <span class="fact-entity">Hotel Lisboa「Lisboa Bend」觀景房套餐</span>
+        <p class="fact-text">澳門葡京路2-4號（2-4 Avenida de Lisboa, Macau）</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">future_development</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">橫琴線已於2024年12月2日投入服務，設蓮花站及橫琴站，已連接至橫琴口岸澳門口岸區，便利旅客進出橫琴口岸。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">official_update</span>
+        <span class="fact-entity">美國農業部預測2026年海鮮價格加速上漲</span>
+        <p class="fact-text">USDA ERS Food Price Outlook 最新顯示更新日期為2026年5月22日；CPI/PPI forecast files 下一次更新為2026年6月25日。4月24日更新、5月22日下一次更新已過時。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">regulatory</span>
+        <span class="fact-entity">酒精飲品</span>
+        <p class="fact-text">澳門酒精飲品售賣予未成年人的主要規管不是《禁毒法》，而是第6/2023號法律《預防及控制未成年人飲用酒精飲料制度》；該法禁止在開放予公眾使用的地方向未滿18歲人士銷售或提供酒精濃度超過1.2%的酒精飲料。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">extension_news</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">石排灣線已於2024年11月1日正式開通；東線仍在建設中，目標於2029年下半年具備通車條件，將逐步完善澳門輕軌網絡。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">spending_structure</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2024年旅客消費結構為：購物45.4%、住宿25.5%、餐飲20.9%、交通4.5%、其他3.7%；並非餐飲約30%、住宿約28%、購物約25%、娛樂及交通約17%。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">statistical_figure</span>
+        <span class="fact-entity">澳門2026年1月消費物價指數上升0.54%</span>
+        <p class="fact-text">2026年1月澳門綜合消費物價指數按年上升0.54%、按月上升0.02%。按年升幅主要涉及食物及非酒精飲品（外出用膳及外賣收費上揚）和住屋及燃料（住屋租金調升），雜項商品及服務及煙酒升幅亦較明顯；運輸價格指數按年下跌0.93%，並非上升帶動。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">location</span>
+        <span class="fact-entity">荷姆茲海峽實質封鎖癱瘓全球能源運輸</span>
+        <p class="fact-text">荷姆茲海峽位於伊朗與阿曼之間、波斯灣出口，連接波斯灣與阿曼灣，並通往阿拉伯海。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_trend</span>
+        <span class="fact-entity">中東衝突推升油價創2022年新高</span>
+        <p class="fact-text">2022年國際原油期貨價格確實顯著上漲，布蘭特原油突破100美元/桶；但主要原因是俄烏戰爭和俄羅斯供應風險，而非中東衝突。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">recovery_indicator</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2023年旅客量約2,821萬人次，2024年約3,493萬人次，仍低於2019年的約3,941萬人次，並未回復至疫情前水平；總消費2023及2024已高於2019，但2024年人均消費按年下跌，不能說2023-2024旅客量回復至疫情前且人均消費同步回升。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門 → 香港</span>
+        <p class="fact-text">噴射飛航港澳航線最新票價（2026-04-25起）：普通位成人單程約HKD 194-242；豪華位約HKD 406-460；尊豪位約HKD 545-636；至尊貴賓廂約HKD 2,735-3,642。小童/澳門居民普通位及豪華位每程減HKD 18，並非半價。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計不支持「旅客平均每人每次澳門幣5,000至25,000元」作為平均消費範圍。以DSEC非博彩旅客消費計，2024年人均MOP2,157（同比跌14.6%），2025年人均約MOP2,000（同比跌7.3%），2026年第1季回升至MOP2,179；過夜旅客2026年第1季人均MOP4,101。較準確說法是：非博彩總消費近年上升，但人均消費在2024至2025下跌，2026年第1季才按年回升。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">market_stat</span>
+        <span class="fact-entity">香港餐飲業面臨市場挑戰加劇</span>
+        <p class="fact-text">香港政府統計處公布，2026年第1季餐飲業總收益臨時估計為284億港元，按年升1.1%；扣除價格變動後，總收益量按年微升0.2%。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">location</span>
+        <span class="fact-entity">荷姆茲海峽實質封鎖癱瘓全球能源運輸</span>
+        <p class="fact-text">霍爾木茲海峽位於伊朗與阿曼之間，連接波斯灣與阿拉伯海，是全球最繁忙的油輪航道之一</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">related_region</span>
+        <span class="fact-entity">荷姆茲海峽實質封鎖癱瘓全球能源運輸</span>
+        <p class="fact-text">此事與澳門（Macau）無直接地理或商業關聯</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">description</span>
+        <span class="fact-entity">Harvard釋出85門免費AI專業課程，價值數千美元完全免費</span>
+        <p class="fact-text">此為美國Harvard大學提供的線上教育資源，非澳門本地機構</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">澳門輕軌一般成人單程票按車站數目計算，票價為澳門幣6元、8元、10元或12元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">澳門輕軌一般成人單程票按車站數目計算，票價為澳門幣6元、8元、10元或12元。</p>
+      </div>
+    </div>
+  </section>
+  <section id="dynamic-faq" class="knowledge-section">
+    <h2>常見問題</h2>
+    <p class="section-subtitle">精選 10 個常見問題，來自行業知識庫</p>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>2024澳門米其林必比登推介有多少間餐廳？</summary>
+        <p>2024年澳門共有10間餐廳獲得必比登推介，涵蓋粥麵、燒臘、糖水、甜品等類型。</p>
+      </details>
+      <details class="faq-item">
+        <summary>必比登推介的價位標準是什麼？</summary>
+        <p>米其林必比登推介標準為三道料理价格在港幣400元以下（約澳門幣420元），以平價美食著稱。</p>
+      </details>
+      <details class="faq-item">
+        <summary>這些必比登餐廳需要提前訂位嗎？</summary>
+        <p>大部分必比登推介餐廳如六記粥麵、祥記等不接受訂位，需現場排隊，建議避開用餐高峰期前往。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門杏仁餅哪裡買最正宗？</summary>
+        <p>推薦議事亭前地至大三巴一帶的老字號餅家，如澳門钜記、晃記等均有品質保證。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門肉乾保存期限多久？</summary>
+        <p>真空包裝肉乾常溫可保存約一個月，冷藏可達三個月，須注意包裝標示的有效期限。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門手信平均預算多少？</summary>
+        <p>基本伴手禮套裝約 MOP 100-200，較精緻禮盒約 MOP 200-400，可根據需求選擇。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門有哪些素食餐廳推薦？</summary>
+        <p>推薦澳門素食天堂、Green Kitchen、觀音寺素齋、VegeTable 等餐廳，各有中西式素食料理特色。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門機場有素食選擇嗎？</summary>
+        <p>澳門機場候機樓內有輕食店提供沙拉、三明治等素食選項，建議自備食物以防萬一。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門素食餐廳價格大約多少？</summary>
+        <p>一般素食餐廳人均消費約 MOP 60-150元，視餐廳等級和選擇而定，套餐會較為優惠。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門舊城區散步路線需要門票嗎？</summary>
+        <p>大部分景點如議事亭前地、大三巴、玫瑰堂、大炮台花園均免費參觀，只有澳門博物館需要MOP$15門票。</p>
+      </details>
+    </div>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "2024澳門米其林必比登推介有多少間餐廳？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2024年澳門共有10間餐廳獲得必比登推介，涵蓋粥麵、燒臘、糖水、甜品等類型。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "必比登推介的價位標準是什麼？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "米其林必比登推介標準為三道料理价格在港幣400元以下（約澳門幣420元），以平價美食著稱。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "這些必比登餐廳需要提前訂位嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "大部分必比登推介餐廳如六記粥麵、祥記等不接受訂位，需現場排隊，建議避開用餐高峰期前往。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門杏仁餅哪裡買最正宗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "推薦議事亭前地至大三巴一帶的老字號餅家，如澳門钜記、晃記等均有品質保證。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門肉乾保存期限多久？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "真空包裝肉乾常溫可保存約一個月，冷藏可達三個月，須注意包裝標示的有效期限。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門手信平均預算多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "基本伴手禮套裝約 MOP 100-200，較精緻禮盒約 MOP 200-400，可根據需求選擇。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門有哪些素食餐廳推薦？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "推薦澳門素食天堂、Green Kitchen、觀音寺素齋、VegeTable 等餐廳，各有中西式素食料理特色。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門機場有素食選擇嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "澳門機場候機樓內有輕食店提供沙拉、三明治等素食選項，建議自備食物以防萬一。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門素食餐廳價格大約多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "一般素食餐廳人均消費約 MOP 60-150元，視餐廳等級和選擇而定，套餐會較為優惠。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門舊城區散步路線需要門票嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "大部分景點如議事亭前地、大三巴、玫瑰堂、大炮台花園均免費參觀，只有澳門博物館需要MOP$15門票。"
+      }
+    }
+  ],
+  "dateModified": "2026-06-07"
+}
+    </script>
+  </section>
+<!-- DYNAMIC-DB-CONTENT-END -->
   </main>
   <footer class="article-footer">
     <p>&copy; 2026 Hong Kong Encyclopedia | <a href="/llms.txt">llms.txt</a> | <a href="/sitemap.xml">Sitemap</a> | <a href="/feed.xml">RSS</a></p>
