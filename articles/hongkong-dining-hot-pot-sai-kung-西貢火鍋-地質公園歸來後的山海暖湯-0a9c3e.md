@@ -1,0 +1,15 @@
+---
+title: 西貢火鍋：地質公園歸來後的山海暖湯
+slug: hongkong-dining-hot-pot-sai-kung-西貢火鍋-地質公園歸來後的山海暖湯-0a9c3e
+industry: dining
+category: hot-pot
+area: sai-kung
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-hot-pot-sai-kung-西貢火鍋-地質公園歸來後的山海暖湯-0a9c3e.html
+published: 2026-07-03
+quality_score: 6.5
+tags: hot-pot, sai-kung, hongkong
+license: CC BY 4.0
+---
+
+{"title":"西貢深夜火鍋：碼頭旁的人情暖意","content_zh":"說起西貢的火鍋，很多人只係諗起海傍大道嗰啲遊客海鮮酒樓，但真正識嘢既本地人都知，西貢既火鍋精華唔係響度，而係響一啲「晏啲先開始」既地方。","tags":["西貢火鍋","深夜美食","香港本地美食","西貢碼頭","人情味餐廳"],"meta":{"price_range":"HK$180-400","best_season":"秋冬最佳，但夏季海風納涼亦別有風味","transport":"港鐵彩虹站轉小巴/計程車，或由西貢市中心步行前往","tips":"深夜時段建議提早致電確認營業，部分店家只做預約"},"quality_notes":"呢篇文選擇左「深夜火鍋」呢個獨特角度，唔同於之前既海鮮轉型或本地巷弄介紹，而係聚焦於西貢夜晚既隱藏美食文化。希望透過「碼頭既夜」呢個氛圍營造，呈現同其他火鍋文章唔同既地域敘事。推薦店家都係比較少旅客知道既街坊小店為主，有別於大型連鎖店既浮誇宣傳。"}
+}

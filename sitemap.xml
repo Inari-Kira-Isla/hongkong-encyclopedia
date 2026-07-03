@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hongkong-encyclopedia.vercel.app/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/llms.txt</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>  <url>
@@ -1428,6 +1428,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-causeway-bay-銅鑼灣茶餐廳-港島區老街坊的食堂地圖-732663.html</loc>
     <lastmod>2026-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-causeway-bay-銅鑼灣茶餐廳-港島商務區的白領午餐地圖-7ac339.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -6471,6 +6476,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-central-中環fine-dining深度遊-從大館到荷李活道的歷史建築餐飲美學-1afab7.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-central-中環fine-dining的傳承與蛻變-老字號家族餐廳的米芝蓮之路-649763.html</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -8921,6 +8931,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-hot-pot-sai-kung-西貢火鍋-地質公園歸來後的山海暖湯-0a9c3e.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-hot-pot-sai-kung-西貢火鍋-城市邊緣的暖心深夜食堂-705c0a.html</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -11301,6 +11316,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-stanley-stanley-milk-tea-986f3b-1783107937.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-tsim-sha-tsui-tsim-sha-tsui-milk-tea-6c7ee7.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -11483,6 +11503,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-lantau-大嶼山奶茶二重奏-新市鎮與古漁村的茶香對話-065b46.html</loc>
     <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-lantau-大嶼山奶茶地圖-機場樞紐與天壇之間的茶香脈動-a52563.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -12558,6 +12583,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-cheung-chau-長洲黃昏奶茶地圖-日落海傍的茶香浪漫-678bae.html</loc>
     <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-aberdeen-香港仔奶茶地圖-從魚市場到避風塘的社群茶香-e1e08b.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -15286,6 +15316,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-cheung-chau-長洲平價海鮮攻略-島嶼一日遊的鮮美選擇-383cbc.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-cheung-chau-長洲平民海鮮攻略-小島大海味的慳錢食法-a748c5.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -16216,6 +16251,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-tsim-sha-tsui-尖沙咀影視娛樂全攻略-電影院周邊的沉浸式體驗-80558c.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-tsim-sha-tsui-尖沙咀週邊觀影指南-九龍核心區的電影文化體驗-f8ab0a.html</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -16278,6 +16318,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-tsim-sha-tsui-尖沙咀電影文化夜遊指南-非一般的影視體驗代替方案-65dc84.html</loc>
     <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-tsim-sha-tsui-尖沙咀電影文化深度遊-不止於影院的視覺享受-02b6b2.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -16383,6 +16428,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-tsim-sha-tsui-尖沙咀電影院完全指南-電影文化的沉浸式體驗之旅-827022.html</loc>
     <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-cinema-tsim-sha-tsui-尖沙咀電影院完整指南-九龍半島的觀影聖地-19a64e.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -21031,6 +21081,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-horse-racing-central-中環賽馬文化觀察-金融心臟裡的馬迷日常-27b6db.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-horse-racing-central-中環賽馬文化-香港金融心臟的駿馬情結-b0f707.html</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -22868,6 +22923,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-horse-racing-cheung-chau-長洲沒有賽馬場-但有這些充滿島嶼風情的特色活動-280287.html</loc>
     <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-horse-racing-cheung-chau-長洲沒有賽馬場-但有這些讓你玩到不想走的活動-b4dda1.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -24956,6 +25016,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-live-music-stanley-赤柱街頭音樂奇遇記-海濱長廊的偶遇式演出-28dde5.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-live-music-stanley-赤柱親子音樂半日遊-帶孩子在海邊聽現場演奏的慢時光-db9415.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -26428,6 +26493,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-nightlife-lantau-大嶼山夜生活-遠離喧囂的島嶼夜色-41d641.html</loc>
     <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-nightlife-lantau-大嶼山夜生活-遠離喧囂的島嶼夜色-41d641-1783097164.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -28193,6 +28263,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-nightlife-cheung-chau-長洲夜生活-島嶼節奏的深夜食堂-7b18d7.html</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-nightlife-cheung-chau-長洲夜生活-島嶼限定的慢節奏夜色-30d4a2.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -30116,6 +30191,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-theme-parks-wan-chai-灣仔非主流娛樂地圖-港島核心的沉浸式體驗新據點-f27799.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-theme-parks-wan-chai-灣仔非主流娛樂地圖-白領放鬆與創意體驗的深夜樂園-ce0c61.html</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -30148,6 +30228,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-theme-parks-sai-kung-西貢主題樂園全攻略-水上活動與戶外探險的天堂-a04d35.html</loc>
     <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-theme-parks-sai-kung-西貢主題樂園終極指南-遠離塵囂的戶外探險與地質奇觀體驗-c897b7.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -30838,6 +30923,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-theme-parks-cheung-chau-長洲另類主題樂園-探險達人帶路的隱藏版島嶼攻略-17e706.html</loc>
     <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-entertainment-theme-parks-cheung-chau-長洲另類探索-非典型主題樂園的文化美食一日遊-a8521e.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -33111,6 +33201,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-causeway-bay-銅鑼灣日式古道具-日圓貶值潮中的日本工藝尋寶-d27391.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-antiques-causeway-bay-銅鑼灣日式骨董-港島東的日本風格收藏寶藏-801c85.html</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -34541,6 +34636,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-mong-kok-旺角電子產品選購攻略-銀髮族的在地人情味購物指南-516b28.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-mong-kok-旺角電子產品選購-非主流數碼港的獨特生存之道-19fe3d.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -34708,6 +34808,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-wan-chai-灣仔電子產品選購指南-傳統社群裡的巷弄科技-46acd6.html</loc>
     <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-wan-chai-灣仔電子產品選購指南-商務區的隱藏科技寶藏-ce990b.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -34978,6 +35083,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-sai-kung-西貢電子產品購買指南-戶外探險科技與專業通訊裝置寶藏-6346dd.html</loc>
     <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-sai-kung-西貢電子產品選購指南-銀髮族與科技新手的友善購物好去處-820f95.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -35798,6 +35908,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-aberdeen-香港仔電子產品選購指南-南區居民的社群科技生活-704b05.html</loc>
     <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-electronics-aberdeen-香港仔電子產品選購攻略-南區居民日常數碼生活的隱藏寶藏-5eef30.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -39011,6 +39126,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-luxury-malls-tsim-sha-tsui-尖沙咀銀髮購物指南-為熟齡旅客打造的高階消費體驗-508983.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-luxury-malls-tsim-sha-tsui-尖沙咀高階商場深度購物導覽-從文化藝術到跨境消費的多元體驗-5db11c.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -41161,6 +41281,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-outlet-stores-mong-kok-旺角平價購物隱藏寶藏-巷弄中的口袋折扣地圖-77f3dc.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-outlet-stores-mong-kok-旺角平價購物隱藏攻略-不是outlet-但更好逛-072fa6.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -42008,6 +42133,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-outlet-stores-causeway-bay-銅鑼灣隱藏折扣地圖-本地人帶路的巷弄尋寶攻略-737175.html</loc>
     <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-outlet-stores-causeway-bay-銅鑼灣隱藏折扣地圖-非典型尋寶購物攻略-66296a.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -44026,6 +44156,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-street-markets-stanley-赤柱週末慢活市集-港島南端的社群藝術與人情味-9287ca.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-street-markets-stanley-赤柱銀髮慢遊-港島南端的樂齡購物指南-62602e.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -44208,6 +44343,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-street-markets-causeway-bay-銅鑼灣街市-高階零售聚集的購物王國-af590f.html</loc>
     <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-shopping-street-markets-causeway-bay-銅鑼灣街道專業化解密-從租金地獄到主題商店的生存法則-a5ffbd.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -47556,6 +47696,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-mong-kok-旺角夜文化遺產-深夜食堂裡的老味道與人情-7638ad.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-mong-kok-旺角夜文化遺產-霓虹燈下的老店靈魂與深夜食堂-ccbb5e.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -47733,6 +47878,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-mong-kok-旺角活態文化遺產-街巷裡的手藝人與小店靈魂-2bcbe3.html</loc>
     <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-cultural-heritage-mong-kok-旺角活態文化遺產-隱藏巷弄中的傳統手藝人-a3a493.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -49178,6 +49328,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-harbour-cruise-central-中環碼頭的海上人生-從晨渡到夜航的港島北海岸線-5f90b6.html</loc>
     <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-harbour-cruise-central-中環碼頭航線深度遊-從百年渡輪歷史走進維港的黃昏時分-76e1f7.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -50821,6 +50976,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-harbour-cruise-cheung-chau-長洲島內海上航道-探索維港之外的海岸線風情-1ffa16.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-harbour-cruise-cheung-chau-長洲島際海上航道-維港往返的另類海上體驗-4ae1be.html</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -50923,6 +51083,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-harbour-cruise-cheung-chau-長洲海路物語-搭渡輪穿越海域的日常風情-97058a.html</loc>
     <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-harbour-cruise-cheung-chau-長洲海路食一圈-從船上視角探索西瓜渠與海鮮水路-0b788e.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -55751,6 +55916,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-central-從中環出發的香港離島輕旅行-遠離喧囂的島嶼療癒提案-b771c2.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-central-從中環出發的香港離島遊-探索都市邊緣的世外桃源-5d6ac4.html</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -56506,6 +56676,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-sai-kung-西貢離島-深入海上桃花源的探險指南-e58f31.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-sai-kung-西貢離島-遠離塵囂的港島後花園-6e53ac.html</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -56636,6 +56811,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-stanley-赤柱出發-香港南區跳島遊全攻略-9dcd4c.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-stanley-赤柱出發-香港南區跳島遊徑-從赤柱碼頭通往南丫島的隱藏路線-c77f3c.html</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -56726,8 +56906,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-stanley-赤柱-港島南端的異國風情海濱與隱藏版深度遊-854f41.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-stanley-赤柱-香港南區的海濱小鎮與離島門戶-bd56c7.html</loc>
     <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-causeway-bay-銅鑼灣出發便捷跳島遊-三分鐘到中環碼頭的離島攻略-8b50b2.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -57868,6 +58058,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-temples-tsim-sha-tsui-尖沙咀隱藏的祈福空間-鬧市中心的精神棲息地-4d4cd2.html</loc>
     <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-temples-tsim-sha-tsui-尖沙咀非典型祈福地圖-商場與寺廟之間的信仰角落-a16823.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -59196,6 +59391,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-temples-aberdeen-香港仔廟宇探索-隱藏在漁港小鎮的祈福足跡-45589e.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-temples-aberdeen-香港仔廟宇散步-避風塘旁的隱藏祈福地-8cc1ae.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -59688,6 +59888,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-victoria-peak-wan-chai-太平山頂行山徑-從港島徑探索香港之巔-dfef27.html</loc>
     <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-victoria-peak-causeway-bay-太平山頂行山徑-從登山角度看見不一樣的香港巔峰-ec7f9f.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -61038,6 +61243,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-victoria-peak-cheung-chau-長洲-太平山頂-一次搞清長洲與山頂的分別與遊覽攻略-950131.html</loc>
     <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-victoria-peak-cheung-chau-長洲一日遊-遠離都市喧囂的慢活島嶼-c1977d.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
