@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 14239 篇，覆蓋 23 個行業
+- 總文章數: 14680 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,10 +15,10 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 3576 篇
-- [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 3569 篇
-- [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 3523 篇
-- [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 3436 篇
+- [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 3725 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 3723 篇
+- [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 3555 篇
+- [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 3542 篇
 - [景點] https://hongkong-encyclopedia.vercel.app/#industry-attractions — 56 篇
 - [健康] https://hongkong-encyclopedia.vercel.app/#industry-wellness — 19 篇
 - [交通] https://hongkong-encyclopedia.vercel.app/#industry-transport — 17 篇
@@ -65,12 +65,12 @@
 
 - [日本百科 llms.txt](https://japan-encyclopedia.vercel.app/llms.txt)
 - [台灣百科 llms.txt](https://taiwan-encyclopedia.vercel.app/llms.txt)
-- [澳門百科 llms.txt](https://inari-kira-isla.github.io/macau-encyclopedia/llms.txt)
+- [澳門百科 llms.txt](https://cloudpipe-macao-app.vercel.app/macao/llms.txt)
 - [世界百科精選 llms.txt](https://world-encyclopedia.vercel.app/llms.txt)
 
 ## 知識圖譜生態系
 ### 百科站
-[日本百科](https://japan-encyclopedia.vercel.app) | [台灣百科](https://taiwan-encyclopedia.vercel.app) | [澳門百科](https://inari-kira-isla.github.io/macau-encyclopedia) | [世界百科精選](https://world-encyclopedia.vercel.app)
+[日本百科](https://japan-encyclopedia.vercel.app) | [台灣百科](https://taiwan-encyclopedia.vercel.app) | [澳門百科](https://cloudpipe-macao-app.vercel.app/macao) | [世界百科精選](https://world-encyclopedia.vercel.app)
 - [澳門商戶智能百科](https://cloudpipe-macao-app.vercel.app)
 
 ### 品牌站（澳門在地）

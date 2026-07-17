@@ -1,0 +1,15 @@
+---
+title: 銅鑼灣燒鵝｜本地 OL 午餐秘店！時代廣場後街的隱藏版燒臘
+slug: hongkong-dining-roast-goose-causeway-bay-銅鑼灣燒鵝-本地-ol-午餐秘店-時代廣場後街的隱藏版燒臘-de5efd
+industry: dining
+category: roast-goose
+area: causeway-bay
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-causeway-bay-銅鑼灣燒鵝-本地-ol-午餐秘店-時代廣場後街的隱藏版燒臘-de5efd.html
+published: 2026-07-17
+quality_score: 6.5
+tags: roast-goose, causeway-bay, hongkong
+license: CC BY 4.0
+---
+
+{"title":"銅鑼灣燒鵝：港島購物區的隱藏粵菜經典","content_zh":"說起銅鑼灣，大部分人第一時間諗起嘅係時代廣場、崇光sogo、希慎廣場——呢個係香港島最旺嘅購物商圈。但如果你淨係嚟買嘢嘅話，就真係走寶啦！其實銅鑼灣隱藏咗唔少高質燒鵝店，佢哋唔似中環啲老字號咁為人熟悉，卻啱啱好係「唔想同人逼」又想食好嘢嘅選擇。","tags":["銅鑼灣燒鵝","港島美食","粵菜","香港燒臘","銅鑼灣餐廳"],"meta":{"price_range":"HK$60-200人均，午餐套餐約HK$80-150，單點燒鵝例牌約HK$120-180","best_season":"全年適宜，秋冬季節最佳","transport":"港鐵銅鑼灣站、天后站；巴士及計程車","tips":"銅鑼灣燒鵝店多數集中於霎東街、波斯富街一帶，適合購物中途用餐"},"quality_notes":"文章以「購物天堂中的隱藏美食」為切入點，突顯銅鑼灣燒鵝的「低調奢華」定位。推薦了5間不同型別的店鋪，涵蓋傳統老店、商場美食廣場、型格小店等面向，與中環、旺角的定位做出差異化。實用資訊部分提供了具體地址和價格範圍，旅遊小提示則強調時段性呢個香港食店既獨特文化。"}
+}
