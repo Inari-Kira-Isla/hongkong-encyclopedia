@@ -1,0 +1,36 @@
+---
+title: 尖沙咀出發 Island Hopping：隱藏版跳島玩法
+slug: hongkong-tourism-outlying-islands-tsim-sha-tsui-尖沙咀出發-island-hopping-隱藏版跳島玩法-05122b
+industry: tourism
+category: outlying-islands
+area: tsim-sha-tsui
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-tourism-outlying-islands-tsim-sha-tsui-尖沙咀出發-island-hopping-隱藏版跳島玩法-05122b.html
+published: 2026-07-19
+quality_score: 6.5
+tags: 尖沙咀離島, 跳島遊, 長洲島, 南丫島, 坪洲
+license: CC BY 4.0
+---
+
+提到尖沙咀，一般人想到的是維多利亞港、海港城 or the Star Ferry, but this prosperous tourist district actually serves as a perfect gateway to Hong Kong's outlying islands. If you want to escape the city crowds and explore the local island life, starting from Tsim Sha Tsui is a smart choice—this area connects to various ferry terminals and MTR stations, making island hopping super convenient.
+
+尖沙咀出發的離島體驗有個獨特優勢：你可以先在市區盡情購物、享用美食，下午再搭船前往島上感受慢活節奏。相比從香港島或西貢出發，這條路線更適合行程緊湊的旅客，特別是住在九龍區的遊客。
+
+**推薦體驗**
+
+**長洲島** — 從尖沙咀出發，先搭MTR到中環站，再步行至中環5號碼頭乘渡輪，航程約55分鐘。這座島是香港最具傳統漁村風情的離島，東灣海灘水質清澈，週末常有家庭在此曬太陽。島上的海鮮餐廳集中在海傍街，新鮮捕撈的瀨尿蝦一盤約HK$120-180，比市區實惠許多。傍晚時分看著漁船歸港，夕陽把海面染成橘紅，瞬間忘記自己身處國際都會。
+
+**南丫島** — 同樣從中環碼頭出發，航程約40分鐘。這裡是外籍人士的後花園，許多西方面孔在此定居，形成獨特的異國風情。島上有兩條主要步道：一條通往索罟灣，另一條達到榕樹灣。喜歡戶外活動的旅客可以在榕樹灣租單車，一小時約HK$30，沿海岸線騎行非常寫意。島上的意式餐廳和素食cafe水準頗高，消費約比市區低15-20%。
+
+**坪洲** — 從中環6號碼頭乘船，航程約35分鐘。這座小島相對冷門，遊客比長洲和南丫島少很多，保留了更原始的漁村風貌。島上的手工工作坊頗有驚喜，有老師傅經營的傳統木器店，一件小型木雕約HK$80-150。坪洲沒有喧鬧的酒吧街，只有幾家傳統茶餐廳，奶茶一杯約HK$18，味道比連鎖店更濃鬱。建議安排半天時間，慢慢感受這裡的寧靜氛圍。
+
+**大嶼山** — 從尖沙咀搭MTR到東湧站，再轉乘昂坪360纜車。這裡有全球最大的戶外青銅坐佛——天壇大佛，氣勢磅礴。昂坪市集充滿中式傳統建築特色，購買紀念品記得殺價，通常有20-30%議價空間。喜歡沙灘的旅客可以前往貝澳，水質乾淨且設施齊全，租借沙灘傘約HK$50。
+
+**實用資訊**
+
+交通方面，從尖沙咀前往各離島主要有兩種方式：1) 尖沙咀天星碼頭→渡輪→中環碼頭(轉船)；2) MTR東湧線→東湧站(往大嶼山)。中環至各島渡輪班次頻繁，長洲和南丫島平日約30分鐘一班，坪洲則一小時一班。回程最晚航班約晚上11點，但建議提早規劃避免錯過。
+
+費用方面，中環至長洲普通渡輪單程約HK$14.5-22.5(視船種而定)，高速船約HK$45；南丫島約HK$17-26；坪洲約HK$13.5-20。使用八達通可直接刷卡上船，無需排隊購票。
+
+**旅遊小提示**
+
+尖沙咀出發的跳島行程，建議選擇平日或週六上午出發，避開週日的人潮高峰。帶備防曬和飲用水，島上部分割槽域較少補給點。如果計劃當天往返，記得檢視渡輪時刻表，預留充足時間回程。澳門旅客持八達通可在港使用，搭MTR和渡輪都很方便，無需另外購票。
