@@ -1,0 +1,14 @@
+---
+title: 赤柱雞蛋仔：沙灘夕陽下的港式甜香
+slug: hongkong-dining-egg-waffles-stanley-赤柱雞蛋仔-沙灘夕陽下的港式甜香-aa3a46
+industry: dining
+category: egg-waffles
+area: stanley
+url: https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-stanley-赤柱雞蛋仔-沙灘夕陽下的港式甜香-aa3a46.html
+published: 2026-07-23
+quality_score: 6.5
+tags: egg-waffles, stanley, hongkong
+license: CC BY 4.0
+---
+
+{"title":"赤柱雞蛋仔：沙灘夕陽下的港式甜蜜","content_zh":"說到香港的雞蛋仔，十個人有十個答案，但如果你問本地老饕「邊度嘅雞蛋仔最有 Feel」，赤柱肯定係唔少人心中的首選。","content_zh_2":"唔似港島北邊咁逼，呢度有藍天白雲同埋海風，同雞蛋仔嘅香甜簡直係絕配。","tags":["赤柱雞蛋仔","香港海灘美食","南區小食","港島遊","沙灘小食"],"meta":{"price_range":"HK$18-28","best_season":"全年適宜，春夏最適合沙灘遊","transport":"港鐵香港大學站B出口轉巴士，或中環交易廣場乘搭巴士","tips":"黃昏時分最啱買雞蛋仔配夕陽"}],"quality_notes":"呢篇文主打體驗型角度，將雞蛋仔提升為赤柱休閒文化既象徵，唔只係一粒粒既小食，而係一種生活態度既體驗。推薦既店家都係當地有特色既選擇，唔係隨便既連鎖店。"}
