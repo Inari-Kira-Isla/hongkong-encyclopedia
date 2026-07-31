@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 15351 篇，覆蓋 23 個行業
+- 總文章數: 15355 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,7 +15,7 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 4123 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 4127 篇
 - [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 3948 篇
 - [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 3869 篇
 - [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 3292 篇

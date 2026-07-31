@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hongkong-encyclopedia.vercel.app/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/llms.txt</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>  <url>
@@ -11621,6 +11621,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-hot-pot-wan-chai-灣仔火鍋尋寶記-霓虹燈下的暖意鍋物-206e07.html</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-hot-pot-wan-chai-灣仔火鍋攻略-港島商業心臟的暖胃鍋物天堂-ade086.html</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -13823,6 +13828,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-wan-chai-灣仔米芝蓮街頭美食-舊城區的味蕾驚喜-abe8f0.html</loc>
     <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-wan-chai-灣仔米芝蓮街頭美食-舊城區的巷弄味力-ffd43c.html</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -17271,6 +17281,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-lantau-大嶼山燒鵝-慢活島嶼中的隱世滋味-38ea21.html</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-lantau-大嶼山燒鵝-昂坪-梅窩與大澳的在地古早味-be7a66.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -17698,6 +17713,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-mong-kok-旺角燒鵝-九龍老區的巷仔滋味與米芝蓮傳說-a37363.html</loc>
     <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-mong-kok-旺角燒鵝-九龍老區的平民米芝蓮-78e5b8.html</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
