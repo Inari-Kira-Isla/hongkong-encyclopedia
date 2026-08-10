@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hongkong-encyclopedia.vercel.app/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/llms.txt</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>  <url>
@@ -353,6 +353,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-stanley-stanley茶餐廳-赤柱美利樓外的街坊滋味與隱藏版美食-6948dc.html</loc>
     <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-central-中環-cha-chaan-teng-早更路線-從絲襪奶茶到大牌檔茄牛麵-35433b.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -2736,6 +2741,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-lantau-大嶼山大牌檔指南-由梅窩碼頭食到大澳棚屋的離島街坊味-a9c710.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-lantau-大嶼山大牌檔指南-由街坊熟食場到離島海鮮的山海鑊氣-1cf52e.html</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -2868,6 +2878,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔指南-別只找綠色鐵皮-沿街坊飯堂路線吃懂九龍滋味-92cec3.html</loc>
     <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔指南-別追招牌-沿街坊夜食路線尋找鑊氣-efa9de.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -4336,6 +4351,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-aberdeen-香港仔大牌檔街坊路線-由魚市場鑊氣食到屋邨熟食中心-c68863.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-aberdeen-香港仔大牌檔-南區人的深夜食堂-20e563.html</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -4918,6 +4938,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dim-sum-lantau-大嶼山點心指南-由東湧-機場到迪士尼的順路飲茶路線-ffc9ac.html</loc>
     <lastmod>2026-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dim-sum-lantau-大嶼山點心指南-由東湧酒店茶市吃到昂坪素點-4c31ee.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -6351,8 +6376,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dim-sum-causeway-bay-銅鑼灣點心指南-購物區內也有認真早茶-de7576.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dim-sum-causeway-bay-銅鑼灣點心攻略-港島購物區的隱藏茶樓與人情味-931006.html</loc>
     <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dim-sum-causeway-bay-銅鑼灣點心攻略-由老派手工到商場靚茶-細人數也能食得精明-0c28fc.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -10551,6 +10586,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-stanley-赤柱-fine-dining-指南-不追星級-吃的是南區海灣的從容-34cbd9.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-stanley-赤柱-fine-dining-不追星級餐單-吃的是南區海岸的從容-5a7ec3.html</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -13506,6 +13546,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-hot-pot-cheung-chau-長洲火鍋指南-自己揀海鮮-慢慢打邊爐的海島食法-549a69.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-hot-pot-cheung-chau-長洲火鍋攻略-海島小鎮的人情味暖鍋-71d51f.html</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -14568,6 +14613,16 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-tsim-sha-tsui-尖沙咀隱世街頭美食-非遊客區的本地滋味地圖-58d510.html</loc>
     <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-mong-kok-旺角-michelin-street-food-一個人也吃得好的後街-2dde57.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-mong-kok-旺角-michelin-street-food-一個人也吃得精彩的平-1dedaf.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -16356,6 +16411,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-central-中環港式奶茶指南-沿上班族路線喝懂茶膽-淡奶與街坊節奏-154f37.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-central-中環港式奶茶散步-由寫字樓茶記走到上環老冰室-7bf370.html</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -16398,6 +16458,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-cheung-chau-大埔奶茶地圖-從老冰室到精品店的fusion味道指南-34a5aa.html</loc>
     <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-lantau-大嶼山-milk-tea-路線-給遠足客的山海奶茶補給指南-2287c2.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -17836,6 +17901,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-causeway-bay-銅鑼灣奶茶散步-由商業區喝到大坑-跑馬地的茶膽變化-bb0eda.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-causeway-bay-銅鑼灣奶茶新浪潮-從老冰室到網紅店的味覺進化論-543270.html</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -18303,6 +18373,16 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-aberdeen-香港仔奶茶散步-由街市晨茶飲到華富屋邨下午茶-5339dd.html</loc>
     <lastmod>2026-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-aberdeen-香港仔奶茶散步-跟街坊作息飲一杯真正港式茶-6ae6f7.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-aberdeen-香港仔奶茶散步-跟街坊生活節奏飲一杯真正港式奶茶-f6d58a.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -19341,6 +19421,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-wan-chai-灣仔燒鵝指南-趁午市收爐前-食懂商業區背後的燒臘節奏-046fd2.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-wan-chai-灣仔燒鵝指南-避開飯市人潮-食懂商業區的燒味節奏-8effcf.html</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -19913,6 +19998,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-causeway-bay-銅鑼灣燒鵝指南-由快餐斬料到酒家宴席的鬧市吃法-230a9c.html</loc>
     <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-roast-goose-causeway-bay-銅鑼灣燒鵝指南-由街坊燒味飯到商場粵菜的實用選擇-df3fb6.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -22086,6 +22176,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-causeway-bay-銅鑼灣海鮮宵夜指南-街市鮮味-避風塘鑊氣與商場粵菜-41595c.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-causeway-bay-銅鑼灣海鮮尋味-時代廣場周邊的隱藏鮮味地圖-262c4a.html</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -22108,6 +22203,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-causeway-bay-銅鑼灣海鮮指南-港島繁華區的品味之選-04a61a.html</loc>
     <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-causeway-bay-銅鑼灣海鮮指南-由街市熟食到避風塘炒蟹的夜行路線-9dac04.html</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
