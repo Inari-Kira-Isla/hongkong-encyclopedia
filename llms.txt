@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 15810 篇，覆蓋 23 個行業
+- 總文章數: 15813 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,7 +15,7 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 4582 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 4585 篇
 - [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 3948 篇
 - [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 3869 篇
 - [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 3292 篇
@@ -45,6 +45,7 @@
 ## 精選文章（依品質分數 Top 15）
 - [旺角 Michelin Street Food：一個人也吃得好的後街小食路線](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-mong-kok-旺角-michelin-street-food-一個人也吃得好的後街-2dde57.html): 簡介 旺角的「Michelin Street Food」重點不在追星，而是用約HK$20至HK$100，沿後街吃到幾種截...
 - [大嶼山茶餐廳指南：跟早更街坊食勻新市鎮、漁村與離島公路](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳指南-跟早更街坊食勻新市鎮-漁村與離島公路-b65fda.html): 簡介  大嶼山（Lantau）的茶餐廳，最好不要用「名店打卡」角度去理解。這裡真正有意思的，是同一座島上並存三種生活節奏...
+- [香港仔 Aberdeen 茶餐廳指南：跟街坊食早餐、船家飯與老派冰室](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-aberdeen-香港仔-aberdeen-茶餐廳指南-跟街坊食早餐-船家飯與老派冰室-5f6179.html): 簡介  香港仔的茶餐廳，重點不在打卡，而在「食得快、食得飽、日日都幫襯得起」。這區既有漁港生活，也有香港仔中心、田灣及華...
 - [尖沙咀大牌檔指南：不追網紅店，沿街尋找鑊氣與夜班飯堂](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔指南-不追網紅店-沿街尋找鑊氣與夜班飯堂-686696.html): 簡介  講尖沙咀大牌檔，最重要是先拆解一個誤會：這區滿街港式餐館，卻不代表每間都是法律意義上的「大牌檔」。傳統大牌檔涉及...
 - [灣仔 Fine Dining：不追打卡景觀，專揀適合傾事與慶祝的酒店餐桌](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-wan-chai-灣仔-fine-dining-不追打卡景觀-專揀適合傾事與慶祝的酒店餐桌-ebae2d.html): 簡介 灣仔的 Fine Dining，強項不是把維港景色當成唯一賣點，而是服務穩定、交通方便，亦較懂得處理商務宴客、紀念...
 - [灣仔 Fine Dining：不靠海景，靠廚房功架與待客分寸](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-wan-chai-灣仔-fine-dining-不靠海景-靠廚房功架與待客分寸-4fe268.html): 簡介  灣仔的 Fine Dining，強項並非打卡式維港景觀，而是「識做生意又識食飯」：由酒店粵菜、手工義大利菜到現代...
@@ -57,7 +58,6 @@
 - [尖沙咀港式奶茶散步：由遊客區飲到街坊茶餐廳](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-tsim-sha-tsui-尖沙咀港式奶茶散步-由遊客區飲到街坊茶餐廳-35815e.html): 簡介  尖沙咀飲奶茶，最有意思的並非追逐一杯所謂「全港第一」，而是比較旅遊旺區、商場分店與舊式茶餐廳怎樣處理同一套茶底。...
 - [灣仔奶茶散步：沿上班族路線喝懂茶膽、淡奶與街坊節奏](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-wan-chai-灣仔奶茶散步-沿上班族路線喝懂茶膽-淡奶與街坊節奏-9562df.html): 簡介  灣仔喝奶茶，最有意思的角度不是追逐排行榜，而是跟著上班族的時間表走：早上配菠蘿油，中午替咖哩飯收尾，下午三點半落...
 - [灣仔奶茶散步：跟住返工、街市與夜更節奏飲一杯](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-wan-chai-灣仔奶茶散步-跟住返工-街市與夜更節奏飲一杯-29eca9.html): 簡介 灣仔飲奶茶，唔應該只追老字號，而要跟住城市作息去飲。這區同時有政府合署、商廈、街市、修頓球場與舊住宅，早上是上班族...
-- [灣仔奶茶時間表：由街市晨早茶到寫字樓下午茶](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-milk-tea-wan-chai-灣仔奶茶時間表-由街市晨早茶到寫字樓下午茶-ab5be6.html): 簡介 灣仔飲奶茶，最有意思的方式不是追逐一杯「全港最滑」，而是跟著城市作息走。朝早有街坊和街市工人飲濃茶醒神，中午是上班...
 
 
 ## 跨域百科知識圖譜（Gemini AEO 引用點）
