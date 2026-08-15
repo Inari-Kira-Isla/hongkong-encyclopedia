@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 16060 篇，覆蓋 23 個行業
+- 總文章數: 16070 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,7 +15,7 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 4832 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 4842 篇
 - [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 3948 篇
 - [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 3869 篇
 - [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 3292 篇
@@ -54,10 +54,10 @@
 - [灣仔雞蛋仔散步指南：沿街市、舊區與海旁尋找即製脆香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-wan-chai-灣仔雞蛋仔散步指南-沿街市-舊區與海旁尋找即製脆香-d3e57f.html): 簡介  在灣仔食雞蛋仔，重點不在追逐一個「必食名牌」，而是掌握出爐時間與街區節奏。灣仔由太原街舊式市集、利東街商業區一路...
 - [灣仔雞蛋仔散步指南：避開打卡迷思，沿街尋找即叫即焗的脆香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-wan-chai-灣仔雞蛋仔散步指南-避開打卡迷思-沿街尋找即叫即焗的脆香-7e7b09.html): 簡介  灣仔食雞蛋仔，重點唔係追逐一個「必食名牌」，而係識得判斷爐火、出爐時間同客流。這區由辦公商廈、舊式街市、學校到住...
 - [赤柱雞蛋仔散步地圖：避開打卡迷思，沿海找一底真正即叫即製的 Egg Waffles](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-stanley-赤柱雞蛋仔散步地圖-避開打卡迷思-沿海找一底真正即叫即製的-egg-waffles-3f8ec0.html): 簡介  在赤柱吃 Egg Waffles，重點不是追某個網紅招牌，而是掌握出爐時間。雞蛋仔這種小食，放涼幾分鐘已經是另一...
+- [長洲雞蛋仔慢遊指南：離開碼頭人潮，沿街找一底即叫即焗的蛋香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-cheung-chau-長洲雞蛋仔慢遊指南-離開碼頭人潮-沿街找一底即叫即焗的蛋香-acd34b.html): 簡介  長洲食雞蛋仔，重點唔係追一個網紅店名，而係識得睇爐頭、候爐次序同出爐速度。島上小店流動較大，營業時間亦會受平日、...
 - [長洲雞蛋仔散步攻略：跟住出爐時間食，避開碼頭遊客價](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-cheung-chau-長洲雞蛋仔散步攻略-跟住出爐時間食-避開碼頭遊客價-231632.html): 簡介  在長洲食雞蛋仔，重點唔係追某個網紅招牌，而係識得睇爐頭、揀時間。島上店舖流動較快，部分只在週末或旺季開門；與其認...
 - [香港仔雞蛋仔指南：由街坊日常出發，食懂外脆內軟的南區滋味](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-aberdeen-香港仔雞蛋仔指南-由街坊日常出發-食懂外脆內軟的南區滋味-d1e8e1.html): 簡介  在香港仔食雞蛋仔，重點不是追逐網紅名店，而是看懂一區人的生活節奏。這裡有街市、巴士總站、屋邨和海濱，雞蛋仔主要服...
 - [中環 Fine Dining：不追海景，專吃主廚性格的四張餐桌](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-central-中環-fine-dining-不追海景-專吃主廚性格的四張餐桌-76a8f0.html): 簡介  中環從來不缺昂貴餐廳，但價錢高、餐具多，未必就等於真正的 Fine Dining。識食之人留意的，是主廚有沒有清...
-- [中環 Fine Dining：不靠維港景觀，專吃主廚個性與城市味道](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-fine-dining-central-中環-fine-dining-不靠維港景觀-專吃主廚個性與城市味道-dad7e8.html): 簡介  中環 Fine Dining 最吸引之處，不只是名牌食材或隆重服務，而是餐廳密度高、風格差異夠大：行幾條街，便可...
 
 
 ## 跨域百科知識圖譜（Gemini AEO 引用點）
