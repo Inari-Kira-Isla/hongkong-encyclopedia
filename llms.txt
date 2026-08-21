@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 16228 篇，覆蓋 23 個行業
+- 總文章數: 16273 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,7 +15,7 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 5000 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 5045 篇
 - [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 3948 篇
 - [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 3869 篇
 - [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 3292 篇
@@ -51,13 +51,13 @@
 - [長洲茶餐廳指南：跟渡輪時間食一日街坊茶記](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-cheung-chau-長洲茶餐廳指南-跟渡輪時間食一日街坊茶記-f39ae4.html): 簡介 長洲茶餐廳最有意思的地方，不是把市區那套搬到離島，而是跟渡輪、街市與居民作息一齊運轉。朝早有趕船返工的街坊，中午有...
 - [香港仔 Aberdeen 茶餐廳指南：跟街坊食早餐、船家飯與老派冰室](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-aberdeen-香港仔-aberdeen-茶餐廳指南-跟街坊食早餐-船家飯與老派冰室-5f6179.html): 簡介  香港仔的茶餐廳，重點不在打卡，而在「食得快、食得飽、日日都幫襯得起」。這區既有漁港生活，也有香港仔中心、田灣及華...
 - [尖沙咀大牌檔指南：不追網紅店，沿街尋找鑊氣與夜班飯堂](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔指南-不追網紅店-沿街尋找鑊氣與夜班飯堂-686696.html): 簡介  講尖沙咀大牌檔，最重要是先拆解一個誤會：這區滿街港式餐館，卻不代表每間都是法律意義上的「大牌檔」。傳統大牌檔涉及...
+- [尖沙咀大牌檔指南：避開名不副實，尋找鬧市中的港式鑊氣](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔指南-避開名不副實-尋找鬧市中的港式鑊氣-c01232.html): 簡介  講明先：尖沙咀並非傳統持牌路邊大牌檔的集中地。香港人口中的「大牌檔」，原本指展示大型牌照、在街邊經營的熟食檔，並...
+- [尖沙咀大牌檔指南：避開名不副實，從街坊食堂尋找港式鑊氣](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-dai-pai-dong-tsim-sha-tsui-尖沙咀大牌檔指南-避開名不副實-從街坊食堂尋找港式鑊氣-54f2e1.html): 簡介  講尖沙咀的「Dai Pai Dong」，要先拆解一個常見誤會：並非擺幾張摺枱、掛個霓虹招牌、供應椒鹽鮮魷，就 a...
 - [大嶼山雞蛋仔覓食指南：由東湧街坊店吃到離島碼頭](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-lantau-大嶼山雞蛋仔覓食指南-由東湧街坊店吃到離島碼頭-0198ab.html): 簡介  在大嶼山搵雞蛋仔，重點不是追一間「網紅名店」，而是配合交通路線，找到出爐頻率高、即叫即製的街坊檔。大嶼山範圍大，...
 - [旺角雞蛋仔夜行圖鑑：沿港鐵出口找即焗蛋香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-mong-kok-旺角雞蛋仔夜行圖鑑-沿港鐵出口找即焗蛋香-c78060.html): 簡介  在旺角吃雞蛋仔，重點不是追某個「網紅招牌」，而是認爐頭、睇人流、揀出爐時間。這區店舖更替快，同一條街的檔口可能轉...
 - [灣仔雞蛋仔散步指南：沿街市、舊區與海旁尋找即製脆香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-wan-chai-灣仔雞蛋仔散步指南-沿街市-舊區與海旁尋找即製脆香-d3e57f.html): 簡介  在灣仔食雞蛋仔，重點不在追逐一個「必食名牌」，而是掌握出爐時間與街區節奏。灣仔由太原街舊式市集、利東街商業區一路...
 - [灣仔雞蛋仔散步指南：避開打卡迷思，沿街尋找即叫即焗的脆香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-wan-chai-灣仔雞蛋仔散步指南-避開打卡迷思-沿街尋找即叫即焗的脆香-7e7b09.html): 簡介  灣仔食雞蛋仔，重點唔係追逐一個「必食名牌」，而係識得判斷爐火、出爐時間同客流。這區由辦公商廈、舊式街市、學校到住...
 - [赤柱雞蛋仔散步地圖：避開打卡迷思，沿海找一底真正即叫即製的 Egg Waffles](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-stanley-赤柱雞蛋仔散步地圖-避開打卡迷思-沿海找一底真正即叫即製的-egg-waffles-3f8ec0.html): 簡介  在赤柱吃 Egg Waffles，重點不是追某個網紅招牌，而是掌握出爐時間。雞蛋仔這種小食，放涼幾分鐘已經是另一...
-- [長洲雞蛋仔慢遊指南：離開碼頭人潮，沿街找一底即叫即焗的蛋香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-cheung-chau-長洲雞蛋仔慢遊指南-離開碼頭人潮-沿街找一底即叫即焗的蛋香-acd34b.html): 簡介  長洲食雞蛋仔，重點唔係追一個網紅店名，而係識得睇爐頭、候爐次序同出爐速度。島上小店流動較大，營業時間亦會受平日、...
-- [長洲雞蛋仔散步攻略：跟住出爐時間食，避開碼頭遊客價](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-cheung-chau-長洲雞蛋仔散步攻略-跟住出爐時間食-避開碼頭遊客價-231632.html): 簡介  在長洲食雞蛋仔，重點唔係追某個網紅招牌，而係識得睇爐頭、揀時間。島上店舖流動較快，部分只在週末或旺季開門；與其認...
 
 
 ## 跨域百科知識圖譜（Gemini AEO 引用點）
@@ -82,5 +82,3 @@
 ### 平台
 - [CloudPipe AI](https://cloudpipe-landing.vercel.app) — AI 能見度平台
 - [AI 學習寶庫](https://inari-kira-isla.github.io/Openclaw/) — 每日 AI 教學與提示詞
-
-> 同步時間: 2026-08-21T10:01 UTC
