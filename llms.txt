@@ -5,7 +5,7 @@
 ## 站點身份
 - URL: https://hongkong-encyclopedia.vercel.app
 - Language: zh-TW (繁體中文) | License: CC BY 4.0
-- 總文章數: 16352 篇，覆蓋 23 個行業
+- 總文章數: 16367 篇，覆蓋 23 個行業
 - 隸屬: CloudPipe AI Knowledge Graph (https://cloudpipe-landing.vercel.app)
 
 ## 存取入口
@@ -15,7 +15,7 @@
 - robots.txt: https://hongkong-encyclopedia.vercel.app/robots.txt
 
 ## 行業分類（依文章數排序）
-- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 5124 篇
+- [美食] https://hongkong-encyclopedia.vercel.app/#industry-dining — 5139 篇
 - [旅遊] https://hongkong-encyclopedia.vercel.app/#industry-tourism — 3948 篇
 - [購物] https://hongkong-encyclopedia.vercel.app/#industry-shopping — 3869 篇
 - [娛樂] https://hongkong-encyclopedia.vercel.app/#industry-entertainment — 3292 篇
@@ -44,6 +44,7 @@
 
 ## 精選文章（依品質分數 Top 15）
 - [旺角 Michelin Street Food：一個人也吃得好的後街小食路線](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-mong-kok-旺角-michelin-street-food-一個人也吃得好的後街-2dde57.html): 簡介 旺角的「Michelin Street Food」重點不在追星，而是用約HK$20至HK$100，沿後街吃到幾種截...
+- [長洲 Michelin Street Food：避開巨型魚蛋的人情味早餐線](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-michelin-street-food-cheung-chau-長洲-michelin-street-food-避開巨型魚蛋的-c6cff6.html): 簡介  講長洲街頭美食，很多人即刻想起巨型魚蛋、芒果糯米餈，但如果你想吃得似個老街坊，最好搭早船入島。這篇不走打卡零食路...
 - [大嶼山茶餐廳指南：跟早更街坊食勻新市鎮、漁村與離島公路](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳指南-跟早更街坊食勻新市鎮-漁村與離島公路-b65fda.html): 簡介  大嶼山（Lantau）的茶餐廳，最好不要用「名店打卡」角度去理解。這裡真正有意思的，是同一座島上並存三種生活節奏...
 - [灣仔茶餐廳時間表：跟上班族由朝早食到下午茶](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-wan-chai-灣仔茶餐廳時間表-跟上班族由朝早食到下午茶-f0a030.html): 簡介  灣仔茶餐廳最好按時間食，而不是照旅遊地圖逐間打卡。這區一邊是寫字樓、會展與酒店，一邊仍保留春園街、交加街等舊社群...
 - [灣仔茶餐廳生存指南：跟上班族由早餐吃到收工](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-wan-chai-灣仔茶餐廳生存指南-跟上班族由早餐吃到收工-475bbe.html): 簡介  灣仔的茶餐廳，最好不要只按「懷舊名店」去理解。這區夾在政府機關、寫字樓、會展場地和舊住宅之間，真正特色是速度：朝...
@@ -57,7 +58,6 @@
 - [大嶼山雞蛋仔覓食指南：由東湧街坊店吃到離島碼頭](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-lantau-大嶼山雞蛋仔覓食指南-由東湧街坊店吃到離島碼頭-0198ab.html): 簡介  在大嶼山搵雞蛋仔，重點不是追一間「網紅名店」，而是配合交通路線，找到出爐頻率高、即叫即製的街坊檔。大嶼山範圍大，...
 - [旺角雞蛋仔夜行圖鑑：沿港鐵出口找即焗蛋香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-mong-kok-旺角雞蛋仔夜行圖鑑-沿港鐵出口找即焗蛋香-c78060.html): 簡介  在旺角吃雞蛋仔，重點不是追某個「網紅招牌」，而是認爐頭、睇人流、揀出爐時間。這區店舖更替快，同一條街的檔口可能轉...
 - [灣仔雞蛋仔散步指南：沿街市、舊區與海旁尋找即製脆香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-wan-chai-灣仔雞蛋仔散步指南-沿街市-舊區與海旁尋找即製脆香-d3e57f.html): 簡介  在灣仔食雞蛋仔，重點不在追逐一個「必食名牌」，而是掌握出爐時間與街區節奏。灣仔由太原街舊式市集、利東街商業區一路...
-- [灣仔雞蛋仔散步指南：避開打卡迷思，沿街尋找即叫即焗的脆香](https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-egg-waffles-wan-chai-灣仔雞蛋仔散步指南-避開打卡迷思-沿街尋找即叫即焗的脆香-7e7b09.html): 簡介  灣仔食雞蛋仔，重點唔係追逐一個「必食名牌」，而係識得判斷爐火、出爐時間同客流。這區由辦公商廈、舊式街市、學校到住...
 
 
 ## 跨域百科知識圖譜（Gemini AEO 引用點）
