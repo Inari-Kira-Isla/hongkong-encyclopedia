@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hongkong-encyclopedia.vercel.app/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/llms.txt</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>  <url>
@@ -688,6 +688,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳指南-沿mtr-渡輪與嶼南巴士尋找島民日常-864aa1.html</loc>
     <lastmod>2026-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-lantau-大嶼山茶餐廳指南-沿居民生活線尋找地道港式滋味-fb500d.html</loc>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -1683,6 +1688,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-sai-kung-西貢茶餐廳指南-避開海鮮街-跟街坊食早餐與下午茶-7ca99e.html</loc>
     <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-cha-chaan-teng-sai-kung-西貢茶餐廳指南-避開海鮮街-跟街坊食早餐與下午茶-7ca99e-1788195100.html</loc>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -25388,6 +25398,11 @@
   </url>  <url>
     <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-wan-chai-灣仔海鮮不只避風塘炒蟹-街市-潮州菜與酒店海鮮的四種食法-53f951.html</loc>
     <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://hongkong-encyclopedia.vercel.app/articles/hongkong-dining-seafood-wan-chai-灣仔海鮮不靠海景-從避風塘辣蟹到西班牙烤魚的街區吃法-1a7e45.html</loc>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
