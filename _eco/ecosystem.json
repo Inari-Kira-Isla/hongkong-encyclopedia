@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://cloudpipemo.com",
+    "id": "macau",
+    "label": "澳門",
+    "color": "#1E4FA0"
+  },
+  {
+    "url": "https://japan-encyclopedia.vercel.app",
+    "id": "japan",
+    "label": "日本",
+    "color": "#24476B"
+  },
+  {
+    "url": "https://taiwan-encyclopedia.vercel.app",
+    "id": "taiwan",
+    "label": "台灣",
+    "color": "#1D6450"
+  },
+  {
+    "url": "https://hongkong-encyclopedia.vercel.app",
+    "id": "hongkong",
+    "label": "香港",
+    "color": "#0B6247"
+  },
+  {
+    "url": "https://world-encyclopedia.vercel.app",
+    "id": "world",
+    "label": "世界",
+    "color": "#0E5687"
+  },
+  {
+    "url": "https://malaysia-encyclopedia.vercel.app",
+    "id": "malaysia",
+    "label": "馬來西亞",
+    "color": "#1D5A48"
+  }
+]

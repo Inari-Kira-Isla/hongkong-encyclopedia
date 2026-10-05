@@ -1,0 +1,691 @@
+{
+  "region": "hongkong",
+  "generator": "built-in image_gen",
+  "original_size": {
+    "cover-food": [
+      1672,
+      940
+    ],
+    "cover-see": [
+      1672,
+      941
+    ],
+    "cover-buy": [
+      1672,
+      941
+    ],
+    "og": [
+      1672,
+      941
+    ]
+  },
+  "normalized_size": [
+    1600,
+    900
+  ],
+  "budget_units": "decimal bytes; stricter than KiB",
+  "assets": [
+    {
+      "slot": "cover-food",
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nInterior of a classic cha chaan teng: green-and-cream mosaic floor tiles, booth seats, a round wall clock, steam from a cup of milk tea, afternoon light through blinds. Wall menu boards left completely blank.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, red-white-blue canvas stripes, warm off-white #F6F5F1. Central 60% contains the main subject; outer 20% edges expendable for cropping. Clock face blank with hands only, no numerals or ticks shaped like characters. Flat editorial paper-cut illustration, restrained grain. Output 1600x900 landscape.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy\nCrop safety correction: no people. Put milk tea cup with steam on a small central table, fully contained within x=40%-60% and y=45%-75%; show the cup and saucer fully. Put the blank hand-only clock completely within x=60%-75% and y=25%-40%. Reduce foreground table close-up; wide interior view with decorative edges. Calm simple flat shapes, restrained grain, not detailed realism. Keep green-and-cream mosaic, booths, afternoon blinds light and blank menu boards.",
+      "palette": {
+        "charcoal": "#121417",
+        "tram_green": "#0B6247",
+        "mint": "#7FE0B5",
+        "signal_red": "#C62E2E",
+        "canvas_white": "#F2F2EE",
+        "canvas_blue": "#1F4FA3",
+        "off_white": "#F6F5F1"
+      },
+      "palette_mapping": "綠白瓷磚、奶白牆、紅卡座",
+      "alt_draft": "午後茶餐廳內，奶茶放喺桌上，綠白馬賽克地磚、卡座同無數字時鐘映住窗邊光。",
+      "files": [
+        {
+          "filename": "cover-food-original.png",
+          "width": 1672,
+          "height": 940,
+          "bytes": 2293113,
+          "sha256": "e9bed90b60f176cf51121fd110ec3c1035e4c92de11d16ac20cfe70695110711",
+          "role": "unaltered-generator-original",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-food-1600.png",
+          "width": 1600,
+          "height": 900,
+          "bytes": 2157436,
+          "sha256": "c7e962e1d1bf6bf4ae27f9f61040207ea8d20db9a2fe6f1e41d159b2c1129329",
+          "role": "normalized-master",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-food-1200.png",
+          "width": 1200,
+          "height": 675,
+          "bytes": 1280032,
+          "sha256": "1570d4dafc165a8c7ff4c57a2e77f8f9ae21b9d596f924ba35939f184fadd2c5",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-food-1200.avif",
+          "width": 1200,
+          "height": 675,
+          "bytes": 51530,
+          "sha256": "c9474e6db623b2066183b15cee146220a67ad6acb2430ac157dd31b4b74ec266",
+          "role": "responsive",
+          "quality": 55,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 62729,
+              "limit": 60000
+            },
+            {
+              "quality": 55,
+              "bytes": 51530,
+              "limit": 60000
+            }
+          ]
+        },
+        {
+          "filename": "cover-food-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 57294,
+          "sha256": "0e05dcdeabf94260ea6f7158e4c3cacf33631539174941032e349ec71286ea99",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 57294,
+              "limit": 120000
+            }
+          ]
+        },
+        {
+          "filename": "cover-food-800.png",
+          "width": 800,
+          "height": 450,
+          "bytes": 595790,
+          "sha256": "08f9fd36d1c6b66356a4ed5822c38731a25d62d8b142c73dc07b968593c2dd2b",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-food-800.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 27836,
+          "sha256": "a90c5466e6ddce96148bad79c17f1c55815db743b8c599151f5776253518e20e",
+          "role": "responsive",
+          "quality": 55,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 33833,
+              "limit": 28000
+            },
+            {
+              "quality": 55,
+              "bytes": 27836,
+              "limit": 28000
+            }
+          ]
+        },
+        {
+          "filename": "cover-food-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 33534,
+          "sha256": "db264feb06ded00352a0320569ad7bc4f9a83a87fa0bc6cd6125e7db58987a45",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 33534,
+              "limit": 60000
+            }
+          ]
+        },
+        {
+          "filename": "cover-food-480.png",
+          "width": 480,
+          "height": 270,
+          "bytes": 228478,
+          "sha256": "dec2518bdbff3a4f20040b9e4ce6b29398770721daa0ded9014ed82165ddd11e",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-food-480.avif",
+          "width": 480,
+          "height": 270,
+          "bytes": 15742,
+          "sha256": "e3300933d8b2de91e2c4ae61c65602a3e223b8f20e94df21b10aa31c4ba0bcab",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 15742,
+              "limit": 28000
+            }
+          ]
+        },
+        {
+          "filename": "cover-food-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 16138,
+          "sha256": "1915ec8a1c1234f016cbedfd453df1e9ff5b85a39d675b2209929dd9119a7f27",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 16138,
+              "limit": 28000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "cover-see",
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nA harbour ferry crossing calm water at golden hour, simple flat boat shapes, distant hills as layered silhouettes, a few seabirds. No skyline of identifiable towers, no text on the boat.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, warm off-white #F6F5F1 with subdued golden-hour amber. Match refined flat editorial illustration with restrained paper grain, precise simple shapes, no glossy rendering. Main ferry fully within central 60% of frame, outer 20% expendable for mobile crop. No people needed. Upper third calm negative space. Output 1600x900 landscape.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy",
+      "palette": {
+        "charcoal": "#121417",
+        "tram_green": "#0B6247",
+        "mint": "#7FE0B5",
+        "signal_red": "#C62E2E",
+        "canvas_white": "#F2F2EE",
+        "canvas_blue": "#1F4FA3",
+        "off_white": "#F6F5F1"
+      },
+      "palette_mapping": "綠白渡輪、深綠山影、暖光",
+      "alt_draft": "暖光下，綠白渡輪駛過平靜海面，遠處係層疊山影同幾隻海鳥。",
+      "files": [
+        {
+          "filename": "cover-see-original.png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 1949019,
+          "sha256": "d75babaad5500474474b24d96ab28963e08e88d0300cf990aea7589d3800fa8d",
+          "role": "unaltered-generator-original",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-see-1600.png",
+          "width": 1600,
+          "height": 900,
+          "bytes": 1831550,
+          "sha256": "bea882268156c59fd5f0c6caad25385be334820ab237c8942f26318a980f91e4",
+          "role": "normalized-master",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-see-1200.png",
+          "width": 1200,
+          "height": 675,
+          "bytes": 1072127,
+          "sha256": "fd30754f58ea090cd885e1b62d99961fa05ea109b40c928c4f08543eb03ca80a",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-see-1200.avif",
+          "width": 1200,
+          "height": 675,
+          "bytes": 46584,
+          "sha256": "0472532bb64bd5873be859d9892ee63e6d0b678dc0b5c5d9583092905226f683",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 46584,
+              "limit": 60000
+            }
+          ]
+        },
+        {
+          "filename": "cover-see-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 39616,
+          "sha256": "d4b45ecfa2b06ea282d21e377e2ef362bf0428c7de14e75cdb82f3557fc0cfe2",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 39616,
+              "limit": 120000
+            }
+          ]
+        },
+        {
+          "filename": "cover-see-800.png",
+          "width": 800,
+          "height": 450,
+          "bytes": 482651,
+          "sha256": "d6fe7e8d73fcc100fcf3f84c70bafaf282db18b6804d274222094823d5aa4ad2",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-see-800.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 24059,
+          "sha256": "e8a0de791207c2b94628638d0232077298632716eee0331ee977eb6e5bf0e8d1",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 24059,
+              "limit": 28000
+            }
+          ]
+        },
+        {
+          "filename": "cover-see-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 21212,
+          "sha256": "2d2b58a72261cd1ecc3548c08e67ff8d6bbf61855c6bb82fcf0ff94ab2813f1d",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 21212,
+              "limit": 60000
+            }
+          ]
+        },
+        {
+          "filename": "cover-see-480.png",
+          "width": 480,
+          "height": 270,
+          "bytes": 175549,
+          "sha256": "25b9b0c14aaab75b411ada481ab229d1424e8812bad0b7fac12796405329371c",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-see-480.avif",
+          "width": 480,
+          "height": 270,
+          "bytes": 10697,
+          "sha256": "7299dcef54d84fd12c2a152baff7b933bca8652bd25bc204c32acede48c5920a",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 10697,
+              "limit": 28000
+            }
+          ]
+        },
+        {
+          "filename": "cover-see-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 9550,
+          "sha256": "d61e52494a9163839b127d203be0bb187fc4daccd38971fec5febdfab2d71cce",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 9550,
+              "limit": 28000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "cover-buy",
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nAn early-morning wet market aisle: hanging lamps with red shades, stacked produce as simple shapes, red-white-blue striped canvas bags hanging on a stall. Signs and price cards left blank.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, red-white-blue canvas stripes, warm off-white #F6F5F1. Match refined flat editorial paper-cut illustration, restrained paper grain and warm cream/deep-green shadows. No people needed. Produce and canvas bags grouped in central 60% of frame, outer 20% expendable for mobile crop; upper third uncluttered. All price cards absolutely empty. Output 1600x900 landscape.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy\nStrict correction: no boards, plates, tags, plaques, labels or printed marks attached to roof beams. Every roof beam is uninterrupted plain timber or green metal. All crates completely unmarked. Only the existing blank white price cards may remain. No writing-like scratches anywhere. Keep same flat style and palette.\nUse much simpler flat geometric crates with uniform solid color faces. Zero scratches or texture marks on any crate, package or sign. Paper grain only on sky and floor. Keep one red-white-blue striped bag clearly within central 60% (x 35%-60%, y 25%-60%) beside central vegetables. No painted or stamped marks anywhere. Clean simplified editorial shapes rather than detailed realism.",
+      "palette": {
+        "charcoal": "#121417",
+        "tram_green": "#0B6247",
+        "mint": "#7FE0B5",
+        "signal_red": "#C62E2E",
+        "canvas_white": "#F2F2EE",
+        "canvas_blue": "#1F4FA3",
+        "off_white": "#F6F5F1"
+      },
+      "palette_mapping": "深綠陰影、紅燈罩、紅白藍袋",
+      "alt_draft": "清晨街市通道，紅色燈罩下排列蔬果同紅白藍帆布袋，價錢牌留白。",
+      "files": [
+        {
+          "filename": "cover-buy-original.png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 2024445,
+          "sha256": "5223d0851877667b9a13df5f532170a368ce7c0606cf5fce84dae345c857645f",
+          "role": "unaltered-generator-original",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-buy-1600.png",
+          "width": 1600,
+          "height": 900,
+          "bytes": 1904119,
+          "sha256": "3ab5bc180b7de49c4487c8d7a8774bd967389da9ee11d9e40552a8f42e992cc9",
+          "role": "normalized-master",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-buy-1200.png",
+          "width": 1200,
+          "height": 675,
+          "bytes": 1141908,
+          "sha256": "f4465dc09a09eed2acbf32afdfc9707bce2e26cf9788c9db116f5f30a8da85fd",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-buy-1200.avif",
+          "width": 1200,
+          "height": 675,
+          "bytes": 51319,
+          "sha256": "390d8a3364ad8f6da47a31f817b17ebc89e6ba7b4a0c9ae20af65c950f94dd9c",
+          "role": "responsive",
+          "quality": 55,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 61963,
+              "limit": 60000
+            },
+            {
+              "quality": 55,
+              "bytes": 51319,
+              "limit": 60000
+            }
+          ]
+        },
+        {
+          "filename": "cover-buy-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 53280,
+          "sha256": "401539e77b37528e0478691dee89b5a4bf2a128301aab119b70260bd57df049c",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 53280,
+              "limit": 120000
+            }
+          ]
+        },
+        {
+          "filename": "cover-buy-800.png",
+          "width": 800,
+          "height": 450,
+          "bytes": 526327,
+          "sha256": "76d3d4cf678d1768e6bca4674cd3f915c0c1df14dcb88b6170c6f31f6bed16db",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-buy-800.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 24270,
+          "sha256": "aef95bc88ee8853ff5543f84dafe1b5eb9538ef7e1b56bb2287d2a96abdba2f9",
+          "role": "responsive",
+          "quality": 50,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 34389,
+              "limit": 28000
+            },
+            {
+              "quality": 55,
+              "bytes": 28568,
+              "limit": 28000
+            },
+            {
+              "quality": 50,
+              "bytes": 24270,
+              "limit": 28000
+            }
+          ]
+        },
+        {
+          "filename": "cover-buy-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 31506,
+          "sha256": "6c574a773a498074ef0a87233ac6874629acf0559a85b8e521ff42d1324ac32d",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 31506,
+              "limit": 60000
+            }
+          ]
+        },
+        {
+          "filename": "cover-buy-480.png",
+          "width": 480,
+          "height": 270,
+          "bytes": 203391,
+          "sha256": "0b7456347388b34792398732f8793ed5eeab8a00265611a339f70419d8346b56",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "cover-buy-480.avif",
+          "width": 480,
+          "height": 270,
+          "bytes": 15919,
+          "sha256": "c7d7fddf711088dc77229e8cdac768c3b8ae92bfb233e895c27a5fd6044da370",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 15919,
+              "limit": 28000
+            }
+          ]
+        },
+        {
+          "filename": "cover-buy-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 15244,
+          "sha256": "9bfee1f51eb129dafd1003b57db8b54d873610a4a741c248fb9313e1a368aacd",
+          "role": "responsive",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 15244,
+              "limit": 28000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "og",
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nFour vertical rectangular glowing outlines like vintage neon sign frames (empty, no characters) in coral, mint, amber and pale blue on a charcoal background, with a red-white-blue striped band along the bottom.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, red-white-blue canvas stripes #C62E2E/#F2F2EE/#1F4FA3, warm off-white #F6F5F1. Coral #FF6B5E, amber and pale blue only as specified glowing outlines. Restrained flat editorial illustration with subtle paper grain; no haze, no cyberpunk, no 3D. All four frames together contained within central 60% width and height, wide dark negative space above, simple expendable band at bottom. Frames are blank rectangles, never letter shapes. Output 1600x900 landscape, will also center crop to 1200x630 OG.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy\nCorrection for crop safety: the ENTIRE group of four frames must occupy only the middle 50% of canvas width, from x=25% to x=75%. Each frame is tall and narrow. Keep all four fully between y=30% and y=75%. Much wider charcoal margins at left and right. No changes to subject, palette or medium.",
+      "palette": {
+        "charcoal": "#121417",
+        "tram_green": "#0B6247",
+        "mint": "#7FE0B5",
+        "signal_red": "#C62E2E",
+        "canvas_white": "#F2F2EE",
+        "canvas_blue": "#1F4FA3",
+        "off_white": "#F6F5F1"
+      },
+      "palette_mapping": "炭黑底、四種光框、紅白藍帶",
+      "alt_draft": "炭黑紙紋背景上，珊瑚紅、薄荷綠、琥珀同淡藍四個空白長方光框，下方係紅白藍橫帶。",
+      "files": [
+        {
+          "filename": "og-original.png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 1610003,
+          "sha256": "5f2c47a3f40b6234cdc1d275dc63a5e36ca80a185b6fd7ede6cb8abb99981687",
+          "role": "unaltered-generator-original",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "og-1600.png",
+          "width": 1600,
+          "height": 900,
+          "bytes": 1489151,
+          "sha256": "1d92788042edb6d19cdb4de5a91503fcf6026f922646ed6d4bf6723b07eb934e",
+          "role": "normalized-master",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "og-1200.png",
+          "width": 1200,
+          "height": 630,
+          "bytes": 789436,
+          "sha256": "8a10e83e1be5040e3cf2f09a2c29aadab14dc7e1f5f192a6835c0547edb1d74e",
+          "role": "conversion-input",
+          "quality": null,
+          "encoding_attempts": []
+        },
+        {
+          "filename": "og-1200.avif",
+          "width": 1200,
+          "height": 630,
+          "bytes": 7540,
+          "sha256": "c9f8a307970d89426aa7b4a8755f22ef75c1825f2583a0a7d582921c26982d9b",
+          "role": "og-background",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 7540,
+              "limit": 60000
+            }
+          ]
+        },
+        {
+          "filename": "og-1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 4848,
+          "sha256": "1fa0c847b2510beebe7451c0c7fed24df7da0ea9060709be7a490214a4cd7b84",
+          "role": "og-background",
+          "quality": 60,
+          "encoding_attempts": [
+            {
+              "quality": 60,
+              "bytes": 4848,
+              "limit": 120000
+            }
+          ]
+        },
+        {
+          "filename": "og-1200.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 57922,
+          "sha256": "c4cc1d58dbaed9f054f8dc28ce1fcb590e3c03a30e5c2478e6bda87f8ac31cd3",
+          "role": "text-free-og-background",
+          "quality": 88,
+          "encoding_attempts": []
+        }
+      ]
+    }
+  ],
+  "retries": [
+    {
+      "slot": "og",
+      "attempt": 1,
+      "accepted": false,
+      "reason": "Four outlines occupy about 62% width, exceeding central 60% crop-safe area.",
+      "file": "rejected/og-attempt1.png"
+    },
+    {
+      "slot": "og",
+      "attempt": 2,
+      "accepted": true,
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nFour vertical rectangular glowing outlines like vintage neon sign frames (empty, no characters) in coral, mint, amber and pale blue on a charcoal background, with a red-white-blue striped band along the bottom.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, red-white-blue canvas stripes #C62E2E/#F2F2EE/#1F4FA3, warm off-white #F6F5F1. Coral #FF6B5E, amber and pale blue only as specified glowing outlines. Restrained flat editorial illustration with subtle paper grain; no haze, no cyberpunk, no 3D. All four frames together contained within central 60% width and height, wide dark negative space above, simple expendable band at bottom. Frames are blank rectangles, never letter shapes. Output 1600x900 landscape, will also center crop to 1200x630 OG.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy\nCorrection for crop safety: the ENTIRE group of four frames must occupy only the middle 50% of canvas width, from x=25% to x=75%. Each frame is tall and narrow. Keep all four fully between y=30% and y=75%. Much wider charcoal margins at left and right. No changes to subject, palette or medium.",
+      "reason": "All four outlines now lie inside the central 60%."
+    },
+    {
+      "slot": "cover-buy",
+      "attempt": 1,
+      "accepted": false,
+      "reason": "Tiny writing-like marks on upper roof beam plaque.",
+      "file": "rejected/cover-buy-attempt1.png"
+    },
+    {
+      "slot": "cover-buy",
+      "attempt": 2,
+      "accepted": false,
+      "reason": "Writing-like distressed marks on foreground crate; simplify crate faces.",
+      "file": "rejected/cover-buy-attempt2.png",
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nAn early-morning wet market aisle: hanging lamps with red shades, stacked produce as simple shapes, red-white-blue striped canvas bags hanging on a stall. Signs and price cards left blank.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, red-white-blue canvas stripes, warm off-white #F6F5F1. Match refined flat editorial paper-cut illustration, restrained paper grain and warm cream/deep-green shadows. No people needed. Produce and canvas bags grouped in central 60% of frame, outer 20% expendable for mobile crop; upper third uncluttered. All price cards absolutely empty. Output 1600x900 landscape.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy\nStrict correction: no boards, plates, tags, plaques, labels or printed marks attached to roof beams. Every roof beam is uninterrupted plain timber or green metal. All crates completely unmarked. Only the existing blank white price cards may remain. No writing-like scratches anywhere. Keep same flat style and palette."
+    },
+    {
+      "slot": "cover-buy",
+      "attempt": 3,
+      "accepted": true,
+      "reason": "Plain crates and blank price cards; crop preserves main produce and striped bag.",
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nAn early-morning wet market aisle: hanging lamps with red shades, stacked produce as simple shapes, red-white-blue striped canvas bags hanging on a stall. Signs and price cards left blank.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, red-white-blue canvas stripes, warm off-white #F6F5F1. Match refined flat editorial paper-cut illustration, restrained paper grain and warm cream/deep-green shadows. No people needed. Produce and canvas bags grouped in central 60% of frame, outer 20% expendable for mobile crop; upper third uncluttered. All price cards absolutely empty. Output 1600x900 landscape.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy\nStrict correction: no boards, plates, tags, plaques, labels or printed marks attached to roof beams. Every roof beam is uninterrupted plain timber or green metal. All crates completely unmarked. Only the existing blank white price cards may remain. No writing-like scratches anywhere. Keep same flat style and palette.\nUse much simpler flat geometric crates with uniform solid color faces. Zero scratches or texture marks on any crate, package or sign. Paper grain only on sky and floor. Keep one red-white-blue striped bag clearly within central 60% (x 35%-60%, y 25%-60%) beside central vegetables. No painted or stamped marks anywhere. Clean simplified editorial shapes rather than detailed realism."
+    },
+    {
+      "slot": "cover-food",
+      "attempt": 1,
+      "accepted": false,
+      "reason": "Central60 crop trims milk-tea saucer and clock. Regenerate for full main-subject crop safety.",
+      "file": "rejected/cover-food-attempt1.png"
+    },
+    {
+      "slot": "cover-food",
+      "attempt": 2,
+      "accepted": true,
+      "reason": "Milk tea and blank clock fit central60; no people.",
+      "prompt": "Editorial illustration for a regional city guide. Flat shapes with subtle paper grain, limited palette, soft daylight, calm composition with generous negative space in the upper third for overlaying a title. No people's faces in detail (if people appear they are small, distant, simplified, diverse). Absolutely no text, letters, numbers, signage writing, logos, watermarks, flags, religious icons or political symbols. Avoid tourist-postcard clichés and do not combine many landmarks in one frame. 16:9, high resolution.\nInterior of a classic cha chaan teng: green-and-cream mosaic floor tiles, booth seats, a round wall clock, steam from a cup of milk tea, afternoon light through blinds. Wall menu boards left completely blank.\nPalette: charcoal #121417, tram green #0B6247/#7FE0B5, signal red #C62E2E, red-white-blue canvas stripes, warm off-white #F6F5F1. Central 60% contains the main subject; outer 20% edges expendable for cropping. Clock face blank with hands only, no numerals or ticks shaped like characters. Flat editorial paper-cut illustration, restrained grain. Output 1600x900 landscape.\nAvoid: text, letters, characters, calligraphy, signage text, logo, watermark, flag, religious statue, shrine deity, protest, stereotype costume, geisha, samurai, rising sun, casino, neon cyberpunk fog, collage of landmarks, purple gradient, 3D render, glossy\nCrop safety correction: no people. Put milk tea cup with steam on a small central table, fully contained within x=40%-60% and y=45%-75%; show the cup and saucer fully. Put the blank hand-only clock completely within x=60%-75% and y=25%-40%. Reduce foreground table close-up; wide interior view with decorative edges. Calm simple flat shapes, restrained grain, not detailed realism. Keep green-and-cream mosaic, booths, afternoon blinds light and blank menu boards."
+    }
+  ],
+  "og_title_source": "design/motion-playground.html:786",
+  "notes": [
+    "OG JPEG with HTML title is produced separately by render_og.py.",
+    "No dimension reduction below requested output sizes.",
+    "480 AVIF and all WebP caps are local conservative caps; brief only mandates AVIF 1200/800 and OG JPEG.",
+    "Originals are unaltered generator output (1672x940 or 1672x941); exact 1600x900 masters are separate."
+  ]
+}
